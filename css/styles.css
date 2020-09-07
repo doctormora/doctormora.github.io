@@ -1078,6 +1078,10 @@ box-shadow: inset 200px 0px 71px 200px rgba(0,0,0,0.5);
 		margin-left: 5%;
 		margin-right: 5%;
 	}
+	
+	.banner .persona{
+		display: none;
+	}
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r {
 		padding-top: 50px;
