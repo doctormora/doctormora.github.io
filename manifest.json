@@ -1,0 +1,18 @@
+{
+	"icons" : [
+		{
+			"src": "https://charkas.000webhostapp.com/img/image-icon.png",
+			"sizes": "1024x1024",
+			"type": "image/png"
+		}],
+	"name" : "CHARKAS",
+	"short_name" : "CHARKAS",
+	"description" : "Tu directorio de Doctor Mora",
+	"start_url" : "./",
+	"scope" : "./",
+	"display" : "standalone",
+	"orientation" : "portrait",
+	"lang" : "es-MX",
+	"background_color" : "#000000",
+	"theme_color"  : "#000000"
+}

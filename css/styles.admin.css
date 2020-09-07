@@ -1,0 +1,73 @@
+.navbar-dark{
+	
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.20);
+	-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.20);
+	box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.20);
+}
+.admin-s{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.negocios .card, .eventos .card, .reportes .card{
+	width: 40%;
+	display: inline-block;
+}
+
+.reportes .card{
+	margin-bottom: 25px;
+}
+
+
+.categorias-add{
+	width: 100%;
+	height: 100vh;
+	padding-top: 5%;
+	background: #F8F8F8;
+	
+}
+.categorias-add h2{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
+.categorias-add .card{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+	margin-top: 2%;
+	border: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.20);
+	-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.20);
+	box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.20);
+	
+}
+.categorias-add button{
+	margin-top: 5%;
+}
+.categorias-add .link{
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	display: block;
+	margin-top: 50px;
+}
+.categorias-add a:visited{
+	border-bottom: 2px solid #005ce6;
+	color: #005ce6;
+}
+.categorias-add a:link{
+	border-bottom: 2px solid #005ce6;
+	text-decoration: none;
+	padding-bottom: 5px;
+	color: #005ce6;
+}
+.categorias-add a:hover{
+	border-bottom: 2px solid #ff0066;
+	color: #ff0066;
+}
+
