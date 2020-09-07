@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<!-- estilos carusel -->
+	<link rel="stylesheet" href="owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="owl/owl.theme.default.min.css">
+	
+	
+	
+</head>
+
+<body>
+	
+	
+	  <section style="height: 450px; border: 2px solid red;">
+		 
+	  	<div class="owl-carousel">
+			<div><h4><img src="img/bache.png"></h4></div>
+			<div><h4>2</h4></div>
+			<div><h4>3</h4></div>
+			<div><h4>4</h4></div>
+			<div><h4>5</h4></div>
+			<div><h4>6</h4></div>
+			<div><h4>7</h4></div>
+			<div><h4>8</h4></div>
+			<div><h4>9</h4></div>
+			<div><h4>10</h4></div>
+			<div><h4>11</h4></div>
+			<div><h4>12</h4></div>
+		</div>
+	  
+	  
+	  </section>
+	
+	
+	
+	
+	 <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+	<script src="owl/owl.carousel.min.js"></script>
+	<script>
+	  
+	  $('.loop').owlCarousel({
+    center: true,
+    items:2,
+    loop:true,
+    margin:10,
+    responsive:{
+        600:{
+            items:4
+        }
+    }
+});
+$('.nonloop').owlCarousel({
+    center: true,
+    items:2,
+    loop:false,
+    margin:10,
+    responsive:{
+        600:{
+            items:4
+        }
+    }
+});
+	  
+	  </script>
+	
+	
+</body>
+</html>
