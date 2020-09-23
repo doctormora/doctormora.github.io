@@ -1,0 +1,276 @@
+.coronavirus{
+	min-height: 400px;
+	background: url(../img/covid19.jpg) center center no-repeat;
+	-webkit-background-size:cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	color: white;
+	position: relative;
+}
+.coronavirus:before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(27,27,27,1);
+	background: -moz-linear-gradient(-45deg, rgba(27,27,27,1) 0%, rgba(27,27,27,1) 44%, rgba(244,12,72,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(27,27,27,1)), color-stop(44%, rgba(27,27,27,1)), color-stop(100%, rgba(244,12,72,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(27,27,27,1) 0%, rgba(27,27,27,1) 44%, rgba(244,12,72,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(27,27,27,1) 0%, rgba(27,27,27,1) 44%, rgba(244,12,72,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(27,27,27,1) 0%, rgba(27,27,27,1) 44%, rgba(244,12,72,1) 100%);
+	background: linear-gradient(135deg, rgba(27,27,27,1) 0%, rgba(27,27,27,1) 44%, rgba(244,12,72,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1b1b1b', endColorstr='#f40c48', GradientType=1 );
+	mix-blend-mode: soft-light;
+	opacity: 50%;
+	
+}
+.coronavirus h1{
+	font-size: 48px;
+	font-weight: 900;
+}
+.coronavirus .d-m{
+	font-size: 36px;
+	font-weight: 300;
+	margin-bottom: 50px;
+	position: relative;
+	margin-top: -20px;
+}
+.coronavirus .confirmados{
+	font-size: 24px;
+	font-weight: 400;
+}
+.coronavirus .confirmados strong{
+	background: var(--cpri);
+	padding: 15px 18px;
+	border-radius: 50%;
+	margin-right: 15px;
+	font-size: 36px;
+}
+
+.numeros{
+	width: 100%;
+	height: auto;
+	background: var(--nf);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+.numeros .numeros-t{
+	display: flex;
+	justify-content: space-around;
+}
+
+.numeros .numeros-t .card{
+	width: 20%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+	border: none;
+}
+.numeros .numeros-t .card:nth-child(1){
+	background: var(--cpri);
+}
+.numeros .numeros-t .card:nth-child(2){
+	background: #20b8a5;
+}
+.numeros .numeros-t .card:nth-child(3){
+	background: black;
+}
+.numeros .numeros-t .card:nth-child(4){
+	background: yellow;
+	color: black;
+}
+.numeros .numeros-t .card h5{
+	font-size: 42px;
+	font-weight: 900;
+}
+.numeros .numeros-t .card p{
+	font-size: 16px;
+	font-weight: 900;
+}
+.numeros h4{
+	text-align: center;
+	margin-top: 65px;
+	font-weight: 300;
+	color: white;
+	font-size: 16px;
+}
+
+.prevencion{
+	width: 100%;
+	height: auto;
+	background: var(--nm);
+	padding-top: 80px;
+	padding-bottom: 130px;
+	color: white;
+}
+.prevencion .medi{
+	padding-right: 2%;
+}
+.prevencion h3{
+	font-weight: 900;
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+.prevencion ul li{
+	font-size: 16px;
+	line-height: 32px;
+}
+.prevencion ul li i{
+	color: var(--cpri);
+	text-shadow: 0px 0px 7px var(--cpri);
+	
+}
+.prevencion ul li span{
+	color: var(--csec);
+}
+.prevencion img{
+	width: 290px;
+}
+
+.fuentes{
+	background: var(--nf);
+	padding-top: 45px;
+	padding-bottom: 45px;
+	height: auto;
+	width: 100%;
+}
+.fuentes ul li{
+	line-height: 32px;
+	font-size: 12px;
+	color: white;
+}
+.fuentes h4{
+	font-size: 24px;
+	color: white;
+}
+.fuentes ul li a{
+	color: white;
+}
+
+/* ---------- responsive -------------------*/
+
+
+@media screen and (max-width: 991px){
+	.numeros .numeros-t .card{
+		width: 22%;
+	}
+	.numeros .numeros-t .card p {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.numeros .numeros-t{
+		display: flex;
+		justify-content: center;
+	}
+	.numeros .numeros-t .card{
+		width: 40%;
+		margin: 2%;
+	}
+	.numeros h4 {
+		font-size: 12px;
+	}
+	.prevencion h3 {
+		text-align: center;
+	}
+	
+	
+}
+
+@media screen and (max-width: 575px){
+	.coronavirus{
+		text-align: center;
+		min-height: 300px;
+	}
+	.coronavirus h1{
+		font-size: 32px;
+	}
+	.coronavirus .d-m {
+		font-size: 24px;
+		margin-top: -10px;
+	}
+	
+	.numeros{
+		padding-top: 40px;
+    	padding-bottom: 40px;
+	}
+	.numeros h4{
+		margin-top: 30px;
+	}
+	.prevencion{
+		padding-top: 60px;
+    	padding-bottom: 60px;
+	}
+	
+	.prevencion h3 {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	.prevencion ul{
+		margin-right: 4%;
+		margin-left: 4%;
+	}
+	.prevencion ul li{
+		font-size: 14px;
+	}
+	
+	.mascarilla{
+		display: none;
+	}
+	.fuentes{
+		padding-left: 4%;
+		padding-right: 4%;
+		word-wrap: break-word;
+	}
+	
+	.fuentes h4 {
+		font-size: 16px;
+	}
+	.fuentes ul{
+		margin-right: 0;
+	}
+	
+}
+
+@media screen and (max-width: 384px){
+	.coronavirus .d-m {
+		margin-bottom: 10px;
+	}
+	.coronavirus .confirmados strong{
+		display: block;
+		border-radius: 10px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+}
+@media screen and (max-width: 344px){
+	.numeros .numeros-t .card{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding: 0;
+	}
+}
+@media screen and (max-width: 304px){
+	.coronavirus{
+		min-height: 250px;
+	}
+	.coronavirus h1 {
+		font-size: 24px;
+	}
+	.coronavirus .d-m{
+		font-size: 18px;
+	}
+	.coronavirus .confirmados{
+		font-size: 18px;
+	}
+}

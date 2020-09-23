@@ -56,6 +56,28 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	color: #000;
 }
 
+/* --- seccion coronavirus --- */
+.s-coronavirus{
+	width: 100%;
+	height: auto;
+	background: var(--nm);
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+}
+.s-coronavirus h3 a:link{
+	color: var(--csec);
+	text-decoration: none;
+}
+.s-coronavirus h3 a:hover{
+	border-bottom: 3px solid var(--csec);
+}
+.s-coronavirus h3 a:visited{
+	color: var(--csec);
+}
+
+
+
 /* ------ seccion tarjetas rapidas ----------*/
 .tarjetas-r{
 	padding-top: 80px;
@@ -632,35 +654,7 @@ box-shadow: inset 200px 0px 71px 200px rgba(0,0,0,0.5);
 	transition-duration: 0.8s;
 }
 
-.dudas .whatsapp a:link{
-	color: #fff;
-	text-decoration: none;
-	background: #00e676;
-	padding: 6px 30px;
-	border-radius: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 16px;
-	text-shadow: 2px 0px 6px rgba(150, 150, 150, 0.5);
-	-webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-	-moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-	box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-}
 
-.dudas .wacala a:link{
-	color: #fff;
-	text-decoration: none;
-	background: #00e676;
-	padding: 6px 30px;
-	border-radius: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 16px;
-	text-shadow: 2px 0px 6px rgba(150, 150, 150, 0.5);
-	-webkit-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-	-moz-box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-	box-shadow: 0px 15px 51px 1px rgba(0,230,118,0.6);
-}
 
 .dudas .people{
 	display: flex;
