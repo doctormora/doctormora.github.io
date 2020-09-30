@@ -12,4 +12,10 @@
 <file name="config.php" server="files.000webhost.com//public_html/" local="132379257168589294" remote="132437652000000000" Dst="2" />
 <file name="index.php" server="files.000webhost.com//public_html/" local="132379263756121167" remote="132437652000000000" Dst="2" />
 <file name="index.php" server="C:/xampp/htdocs/charkas/" local="132454639542576664" remote="132454639540000000" Dst="2" />
+<file name="categorias_add.php" server="files.000webhost.com/public_html/" local="132454639542536667" remote="132458387400000000" Dst="2" />
+<file name="categorias_delete.php" server="files.000webhost.com/public_html/" local="132454639542536667" remote="132458387400000000" Dst="2" />
+<file name="categorias_edit.php" server="files.000webhost.com/public_html/" local="132454639542536667" remote="132458387400000000" Dst="2" />
+<file name="categorias.php" server="files.000webhost.com/public_html/" local="132454639542496681" remote="132458387400000000" Dst="2" />
+<file name="config.php" server="files.000webhost.com/public_html/" local="132454639542536667" remote="132458387400000000" Dst="2" />
+<file name="index.php" server="files.000webhost.com/public_html/" local="132454639542576664" remote="132458387400000000" Dst="2" />
 </dwsync>

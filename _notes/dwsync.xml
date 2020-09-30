@@ -11,4 +11,17 @@
 <file name="offline.html" server="C:/xampp/htdocs/charkas/" local="132454639543656330" remote="132454639540000000" Dst="2" />
 <file name="README.md" server="C:/xampp/htdocs/charkas/" local="132454639542496681" remote="132454639540000000" Dst="2" />
 <file name="sw.js" server="C:/xampp/htdocs/charkas/" local="132454639543776303" remote="132454639540000000" Dst="2" />
+<file name=".gitattributes" server="files.000webhost.com/public_html/" local="132454639542456742" remote="132458387400000000" Dst="2" />
+<file name=".htaccess" server="files.000webhost.com/public_html/" local="132454639542496681" remote="132458387400000000" Dst="2" />
+<file name="caru.html" server="files.000webhost.com/public_html/" local="132454639542576664" remote="132458387400000000" Dst="2" />
+<file name="coronavirus.html" server="files.000webhost.com/public_html/" local="132458201825524526" remote="132458387400000000" Dst="2" />
+<file name="error.php" server="files.000webhost.com/public_html/" local="132454639542736616" remote="132458388000000000" Dst="2" />
+<file name="functions.php" server="files.000webhost.com/public_html/" local="132454639542896559" remote="132458388000000000" Dst="2" />
+<file name="index.html" server="files.000webhost.com/public_html/" local="132457346506490097" remote="132458388600000000" Dst="2" />
+<file name="offline.html" server="files.000webhost.com/public_html/" local="132454639543656330" remote="132458388600000000" Dst="2" />
+<file name="manifest.json" server="files.000webhost.com/public_html/" local="132454746259611224" remote="132458388600000000" Dst="2" />
+<file name="OneSignalSDKUpdaterWorker.js" server="files.000webhost.com/public_html/" local="131672655620000000" remote="132458388600000000" Dst="2" />
+<file name="OneSignalSDKWorker.js" server="files.000webhost.com/public_html/" local="131672655500000000" remote="132458388600000000" Dst="2" />
+<file name="README.md" server="files.000webhost.com/public_html/" local="132454639542496681" remote="132458388600000000" Dst="2" />
+<file name="sw.js" server="files.000webhost.com/public_html/" local="132454639543776303" remote="132458388600000000" Dst="2" />
 </dwsync>

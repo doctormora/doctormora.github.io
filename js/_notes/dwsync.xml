@@ -10,4 +10,9 @@
 <file name="jquery-3.5.1.slim.min.js" server="files.000webhost.com//public_html/" local="132356846866283453" remote="132372562200000000" Dst="2" />
 <file name="popper.min.js" server="files.000webhost.com//public_html/" local="132356846308710994" remote="132372562200000000" Dst="2" />
 <file name="slick.js" server="files.000webhost.com//public_html/" local="132192861190000000" remote="132372562200000000" Dst="2" />
+<file name="app.js" server="files.000webhost.com/public_html/" local="132454639543576381" remote="132458388600000000" Dst="2" />
+<file name="bootstrap.min.js" server="files.000webhost.com/public_html/" local="132454639543616342" remote="132458388600000000" Dst="2" />
+<file name="popper.min.js" server="files.000webhost.com/public_html/" local="132454639543656330" remote="132458388600000000" Dst="2" />
+<file name="jquery-3.5.1.slim.min.js" server="files.000webhost.com/public_html/" local="132454639543616342" remote="132458388600000000" Dst="2" />
+<file name="slick.js" server="files.000webhost.com/public_html/" local="132454639543656330" remote="132458388600000000" Dst="2" />
 </dwsync>
