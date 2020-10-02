@@ -242,6 +242,9 @@
 }
 
 @media screen and (max-width: 384px){
+	.coronavirus{
+		padding-top: 80px;
+	}
 	.coronavirus .d-m {
 		margin-bottom: 10px;
 	}

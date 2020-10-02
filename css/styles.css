@@ -13,18 +13,84 @@ body{
 
 img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
 
+
+/* --- seccion menu ---- */
+
+.list-top{
+	display: none;
+	background: var(--nf);
+	padding: 10px 0;
+
+}
+.list-top span{
+	font-size: 24px;
+	font-weight: 900;
+	color: var(--cpri);
+	margin-left: 10px;
+}
+.list-top svg{
+	color: var(--cpri);
+	
+}
+
+.menu-movil{
+	display: flex;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	bottom: -100%;
+	background: var(--nf);
+	z-index: 20;
+	box-sizing: border-box;
+	transition: all .3s;
+	align-content: center;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+.men-cont{
+	
+}
+.men-cont ul{
+	text-align: center;
+}
+.men-cont ul li a{
+	font-size: 18px;
+	color: #ddd;
+	line-height: 48px;
+	text-decoration: none;
+}
+.men-cont ul li a:visited{
+	color: #ddd;
+}
+.men-cont ul li a:hover{
+	color: var(--csec);
+}
+.men-cont img{
+	width: 40%;
+}
+
+.menu-movil-m{
+	bottom: 0;
+}
+#mostrar{
+	cursor: pointer;
+}
 /* ------ seccion banner ----------*/
 .banner{
-	min-height: 500px;
 	background: var(--nf);
+	min-height: 500px;
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
 .banner h1{
 	color: var(--cpri);
 	font-size: 72px;
 	font-weight: 600;
 }
+
 .banner p{
 	color: var(--nw);
 	font-size: 18px;
@@ -35,7 +101,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	color: var(--csec);
 }
 
-.banner img{
+.banner .persona{
 	padding-top: 50px;
 }
 .banner .proximamente{
@@ -54,6 +120,23 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-webkit-border-radius:50px;
 	border-radius:50px;
 	color: #000;
+}
+
+/*-- banner gene --*/
+.banner-content{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background: var(--nf);
+}
+
+.banner-content .media .media-body h5{
+	font-size: 42px;
+	color: var(--csec);
+	font-weight: 900;
+}
+.banner-content .media .media-body p{
+	color: var(--nw);
+	font-size: 18px;
 }
 
 /* --- seccion coronavirus --- */
@@ -771,10 +854,18 @@ box-shadow: inset 200px 0px 71px 200px rgba(0,0,0,0.5);
 }	
 
 @media screen and (max-width: 991px){
+	
+	/* -- estilos menu -- */
+	
+	.list-top{
+		display: block;
+	}
+	
+	
 	/* ---- estilos banner -------------*/
 	.banner{
 		min-height:350px;
-
+		padding-top: 80px;
 	}
 	
 	/*---- estilos tarjetas rapidas ------*/
@@ -1057,7 +1148,6 @@ box-shadow: inset 200px 0px 71px 200px rgba(0,0,0,0.5);
 	
 	/* ---- estilos banner -------------*/
 	.banner{
-		height: 100vh;
 		margin: auto;
 		display: flex;
 		align-content: center;
