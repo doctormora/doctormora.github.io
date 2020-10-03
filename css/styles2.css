@@ -190,6 +190,7 @@
 	.coronavirus{
 		text-align: center;
 		min-height: 300px;
+		padding-top: 80px;
 	}
 	.coronavirus h1{
 		font-size: 32px;
@@ -242,9 +243,7 @@
 }
 
 @media screen and (max-width: 384px){
-	.coronavirus{
-		padding-top: 80px;
-	}
+	
 	.coronavirus .d-m {
 		margin-bottom: 10px;
 	}
