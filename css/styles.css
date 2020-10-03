@@ -83,7 +83,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	height: auto;
 	background: var(--nf);
 	text-align: center;
-	padding-top: 15px;
 	display: none;
 	align-items: center;
 	box-sizing: border-box;
@@ -96,6 +95,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	align-content: center;
 	height: auto;
 	box-sizing: border-box;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 .menu-bottom ul li a{
 	font-size: 24px;
