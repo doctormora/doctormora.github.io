@@ -845,6 +845,135 @@ box-shadow: inset 200px 0px 71px 200px rgba(0,0,0,0.5);
 
 
 
+/*  --- page convocatorias ---- */
+
+
+.s-convocatorias{
+	width: 100%;
+	padding-top: 90px;
+	padding-bottom: 120px;
+}
+.s-convocatorias .media{
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.25);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.25);
+    box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.25);
+	padding-top: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	padding-left: 30px;
+	margin-bottom: 35px;
+	position: relative;
+}
+.s-convocatorias img{
+	width: 98px;
+}
+.s-convocatorias .media .media-body{
+	padding-left: 20px;
+}
+.s-convocatorias .media .media-body h5{
+	font-size: 24px;
+	font-weight: 900;
+	color: var(--nf);
+}
+.s-convocatorias .media .media-body p{
+	font-size: 14px;
+	color: var(--nb);
+	line-height: 24px;
+	font-weight: 400;
+}
+.s-convocatorias .media .media-body a:visited{
+	color: var(--cpri);
+}
+.s-convocatorias .media .media-body a:link{
+	text-decoration: none;
+	color: var(--cpri);
+	font-size: 16px;
+	font-weight: 600;
+}
+.s-convocatorias .media .media-body a:hover{
+	border-bottom: 2px solid  var(--cpri);
+}
+.s-convocatorias .media .media-body span{
+	position: absolute;
+	bottom: 25px;
+	right: 25px;
+	font-size: 12px;
+	color: #494949;
+	font-weight: 600;
+}
+
+.enlaces-convocatorias .btn-pu{
+	background: var(--csec);
+	color: white;
+	border-radius: 50px;
+	font-weight: 600;
+	font-size: 16px;
+	outline: none;
+	padding: 10px 30px;
+	text-decoration: none;
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+    box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	margin-bottom: 40px;
+	
+}
+.enlaces-convocatorias .btn-pu:hover{
+	background: var(--cpri);
+    -webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+    box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+	
+}
+.enlaces-convocatorias .btn-pa{
+	background: #2d2d2d;
+	font-size: 16px;
+	font-weight: 600;
+	outline: none;
+	text-decoration: none;
+	padding: 10px 27px;
+	color: #a9a9a9;
+	border-radius: 50px;
+	-webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+	margin-bottom: 40px;
+}
+.enlaces-convocatorias .btn-pa:hover{
+	color: white;
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
+-moz-box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
+box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
+	outline: none;
+	text-decoration: none;
+}
+
+.enlaces-convocatorias ul{
+	padding-left: 65px;
+}
+.enlaces-convocatorias ul li h5{
+	font-size: 30px;
+	color: var(--nf);
+	font-weight: 900;
+}
+.enlaces-convocatorias ul li a:visited{
+	color: var(--nb);
+	text-decoration: none;
+}
+.enlaces-convocatorias ul li a:link{
+	line-height: 32px;
+	color: var(--nb);
+	font-size: 16px;
+	text-decoration: none;
+}
+.enlaces-convocatorias ul li a:hover{
+	color: var(--cpri);
+	border-bottom: 3px solid var(--cpri);
+	font-weight: 400;
+}
+
+
 
 
 
