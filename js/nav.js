@@ -2,6 +2,6 @@
 			$('#men').toggleClass('menu-movil-m');			
 	 })
 	
-    $('#flec-arr').on('click',function(){
+    $('#cerrar-men').on('click',function(){
 		$('#men').removeClass('menu-movil-m');
 	})

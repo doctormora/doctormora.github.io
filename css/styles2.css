@@ -55,7 +55,7 @@
 .numeros{
 	width: 100%;
 	height: auto;
-	background: var(--nf);
+	background: var(--cf3);
 	padding-top: 80px;
 	padding-bottom: 80px;
 	
@@ -106,7 +106,7 @@
 .prevencion{
 	width: 100%;
 	height: auto;
-	background: var(--nm);
+	background: var(--cf3);
 	padding-top: 80px;
 	padding-bottom: 130px;
 	color: white;
@@ -136,7 +136,7 @@
 }
 
 .fuentes{
-	background: var(--nf);
+	background: var(--cf31);
 	padding-top: 45px;
 	padding-bottom: 45px;
 	height: auto;
