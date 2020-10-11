@@ -58,7 +58,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	font-size: 24px;
 	font-weight: 900;
 	color: var(--ct1);
-	margin-left: 10px;
 }
 .list-top svg{
 	color: var(--ct1);	
@@ -267,6 +266,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	padding: 20px 30px;
 	border-radius: 10px;
 	font-size: 24px;
+	-webkit-transition-duration: 0.8s;
+	transition-duration: 0.8s;
 }
 
 .s-coronavirus h3 a:hover{
@@ -326,8 +327,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .tarjetas-r-c .card:hover{
 	cursor: pointer;
 	background: var(--cpri);
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
 	color: #fff;
 	-webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
 	-moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
