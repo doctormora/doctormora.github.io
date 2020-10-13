@@ -192,20 +192,29 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	color: var(--csec);
 	border-bottom: 2px solid var(--csec);
 }
-.tarjetas-pri{
+.tarjetas-pri a:link{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
+	text-decoration: none;
 }
-.tarjetas-pri .card{
+
+
+
+.tarjetas-pri a:link .card{
 	width: 70%;
 	margin-top: 20px;
 	padding: 15px 10px;
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
+	background: var(--cf31);
+	color: var(--ct4);
+	text-decoration: none;
+}
+.tarjetas-pri a:visited .card{
 	background: var(--cf31);
 	color: var(--ct4);
 }
@@ -217,11 +226,11 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	
 }
 */
-.tarjetas-pri .card img{
+.tarjetas-pri a:link .card img{
 	position: relative;
 	margin-left: 15px;
 }
-.tarjetas-pri .card .card-body h5{
+.tarjetas-pri a:link .card .card-body h5{
 	margin-bottom: 0;
 	position: relative;
 	margin-left: -15px;
@@ -235,7 +244,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .banner-content{
 	padding-top: 90px;
 	padding-bottom: 90px;
-	background: var(--nf);
+	background: var(--cf3);
 }
 
 .banner-content .media .media-body h5{
@@ -244,7 +253,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	font-weight: 900;
 }
 .banner-content .media .media-body p{
-	color: var(--nw);
+	color: var(--ct5);
 	font-size: 18px;
 }
 
@@ -1013,6 +1022,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	padding-left: 30px;
 	margin-bottom: 35px;
 	position: relative;
+	background: var(--cf2);
 }
 .s-convocatorias img{
 	width: 98px;
@@ -1138,11 +1148,9 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 /*---- pruebas ---*/
 @media screen and (min-width: 992px){
 	
-	.tarjetas-pri .card:hover{
-	cursor: pointer;
+	.tarjetas-pri a:hover .card{
 	background: #fff;
-	color: var(--nf);
-	
+	color: var(--ct1);
 	}
 	
 	.s-coronavirus a:hover{
