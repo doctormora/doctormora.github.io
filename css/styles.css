@@ -39,6 +39,9 @@ body{
 	/*font-family: 'Mitr', sans-serif ;*/
 }
 
+
+
+
 img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
 
 
@@ -59,6 +62,14 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	font-weight: 900;
 	color: var(--ct1);
 }
+
+.list-top .spinner-border-sm {
+    margin-left: 15px;
+    position: relative;
+    margin-top: -3px;
+}
+
+
 .list-top svg{
 	color: var(--ct1);	
 }
@@ -204,7 +215,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 
 .tarjetas-pri a:link .card{
-	width: 70%;
+	width: 80%;
 	margin-top: 20px;
 	padding: 15px 10px;
 	-moz-border-radius: 10px;
@@ -229,11 +240,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .tarjetas-pri a:link .card img{
 	position: relative;
 	margin-left: 15px;
+	margin-bottom: 0;
 }
 .tarjetas-pri a:link .card .card-body h5{
 	margin-bottom: 0;
 	position: relative;
-	margin-left: -15px;
+	margin-left: -45px;
 	font-size: 18px;
 	font-weight: 400;
 	
@@ -1008,7 +1020,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .s-convocatorias{
 	width: 100%;
-	padding-top: 90px;
+	padding-top: 20px;
 	padding-bottom: 120px;
 }
 .s-convocatorias .media{
@@ -1037,9 +1049,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 .s-convocatorias .media .media-body p{
 	font-size: 14px;
-	color: var(--nb);
+	color: var(--ct3);
 	line-height: 24px;
 	font-weight: 400;
+	margin-bottom: 5px;
 }
 .s-convocatorias .media .media-body a:visited{
 	color: var(--cpri);
@@ -1048,7 +1061,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	text-decoration: none;
 	color: var(--cpri);
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 900;
 }
 .s-convocatorias .media .media-body a:hover{
 	border-bottom: 2px solid  var(--cpri);
@@ -1066,7 +1079,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	background: var(--csec);
 	color: white;
 	border-radius: 50px;
-	font-weight: 600;
+	font-weight: 900;
 	font-size: 16px;
 	outline: none;
 	padding: 10px 30px;
@@ -1089,7 +1102,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .enlaces-convocatorias .btn-pa{
 	background: #2d2d2d;
 	font-size: 16px;
-	font-weight: 600;
+	font-weight: 900;
 	outline: none;
 	text-decoration: none;
 	padding: 10px 27px;
@@ -1269,15 +1282,16 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		padding-top: 80px;
 	}
 	
-	.tarjetas-pri{
+	.tarjetas-pri a:link{
 		align-items: end;
 	}
-	.tarjetas-pri .card {
+	.tarjetas-pri a:link .card {
 		width: 75%;
 	}
 	
-	.tarjetas-pri .card .card-body h5 {
+	.tarjetas-pri a:link .card .card-body h5 {
     	font-size: 14px;
+		margin-left: -30px;
 	}
 	
 	/*---- estilos tarjetas rapidas ------*/
@@ -1405,6 +1419,48 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	.pie h6 {
 		font-size: 14px;
 	}
+	
+	
+	/* banner general .... se usara en todas las pagina con contenido */
+	
+	.banner-content{
+		padding-top: 120px;
+		padding-bottom: 60px;
+	}
+	
+	
+	/* pagina convocatorias, se pueden agregar otras paginas con contenido */
+	
+	.s-convocatorias .media{
+		padding-top: 30px;
+		padding-left: 10px;
+	}
+	
+	.s-convocatorias .media img{
+		display: none;
+	}
+
+	.enlaces-convocatorias .btn-pu{
+
+		padding: 10px 20px;
+
+
+	}
+	.enlaces-convocatorias .btn-pa{
+
+		padding: 10px 17px;
+
+	}
+
+	.enlaces-convocatorias ul{
+		padding-left: 25px;
+	}
+
+
+	
+	
+	
+	
 
 	
 }
@@ -1419,23 +1475,27 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 
 	}
 	
+
 	
 	.tarjetas-pri{
-		flex-direction: initial;
+		display: flex;
+		justify-content: space-around;
+		padding-bottom: 2%;
 	}
-	.tarjetas-pri .card{
-		width: 30%;
-		margin: 2% 5%;
+	
+	.tarjetas-pri a:link .card{
+		width: 100%;
+		margin: 0;
 		padding: 10px 10px;
 	}
 	
-	.tarjetas-pri .card img {
+	.tarjetas-pri a:link .card img {
 		margin-left: 0;
 	}
-	.tarjetas-pri .card .card-body{
+	.tarjetas-pri a:link .card .card-body{
 		padding: 0;
 	}
-	.tarjetas-pri .card .card-body h5
+	.tarjetas-pri a:link .card .card-body h5
 	{
 		margin-left: 0;
 		display: none;
@@ -1583,6 +1643,17 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		display: none;	
 	}
 	
+	/* pagina generales.----- page convocatorias */
+	
+	.banner-content .media .media-body h5{
+		font-size: 32px;
+	}
+	
+	
+	.s-convocatorias .media{
+		padding-right: 10px;
+	}
+	
 	
 	
 }
@@ -1696,6 +1767,14 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	}
 	
 	
+	/* pagina generales.----- page convocatorias */
+	
+	.banner-content .media .media-body p{
+		font-size: 16px;
+	}
+	
+	
+	
 }
 
 @media screen and (max-width: 540px){
@@ -1712,6 +1791,24 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	
 	.tarjetas-r-c .card h3{
 		font-size: 12px;
+	}
+	
+	/* pagina generales.----- page convocatorias */
+	.banner-content {
+		padding-top: 90px;
+		padding-bottom: 20px;
+	}
+	.banner-content .media img{
+		display: none;
+	}
+	
+	.banner-content .media .media-body{
+		text-align: center;
+	}
+	
+	/* pagina convocatorias */
+	.s-convocatorias .media .media-body h5 {
+    	font-size: 20px;
 	}
 	
 	
@@ -1769,6 +1866,14 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		
 	}
 	
+	
+	/* pagina generales ---- pagina convocatoria */
+	.s-convocatorias .media .media-body {
+		padding-left: 10px;
+	}
+	
+	
+	
 }
 
 
@@ -1813,6 +1918,18 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	}
 	
 	
+	/* --- pagina general ---- page convocatorias */
+	.s-convocatorias .media .media-body span {
+		bottom: 10px;
+		right: 0;
+		left: 0;
+		margin: auto;
+		text-align: center;
+		display: block;
+	}
+	
+	
+	
 }
 
 
@@ -1824,6 +1941,12 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	.s-coronavirus a:link h3 {
 		font-size: 18px;
 	}
+	
+	.banner-content .media .media-body h5 {
+		font-size: 24px;
+	}
+	
+	
 }
 
 
