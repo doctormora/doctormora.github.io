@@ -26,8 +26,8 @@
 			"type": "image/png"
 		}
 	],
-	"name" : "Doctor Mora",
-	"short_name" : "Doctor Mora",
+	"name" : "Charkas",
+	"short_name" : "Charkas",
 	"description" : "Tu directorio de Doctor Mora",
 	"start_url" : "./",
 	"scope" : "./",
