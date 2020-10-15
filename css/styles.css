@@ -1139,18 +1139,18 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 .enlaces-convocatorias ul{
 	padding-left: 65px;
 }
-.enlaces-convocatorias ul li h5{
+.enlaces-convocatorias ul h5{
 	font-size: 30px;
-	color: var(--nf);
+	color: var(--ct1);
 	font-weight: 900;
 }
 .enlaces-convocatorias ul li a:visited{
-	color: var(--nb);
+	color: var(--ct2);
 	text-decoration: none;
 }
 .enlaces-convocatorias ul li a:link{
 	line-height: 32px;
-	color: var(--nb);
+	color: var(--ct2);
 	font-size: 16px;
 	text-decoration: none;
 }
@@ -1701,6 +1701,61 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	
 	.s-convocatorias .media{
 		padding-right: 10px;
+	}
+	
+	
+	.enlaces-convocatorias ul {
+		padding-left: 0;
+	}
+	.enlaces-convocatorias ul li{
+		display: inline-block !important;
+		background: var(--cf31);
+		border-radius: 50px;
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-bottom: 10px;
+		margin-right: 10px;
+	}
+	
+	.enlaces-convocatorias ul li a:link {
+		font-size: 12px;
+		color: var(--ct5);
+	}
+	.enlaces-convocatorias ul li a:visited {
+		font-size: 12px;
+		color: var(--ct5);
+	}
+	
+	.enlaces-convocatorias ul li:nth-child(2n){
+		background: var(--ct5);
+	}
+	.enlaces-convocatorias ul li:nth-child(2n) a:link{
+		color: var(--ct3);
+	}
+	.enlaces-convocatorias ul li:nth-child(2n) a:visited{
+		color: var(--ct3);
+	}
+	
+	.enlaces-convocatorias ul li:nth-child(4n){
+		border: 1px solid var(--cf3);
+		background: none;
+	}
+	.enlaces-convocatorias ul li:nth-child(4n) a:link{
+		color: var(--cf3);
+	}
+	.enlaces-convocatorias ul li:nth-child(4n) a:visited{
+		color: var(--cf3);
+	}
+	
+	
+	.enlaces-convocatorias ul li:active{
+		background: var(--cpri) !important;
+	}
+	.enlaces-convocatorias ul li a:active{
+		color: white !important;
+	}
+	.enlaces-convocatorias ul li a:hover {
+		border-bottom: none;
 	}
 	
 	
