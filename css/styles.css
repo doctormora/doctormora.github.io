@@ -213,8 +213,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	text-decoration: none;
 }
 
-
-
 .tarjetas-pri a:link .card{
 	width: 80%;
 	margin-top: 20px;
@@ -1300,7 +1298,8 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	}
 	
 	.tarjetas-pri a:link{
-		align-items: end;
+		
+		align-items: flex-end;
 	}
 	.tarjetas-pri a:link .card {
 		width: 75%;
