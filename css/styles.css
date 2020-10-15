@@ -8,6 +8,7 @@
 	--cf3: #00151f;
 	--cf31: #0b2735;
 	--cf4: #e9eef2;
+	--cf5: #d5d5d5;
 	
 	--ct1: #000;
 	--ct2: #272727;
@@ -229,6 +230,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	background: var(--cf31);
 	color: var(--ct4);
 }
+.tarjetas-pri a:active .card{
+	background: var(--cf5);
+	color: var(--ct5);
+}
 /*
 .tarjetas-pri .card:hover{
 	cursor: pointer;
@@ -302,6 +307,15 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	margin-left: 5px;
 	width: 35px;
 }
+
+.s-coronavirus a:active {
+	background: var(--cf5);
+}
+.s-coronavirus a:active h3{
+	color: var(--ct5);
+}
+
+
 /*
 .s-coronavirus a:hover{
 	background: var(--cpri);
@@ -746,6 +760,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	transition-duration: 0.8s;
 }
 
+.conoce img{
+	display: none;
+}
 /*
 .conoce a:hover{
 	background: var(--cpri);
@@ -1294,6 +1311,10 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		margin-left: -30px;
 	}
 	
+	
+	
+
+	
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r h2 {
 		font-size: 18px;
@@ -1344,7 +1365,13 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	
 	.information-dest .servicios ul a li {
     	font-size: 16px;
+		background: var(--cf2);
 	}
+	.information-dest .servicios ul a li:active{
+		background: var(--cf5);
+		color: var(--ct5);
+	}
+
 	.information-dest .servicios ul a:nth-child(1) li{
 		border-left: 6px solid #00D3E5;
 		
@@ -1369,6 +1396,23 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		min-height: 300px;
 		margin-top: 0;
 		margin-bottom: 0;
+		background: var(--cf31);
+		position: relative;
+		overflow: hidden;
+		
+	}
+	.conoce img{
+		position: absolute;
+		left: 0;
+		width: 40%;
+		top: 0;
+		margin-left: -5%;
+		display: block;
+		
+		
+	}
+	.conoce:before{
+		display: none;
 	}
 	
 	.conoce h3 {
@@ -1619,6 +1663,7 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	.conoce{
 		min-height: 200px;
 		margin-top: 0;
+		text-align: right;
 	}
 	
 	.conoce h3 {
@@ -1629,6 +1674,11 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	.conoce a {
 		margin-top: 20px;
 		font-size: 12px;
+	}
+	
+	.conoce img{
+		margin-left: 0;
+		
 	}
 	
 	
@@ -1748,7 +1798,16 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		font-size: 20px;
 	}
 	
-	/*  --- seccion dudas ---*/
+	/*  --- seccion conoce ---*/
+	
+	
+	.conoce img{
+		margin-left: 10%;
+		
+		
+	}
+	
+	
 	/*---- seccion dudas ---*/
 	.dudas {
 		padding: 60px 4%;
@@ -1777,6 +1836,9 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	
 }
 
+
+
+
 @media screen and (max-width: 540px){
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r p {
@@ -1792,6 +1854,15 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	.tarjetas-r-c .card h3{
 		font-size: 12px;
 	}
+	
+	/* ---- seccion conoce ---- */
+	
+	.conoce img{
+		
+		margin-top: 1%;
+		
+	}
+	
 	
 	/* pagina generales.----- page convocatorias */
 	.banner-content {
@@ -1866,6 +1937,17 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		
 	}
 	
+	/* seccion conoce */
+	
+	
+		.conoce img{
+		margin-left: 1%;
+		
+		
+	}
+		
+	
+	
 	
 	/* pagina generales ---- pagina convocatoria */
 	.s-convocatorias .media .media-body {
@@ -1915,6 +1997,11 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	}
 	.conoce a {
 		margin-top: 10px;
+	}
+	.conoce img{
+		width: 40%;
+		margin-top: 10%;
+		
 	}
 	
 	
@@ -1977,6 +2064,8 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		width: 35px;
 	}
 	
+	
+	
 }
 
 @media screen and (max-width: 329px){
@@ -1984,6 +2073,8 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		font-size: 11px;
 		padding: 10px 5px;
 	}
+	
+	
 	
 }
 
@@ -1999,6 +2090,8 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	.tarjetas-r-c .card {
 		min-width: 120px;
 	}
+	
+	
 }
 
 @media screen and (max-width: 260px){
@@ -2009,6 +2102,13 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	
 	.tarjetas-r-c .card {
 		min-width: 100px;
+	}
+	.conoce{
+		text-align: center;
+	}
+	
+	.conoce img{
+		display: none;
 	}
 }
 
