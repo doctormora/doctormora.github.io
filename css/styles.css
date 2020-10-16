@@ -15,25 +15,9 @@
 	--ct3: #343434;
 	--ct4: #d5d5d5;
 	--ct5: #93a1a6;
-
-	/*
-	
-	--cpri: #f40c48;
-	--csec: #00f0ff;
-	
-	--cf1: #00151f;
-	--cf2: #002333;
-	
-	
-	--cwhite: #c3cbcf;
-	
-	
-	--nf: #1b1b1b;
-	--nm: #272727;
-	--nb: #343434;
-	--nw: #dddddd;*/
 	
 }
+
 body{
 	font-family: 'Lato', sans-serif !important;
 	background: var(--cf1);
@@ -314,18 +298,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 
 
-/*
-.s-coronavirus a:hover{
-	background: var(--cpri);
-}
-.s-coronavirus a:hover h3{
-	color: white;
-}
-*/
-
 /* ------ seccion tarjetas rapidas ----------*/
 .tarjetas-r{
-	padding-top: 80px;
+	padding-top: 20px;
 	padding-bottom: 100px;
 	background: var(--cf1);
 }
@@ -412,7 +387,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 /* --------- seccion eventos -----------------*/
 .eventos{
 	background: var(--cf1);
-	padding-top: 80px;
 	padding-bottom: 80px;
 	position: relative;
 }
@@ -434,10 +408,11 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	padding-left: 12%;
 	padding-right: 10%;
 	padding-bottom: 10%;
+	/*
 	-webkit-box-shadow: inset 200px 0px 71px 200px rgba(0,0,0,0.5);
 	-moz-box-shadow: inset 200px 0px 71px 200px rgba(0,0,0,0.5);
 	box-shadow: inset 200px 0px 71px 200px rgba(0,0,0,0.5);
-
+	*/
 }
 
 .eventos .eventos-card .infor-eve h4{
@@ -544,7 +519,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 /* ---- informacion destacada -----*/
 .information-dest{
-	padding-top: 80px;
 	padding-bottom: 145px;
 	background: var(--cf1);
 }
@@ -658,49 +632,34 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .information-dest .servicios{
 	padding-left: 60px;
 }
-.information-dest .servicios ul a li{
-	font-size: 18px;
-	font-weight: 900;
+.information-dest .servicios ul li a:visited{
+	color: var(--ct1);
+}
+.information-dest .servicios ul li a:link{
+	width: 100%;
+	border-radius: 10px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 5%;
-	border-radius: 10px;
 	background: var(--cf4);
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-	
-}
-.information-dest .servicios ul a:link{
+	color: var(--ct1);
 	text-decoration: none;
 	position: relative;
-	color: var(--ct1);
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 900;
+	-webkit-transition-duration: 0.8s;
+	transition-duration: 0.8s;
 }
-.information-dest .servicios ul a:visited{
-	color: var(--ct1);
-}
-
-/*
-.information-dest .servicios ul a:hover li{
-	color: var(--ct1);
-	background: var(--cf2);
-	
-	
-	-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
-	-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
-	box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
-}
-
-*/
-.information-dest .servicios ul a li img{
+.information-dest .servicios ul li a img{
 	margin-right: 20px;
 }
+
 .information-dest .servicios .esp{
 	margin-top: 25px;
 }
 
-.information-dest .relle{
-	display: none;
-}
 
 /* -----------seccion conoce doctor mora ------------ */
 
@@ -997,33 +956,17 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   -webkit-animation: pulse 1.5s infinite ease-in-out;
   -moz-animation: pulse 1.5s infinite ease-in-out;
   animation: pulse 1.5s infinite ease-in-out;
-
 }
 
-@-webkit-keyframes pulse {
+@keyframes pulse {
     0% {
-      -webkit-transform: scale(0.8);
+      transform: scale(0.8);
       }
     50% {
-      -webkit-transform: scale(1);
+      transform: scale(1);
       }
     100% {
-      -webkit-transform: scale(0.8);
-      }
-  }
-
-
-
-
-  @-moz-keyframes pulse {
-    0% {
-      -moz-transform: scale(0.8);
-      }
-    50% {
-      -moz-transform: scale(1);
-      }
-    100% {
-      -moz-transform: scale(0.8);
+      transform: scale(0.8);
       }
   }
 
@@ -1112,7 +1055,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     -webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
     -moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
     box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	
 }
 .enlaces-convocatorias .btn-pa{
 	background: #2d2d2d;
@@ -1130,8 +1072,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .enlaces-convocatorias .btn-pa:hover{
 	color: white;
 	-webkit-box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
--moz-box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
-box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
+	-moz-box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
+	box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	outline: none;
 	text-decoration: none;
 }
@@ -1171,80 +1113,79 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 
 
 
-/* --------------------------------------------- diseño responsivo -----------------------------------------------*/
+/*---------------------------------------------------- diseño responsivo -----------------------------------------------------------*/
 
-/*---- pruebas ---*/
+
+/*---- cuando el dispositivo es mayor a 992 se aplicaran los efecto hover ---*/
+
 @media screen and (min-width: 992px){
 	
 	.tarjetas-pri a:hover .card{
-	background: #fff;
-	color: var(--ct1);
+		background: #fff;
+		color: var(--ct1);
 	}
 	
 	.s-coronavirus a:hover{
-	background: var(--cpri);
+		background: var(--cpri);
 	}
 	.s-coronavirus a:hover h3{
 		color: white;
 	}
 	
 	.tarjetas-r-c .card:hover{
-	cursor: pointer;
-	background: var(--cpri);
-	color: #fff;
-	-webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	-moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-}
-.tarjetas-r-c .card:hover span{
-	bottom: 15px;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
-	
-}
+		cursor: pointer;
+		background: var(--cpri);
+		color: #fff;
+		-webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+		-moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+		box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+	}
+	.tarjetas-r-c .card:hover span{
+		bottom: 15px;
+		-webkit-transition-duration: 0.4s;
+		transition-duration: 0.4s;
+	}
 
-.tarjetas-r-c .card:hover h3{
-	color: #fff;
-}
+	.tarjetas-r-c .card:hover h3{
+		color: #fff;
+	}
 	
 	
 	.information-dest .c1:hover{
-	cursor: pointer;
-	background: var(--csec);
-	-webkit-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
-	-moz-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
-	box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
-}
+		cursor: pointer;
+		background: var(--csec);
+		-webkit-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+		-moz-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+		box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+	}
 	
 	.information-dest .c2:hover, .information-dest .c3:hover{
-	cursor: pointer;
-	background: var(--csec);
-	-webkit-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
-	-moz-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
-	box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
-}
+		cursor: pointer;
+		background: var(--csec);
+		-webkit-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+		-moz-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+		box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
+	}
 	
-	.information-dest .servicios ul a:hover li{
-	color: var(--ct1);
-	background: var(--cf2);
+	.information-dest .servicios ul li a:hover{
+		color: var(--ct1);
+		background: var(--cf2);
+		-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
+		-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
+		box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
+	}
 	
-	
-	-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
-	-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
-	box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
-}
 	
 	.conoce a:hover{
-	background: var(--cpri);
-	color: #fff;
-	-webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	-moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	text-decoration: none;
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-}
-	
+		background: var(--cpri);
+		color: #fff;
+		-webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+		-moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+		box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
+		text-decoration: none;
+		-webkit-transition-duration: 0.8s;
+		transition-duration: 0.8s;
+	}
 	
 	
 }
@@ -1344,9 +1285,6 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		margin-bottom: 0;
 	}
 	
-	.information-dest {
-		padding-top: 60px;
-	}
 	
 	.information-dest .servicios{
 		padding-left: 2.5%;
@@ -1362,26 +1300,25 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
     	padding-bottom: 60px;
 	}
 	
-	.information-dest .servicios ul a li {
+	.information-dest .servicios ul li a:link {
     	font-size: 16px;
 		background: var(--cf2);
 	}
-	.information-dest .servicios ul a li:active{
+	.information-dest .servicios ul li a:active{
 		background: var(--cf5);
 		color: var(--ct5);
 	}
 
-	.information-dest .servicios ul a:nth-child(1) li{
+	.information-dest .servicios ul li:nth-child(1) a:link, .information-dest .servicios ul li:nth-child(1) a:visited{
 		border-left: 6px solid #00D3E5;
-		
 	}
-	.information-dest .servicios ul a:nth-child(2) li{
+	.information-dest .servicios ul li:nth-child(2) a:link, .information-dest .servicios ul li:nth-child(2) a:visited{
 		border-left: 6px solid #05C01B;
 	}
-	.information-dest .servicios ul a:nth-child(3) li{
+	.information-dest .servicios ul li:nth-child(3) a:link, .information-dest .servicios ul li:nth-child(3) a:visited{
 		border-left: 6px solid #393939;
 	}
-	.information-dest .servicios ul a:nth-child(4) li{
+	.information-dest .servicios ul li:nth-child(4) a:link, .information-dest .servicios ul li:nth-child(4) a:visited{
 		border-left: 6px solid #FF0251;
 	}
 	.information-dest .servicios .esp{
@@ -1407,13 +1344,10 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 		top: 0;
 		margin-left: -5%;
 		display: block;
-		
-		
 	}
 	.conoce:before{
 		display: none;
 	}
-	
 	.conoce h3 {
 		font-size: 36px;
 	}
@@ -1515,7 +1449,6 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	}
 	.banner img{
 		width:250px;
-
 	}
 	
 
@@ -1546,7 +1479,6 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r {
-		padding-top: 60px;
 		padding-bottom: 80px;
 	}
 	
@@ -1583,14 +1515,12 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	/*---------------- seccion eventos ------------------*/
 	
 	.eventos {
-		padding-top: 30px;
 		padding-bottom: 40px;
 	}
 	
 	.eventos .eventos-card .infor-eve h4{
 		font-size: 24px;
 		font-weight: 600;
-
 		-webkit-box-shadow: none;
 		-moz-box-shadow: none;
 		box-shadow: none;
@@ -1694,6 +1624,8 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	
 	/* pagina generales.----- page convocatorias */
 	
+	
+	
 	.banner-content .media .media-body h5{
 		font-size: 32px;
 	}
@@ -1718,7 +1650,7 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	}
 	
 	.enlaces-convocatorias ul li a:link {
-		font-size: 12px;
+		font-size: 14px;
 		color: var(--ct5);
 	}
 	.enlaces-convocatorias ul li a:visited {
@@ -1790,7 +1722,6 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	}
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r {
-		padding-top: 50px;
 		padding-bottom: 50px;
 	}
 	.tarjetas-r p {
@@ -1979,11 +1910,9 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	}
 	.eventos .eventos-card .infor-eve p{
 		display: none;
-		
 	}
 	.eventos .eventos-card .infor-eve span{
 		font-size: 12px;
-		
 	}
 	
 	.eventos .eventos-card .infor-eve h4, .eventos .eventos-card .infor-eve span{
@@ -1994,10 +1923,8 @@ box-shadow: 0px 10px 25px 0px rgba(45,45,45,0.35);
 	/* seccion conoce */
 	
 	
-		.conoce img{
+	.conoce img{
 		margin-left: 1%;
-		
-		
 	}
 		
 	
