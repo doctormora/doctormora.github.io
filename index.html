@@ -9,7 +9,11 @@
 	<!-- fuentes -->
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet"> 
 	<!-- fuentes iconmoon v-->
-	<link rel="stylesheet" href="css/fonts.css">  
+	<link rel="stylesheet" href="css/fonts.css">
+	  
+	<!-- font awesome -->  
+	<script src="https://kit.fontawesome.com/871e8e7b15.js" crossorigin="anonymous"></script>
+	  
 
 	<!-- estilos carusel -->
 	<link rel="stylesheet" href="owl/owl.carousel.css">
@@ -36,7 +40,7 @@
 	  gtag('config', 'UA-168182830-3');
 	</script>
 	  
-	<!-- onesignal -->
+	<!-- onesignal pasado 
 	<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 	<script>
 		window.OneSignal = window.OneSignal || [];
@@ -46,6 +50,19 @@
 			});
 		  });
 	</script>
+	  -->
+	  
+	  <!--- onesignal nuevos --->
+	  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+		<script>
+		  window.OneSignal = window.OneSignal || [];
+		  OneSignal.push(function() {
+			OneSignal.init({
+			  appId: "075d924a-c91c-4506-9ddb-e628eb044779",
+			});
+		  });
+		</script>
+
 	  
 	
   </head>
@@ -56,12 +73,14 @@
 	<!-- menu fijo movil solo se activa en dispositivos moviles -->
 	<section class="list-top fixed-top">
 		<div class="container d-flex align-items-center">
+			<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-justify" id="mostrar" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+			  <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
+			</svg>
+			
 			<span>CHARKAS</span>
 		    <div class="spinner-border spinner-border-sm" id="carga" role="status"><span class="sr-only">Loading...</span></div>
 		  
-			<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-justify-right ml-auto" id="mostrar" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-  				<path fill-rule="evenodd" d="M6 12.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7a.5.5 0 0 1-.5-.5zm-4-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z"/>
-			</svg>
+			<div class='onesignal-customlink-container ml-auto'></div>
 	 	</div>
 	</section> 
 	<!-- fin seccion menu -->   
@@ -619,6 +638,14 @@
         		}
     		}
 		});
+
+		/*
+		$(function(){
+			var barraaltura = $('.list-top').innerHeight();
+			console.log(barraaltura);
+		});
+		*/
+
 	  </script>
 					
   </body>
