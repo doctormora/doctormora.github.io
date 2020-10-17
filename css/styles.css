@@ -25,60 +25,56 @@ body{
 }
 
 .onesignal-customlink-subscribe.button {
-			    box-shadow: none !important;
-			    color: transparent !important;
-			}
-			.onesignal-customlink-subscribe.button:hover {
-			    box-shadow: none !important;
-			}
-	    	.state-subscribed{
-    			background: transparent !important;
-				height: 2.5em;
-				width: 2.5em;
-				border-radius: 50px !important;
-				outline: none !important;
-				position: relative;
-				display: flex !important;
-				align-items: center;
-				justify-content: center;
-				text-align: center;
-				font-weight: 900;
-    		}
-
-    		.state-subscribed::before{
-    			content: "\f0f3";
-				color: #0dcd6f;
-				position: absolute;
-				font-family: "Font Awesome 5 Free";
-				text-align: center;
-				font-size: 1.5em !important;
-				font-weight: 900 !important;			
-    		}  
-
-    		.state-unsubscribed{
-    			background: transparent !important;
-				height: 2.5em;
-				width: 2.5em;
-				border-radius: 50px !important;
-				outline: none !important;
-				position: relative;
-				display: flex !important;
-				align-items: center;
-				justify-content: center;
-				text-align: center;
-				font-weight: 900;
-    		}
-
-    		.state-unsubscribed::before{
-    			
-    			content: "\f0f3";
-				color: #c4c4c4;
-				position: absolute;
-				font-family: "Font Awesome 5 Free";
-				text-align: center;
-				font-size: 1.5em !important;
-				font-weight: 300 !important;	
-    		}
+	box-shadow: none !important;
+	color: transparent !important;
+}
+	.onesignal-customlink-subscribe.button:hover {
+	box-shadow: none !important;
+}
+.state-subscribed{
+    background: transparent !important;
+	height: 2.5em;
+	width: 2.5em;
+	border-radius: 50px !important;
+	outline: none !important;
+	position: relative;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+}
+.state-subscribed::before{
+    content: "\f7e4";
+	color: #0dcd6f;
+	position: absolute;
+	font-family: "Font Awesome 5 Free";
+	text-align: center;
+	font-size: 1.5em !important;
+	font-weight: 900 !important;			
+}  
+.state-unsubscribed{
+    background: transparent !important;
+	height: 2.5em;
+	width: 2.5em;
+	border-radius: 50px !important;
+	outline: none !important;
+	position: relative;
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	
+}
+.state-unsubscribed::before{
+    content: "\f7e4";
+	color: #c4c4c4;
+	position: absolute;
+	font-family: "Font Awesome 5 Free";
+	text-align: center;
+	font-size: 1.5em !important;
+	font-weight: 300 !important;	
+}
 
 
 img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{ display: none; }
