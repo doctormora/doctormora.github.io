@@ -1,21 +1,21 @@
 :root{
-	
+
 	--cpri: #f40c48;
 	--csec: #00f0ff;
-	
+
 	--cf1: #f4f6f9;
 	--cf2: #fff;
 	--cf3: #00151f;
 	--cf31: #0b2735;
 	--cf4: #e9eef2;
 	--cf5: #d5d5d5;
-	
+
 	--ct1: #000;
 	--ct2: #272727;
 	--ct3: #343434;
 	--ct4: #d5d5d5;
 	--ct5: #93a1a6;
-	
+
 }
 
 body{
@@ -56,10 +56,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 
 .list-top svg{
-	color: var(--ct1);	
+	color: var(--ct1);
 }
 .list-top svg:hover{
-	color: var(--cpri);	
+	color: var(--cpri);
 }
 
 .menu-movil{
@@ -76,7 +76,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	justify-content: center;
 	align-items: center;
 	text-align: center;
-	
+
 }
 .men-cont ul{
 	text-align: center;
@@ -110,7 +110,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 .menu-movil .men-cont .cerrar svg:hover{
 	color: var(--cpri);
-	
+
 }
 .menu-movil-m{
 	bottom: 0;
@@ -131,7 +131,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-webkit-box-shadow: 0px -10px 16px -8px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0px -10px 16px -8px rgba(0,0,0,0.1);
 	box-shadow: 0px -10px 16px -8px rgba(0,0,0,0.1);
-	
+
 }
 .menu-bottom ul{
 	width: 100%;
@@ -221,7 +221,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	cursor: pointer;
 	background: #fff;
 	color: var(--nf);
-	
+
 }
 */
 .tarjetas-pri a:link .card img{
@@ -235,7 +235,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	margin-left: -45px;
 	font-size: 18px;
 	font-weight: 400;
-	
+
 }
 
 
@@ -274,7 +274,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	border-radius: 10px;
 	text-decoration: none;
 	align-items: center;
-	
+
 }
 .s-coronavirus a:visited h3{
 	color: var(--ct4);
@@ -308,7 +308,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	color: var(--ct3);
 	font-size: 24px;
 	font-weight: 300;
-	
+
 }
 .tarjetas-r h2 strong{
 	color: var(--ct1);
@@ -333,12 +333,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	border-radius:10px;
-	
+
 	position: relative;
 	-webkit-transition-duration: 0.8s;
 	transition-duration: 0.8s;
 	overflow: hidden;
-	
+
 }
 /*
 .tarjetas-r-c .card:hover{
@@ -353,7 +353,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	bottom: 15px;
 	-webkit-transition-duration: 0.4s;
 	transition-duration: 0.4s;
-	
+
 }
 
 .tarjetas-r-c .card:hover h3{
@@ -380,7 +380,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	margin-bottom: auto;
 	margin-top: 10px;
 	bottom: -50px;
-	
+
 }
 
 
@@ -399,7 +399,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .eventos .eventos-card{
 	height: 400px;
-	
+
 }
 .eventos .eventos-card .infor-eve{
 	height: 100%;
@@ -448,7 +448,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	width: 400px;
 	background: black;
 	position: absolute;
-	
+
 }
 
 
@@ -491,12 +491,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	margin-top: 15px;
 }
 .eventos .owl-carousel .tar-eve a:visited{
-	color: var(--ct4);	
+	color: var(--ct4);
 }
 .eventos .owl-carousel .tar-eve a:link{
 	color: var(--ct4);
 	text-decoration: none;
-	padding-bottom: 5px;	
+	padding-bottom: 5px;
 }
 .eventos .owl-carousel .tar-eve a:hover{
 	color: var(--csec);
@@ -534,8 +534,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .information-dest .card h3{
 	font-size: 16px;
-	
-	
+
+
 }
 .information-dest .c1{
 	font-size: 18px;
@@ -551,7 +551,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
 	-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
 	box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
-	
+
 }
 
 .information-dest .c1 h3{
@@ -593,7 +593,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
 	-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
 	box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
-	
+
 }
 
 .information-dest .c2{
@@ -619,10 +619,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 /* no hay que descomentar----
 .information-dest .c2:hover strong{
-	
+
 }
 .information-dest .c2:hover h3, .information-dest .c3:hover h3{
-	
+
 	color: var(--nf);
 }
 */
@@ -665,7 +665,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .conoce{
 	min-height: 440px;
-	background: url(../img/gbi.jpg) center center no-repeat;	
+	background: url(../img/gbi.jpg) center center no-repeat;
 	background-size: cover;
 	text-align: center;
 	display: flex;
@@ -832,7 +832,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 .reportes .information-r .reportar .linkre a:visited{
 	color: var(--csec);
-	
+
 }
 .reportes .information-r .reportar .linkve a:link{
 	color: var(--cpri);
@@ -845,7 +845,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	border-bottom: 2px solid var(--cpri);
 }
 .reportes .information-r .reportar .linkve a:visited{
-	color: var(--cpri);	
+	color: var(--cpri);
 }
 
 /* ------ seccion dudas ----------- */
@@ -889,7 +889,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	color: #fff;
 	-webkit-transition-duration: 0.8s;
 	transition-duration: 0.8s;
-	
+
 }
 .dudas a:visited{
 	color: #fff;
@@ -1048,7 +1048,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 	margin-bottom: 40px;
-	
+
 }
 .enlaces-convocatorias .btn-pu:hover{
 	background: var(--cpri);
@@ -1119,19 +1119,19 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 /*---- cuando el dispositivo es mayor a 992 se aplicaran los efecto hover ---*/
 
 @media screen and (min-width: 992px){
-	
+
 	.tarjetas-pri a:hover .card{
 		background: #fff;
 		color: var(--ct1);
 	}
-	
+
 	.s-coronavirus a:hover{
 		background: var(--cpri);
 	}
 	.s-coronavirus a:hover h3{
 		color: white;
 	}
-	
+
 	.tarjetas-r-c .card:hover{
 		cursor: pointer;
 		background: var(--cpri);
@@ -1149,8 +1149,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.tarjetas-r-c .card:hover h3{
 		color: #fff;
 	}
-	
-	
+
+
 	.information-dest .c1:hover{
 		cursor: pointer;
 		background: var(--csec);
@@ -1158,7 +1158,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		-moz-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
 		box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
 	}
-	
+
 	.information-dest .c2:hover, .information-dest .c3:hover{
 		cursor: pointer;
 		background: var(--csec);
@@ -1166,7 +1166,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		-moz-box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
 		box-shadow: 0px 10px 25px 0px rgba(0,240,255,0.35);
 	}
-	
+
 	.information-dest .servicios ul li a:hover{
 		color: var(--ct1);
 		background: var(--cf2);
@@ -1174,8 +1174,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
 		box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
 	}
-	
-	
+
+
 	.conoce a:hover{
 		background: var(--cpri);
 		color: #fff;
@@ -1186,8 +1186,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		-webkit-transition-duration: 0.8s;
 		transition-duration: 0.8s;
 	}
-	
-	
+
+
 }
 
 
@@ -1195,7 +1195,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 
 @media screen and (max-width: 1199px){
-	
+
 	.tarjetas-r-c .card {
     	min-width: 200px;
 		min-height: 170px;
@@ -1206,21 +1206,21 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.tarjetas-r-c .card h3{
 		font-size: 16px;
 	}
-	
+
 	/*---- informacion destacada -----*/
-	
+
 	.information-dest .c1 h3 {
 		margin-bottom: 16px;
 	}
-	
-	
-	
-}	
+
+
+
+}
 
 @media screen and (max-width: 991px){
-	
+
 	/* -- estilos menu -- */
-	
+
 	.list-top{
 		display: block;
 	}
@@ -1230,36 +1230,36 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.menu-bottom{
 		display: flex;
 	}
-	
-	
+
+
 	/* ---- estilos banner -------------*/
 	.banner{
 		min-height:350px;
 		padding-top: 80px;
 	}
-	
+
 	.tarjetas-pri a:link{
-		
+
 		align-items: flex-end;
 	}
 	.tarjetas-pri a:link .card {
 		width: 75%;
 	}
-	
+
 	.tarjetas-pri a:link .card .card-body h5 {
     	font-size: 14px;
 		margin-left: -30px;
 	}
-	
-	
-	
 
-	
+
+
+
+
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r h2 {
 		font-size: 18px;
 	}
-	
+
 	.tarjetas-r-c .card {
     	min-width: 160px;
 		min-height: 160px;
@@ -1271,12 +1271,16 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.tarjetas-r-c .card h3{
 		font-size: 14px;
 	}
-	
+
 	/*------------- seccion eventos ------------*/
+	.eventos{
+		display: none;
+	}
 	.eventos .eventos-card{
 		height: 300px;
 	}
-	
+
+
 	/*-------- seccion informacion destacada -------*/
 	.information-dest .gobierno{
 		height: 100%;
@@ -1284,8 +1288,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.information-dest .c1 h3 {
 		margin-bottom: 0;
 	}
-	
-	
+
+
 	.information-dest .servicios{
 		padding-left: 2.5%;
 		padding-top: 80px;
@@ -1295,11 +1299,11 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		padding-left: 5%;
 	}
 	*/
-	
+
 	.information-dest {
     	padding-bottom: 60px;
 	}
-	
+
 	.information-dest .servicios ul li a:link {
     	font-size: 16px;
 		background: var(--cf2);
@@ -1324,10 +1328,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.information-dest .servicios .esp{
 		margin-top: 20px;
 	}
-	
-	
+
+
 	/*---- seccion conoce -----------*/
-	
+
 	.conoce{
 		min-height: 300px;
 		margin-top: 0;
@@ -1335,7 +1339,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		background: var(--cf31);
 		position: relative;
 		overflow: hidden;
-		
+
 	}
 	.conoce img{
 		position: absolute;
@@ -1351,15 +1355,15 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.conoce h3 {
 		font-size: 36px;
 	}
-	
+
 	/*----- seccion reportes ---*/
 	.reportes{
 		display: none;
 	}
-	
-	
+
+
 	/*---- seccion dudas ---*/
-	
+
 	.dudas {
 		display: none;
 	}
@@ -1374,13 +1378,13 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	}
 	.dudas .people img{
 		width: 400px;
-		margin-top: 5%;	
+		margin-top: 5%;
 	}
-	
+
 	*/
-	
+
 	/* --- seccion dyxer ----*/
-	
+
 	.dyxer{
 		padding: 50px 0;
 	}
@@ -1391,28 +1395,28 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.dyxer img{
 		width: 200px;
 	}
-	
+
 	/*--- seccion pie ---*/
 	.pie h6 {
 		font-size: 14px;
 	}
-	
-	
+
+
 	/* banner general .... se usara en todas las pagina con contenido */
-	
+
 	.banner-content{
 		padding-top: 120px;
 		padding-bottom: 60px;
 	}
-	
-	
+
+
 	/* pagina convocatorias, se pueden agregar otras paginas con contenido */
-	
+
 	.s-convocatorias .media{
 		padding-top: 30px;
 		padding-left: 10px;
 	}
-	
+
 	.s-convocatorias .media img{
 		display: none;
 	}
@@ -1434,12 +1438,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	}
 
 
-	
-	
-	
-	
 
-	
+
+
+
+
+
 }
 
 @media screen and (max-width: 767px){
@@ -1450,21 +1454,21 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.banner img{
 		width:250px;
 	}
-	
 
-	
+
+
 	.tarjetas-pri{
 		display: flex;
 		justify-content: space-around;
 		padding-bottom: 2%;
 	}
-	
+
 	.tarjetas-pri a:link .card{
 		width: 100%;
 		margin: 0;
 		padding: 10px 10px;
 	}
-	
+
 	.tarjetas-pri a:link .card img {
 		margin-left: 0;
 	}
@@ -1476,12 +1480,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		margin-left: 0;
 		display: none;
 	}
-	
+
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r {
 		padding-bottom: 80px;
 	}
-	
+
 	.tarjetas-r .paff{
 		padding-left: 5%;
 		padding-right: 5%;
@@ -1511,13 +1515,13 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.tarjetas-r-c .card .etiqueta-empleos-2{
 		display: block;
 	}
-	
+
 	/*---------------- seccion eventos ------------------*/
-	
+
 	.eventos {
 		padding-bottom: 40px;
 	}
-	
+
 	.eventos .eventos-card .infor-eve h4{
 		font-size: 24px;
 		font-weight: 600;
@@ -1540,45 +1544,45 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.eventos .owl-carousel .tar-eve{
 		height: 200px;
 		width: 250px;
-		
+
 	}
-	
-	
-	
+
+
+
 	/* ---- seccion informacion destacada */
-	
+
 	.information-dest {
 		padding-top: 30px;
 	}
-	
+
 	.information-dest img{
 		width: 50px;
 	}
 	.information-dest .gobierno img{
 		width: 120px;
 	}
-	
+
 	.information-dest .c2, .information-dest .c3 {
 		min-height: auto;
 		padding-top: 0;
-		
+
 	}
 	.information-dest .c1 h3, .information-dest .c2 h3, .information-dest .c3 h3{
 		font-size: 12px;
 	}
-	
-	
-	
+
+
+
 	.information-dest .servicios{
-		
+
 		padding-top: 60px;
 	}
 	.information-dest .servicios ul li {
 		font-size: 14px;
 	}
-	
+
 	/*-------- titulos sin icono ----------*/
-	
+
 	.tarjetas-r h2 img, .eventos h2 img, .information-dest h2 img, .reportes h2 img{
 		display: none;
 	}
@@ -1586,56 +1590,56 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		font-weight: 900;
 
 	}
-	
-	
+
+
 	/* ----- seccion conoce ---------*/
 	.conoce{
 		min-height: 200px;
 		margin-top: 0;
 		text-align: right;
 	}
-	
+
 	.conoce h3 {
 		font-size: 28px;
 	}
-	
-	
+
+
 	.conoce a {
 		margin-top: 20px;
 		font-size: 12px;
 	}
-	
+
 	.conoce img{
 		margin-left: 0;
-		
+
 	}
-	
-	
+
+
 	/*---- seccion reportes -----*/
 	.reportes .information-r .card ul li {
 		font-size: 14px;
-		
+
 	}
 	/*--- dudas ----*/
-	
+
 	.dudas .people img{
-		display: none;	
+		display: none;
 	}
-	
+
 	/* pagina generales.----- page convocatorias */
-	
-	
-	
+
+
+
 	.banner-content .media .media-body h5{
 		font-size: 32px;
 	}
-	
-	
+
+
 	.s-convocatorias .media{
 		padding-right: 10px;
 	}
-	
-	
+
+
 	.enlaces-convocatorias ul {
 		padding-left: 0;
 	}
@@ -1648,7 +1652,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		margin-bottom: 10px;
 		margin-right: 10px;
 	}
-	
+
 	.enlaces-convocatorias ul li a:link {
 		font-size: 14px;
 		color: var(--ct5);
@@ -1657,7 +1661,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		font-size: 12px;
 		color: var(--ct5);
 	}
-	
+
 	.enlaces-convocatorias ul li:nth-child(2n){
 		background: var(--ct5);
 	}
@@ -1667,7 +1671,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.enlaces-convocatorias ul li:nth-child(2n) a:visited{
 		color: var(--ct3);
 	}
-	
+
 	.enlaces-convocatorias ul li:nth-child(4n){
 		border: 1px solid var(--cf3);
 		background: none;
@@ -1678,8 +1682,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.enlaces-convocatorias ul li:nth-child(4n) a:visited{
 		color: var(--cf3);
 	}
-	
-	
+
+
 	.enlaces-convocatorias ul li:active{
 		background: var(--cpri) !important;
 	}
@@ -1689,9 +1693,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.enlaces-convocatorias ul li a:hover {
 		border-bottom: none;
 	}
-	
-	
-	
+
+
+
 }
 
 
@@ -1699,7 +1703,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 
 @media screen and (max-width: 575px){
-	
+
 	/* ---- estilos banner -------------*/
 	.banner{
 		margin: auto;
@@ -1716,7 +1720,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		margin-left: 5%;
 		margin-right: 5%;
 	}
-	
+
 	.banner .persona{
 		display: none;
 	}
@@ -1738,61 +1742,61 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 	.eventos .eventos-card .infor-eve p{
 		margin-right: 0;
-		
+
 	}
-	
+
 	/* -- informacion destacada ---*/
 	.information-dest .c1 {
-		
+
 		padding-top: 0px;
 		padding-bottom: 0px;
 	}
 	.information-dest img{
 		width: 60px;
 	}
-	
+
 	.information-dest .gobierno img {
 		width: 60px;
 	}
-	
+
 	.information-dest .numeros{
 		display: flex;
 		justify-content: space-between;
 	}
-	
+
 	.information-dest .c2, .information-dest .c3{
 		width: 48%;
 	}
-	
+
 	.information-dest .c2 {
 		margin-top: 30px;
-		
+
 	}
 	.information-dest .c3 {
 		margin-bottom: 30px;
-		margin-top: 30px;	
+		margin-top: 30px;
 	}
-	
+
 	.information-dest .servicios{
-		
+
 		padding-top: 20px;
 	}
-	
+
 	/* ----- estilos para los titulos de tarjetas rapidas eventos informacion destacada y reportes ---*/
 	.tarjetas-r h2, .eventos h2, .information-dest h2, .reportes h2{
 		font-size: 20px;
 	}
-	
+
 	/*  --- seccion conoce ---*/
-	
-	
+
+
 	.conoce img{
 		margin-left: 10%;
-		
-		
+
+
 	}
-	
-	
+
+
 	/*---- seccion dudas ---*/
 	.dudas {
 		padding: 60px 4%;
@@ -1803,22 +1807,22 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.dudas p {
 		font-size: 14px;
 	}
-	
+
 	/* --- seccion pie ----*/
 	.pie h6 {
 		font-size: 12px;
 		padding: 15px 15px;
 	}
-	
-	
+
+
 	/* pagina generales.----- page convocatorias */
-	
+
 	.banner-content .media .media-body p{
 		font-size: 16px;
 	}
-	
-	
-	
+
+
+
 }
 
 
@@ -1828,27 +1832,27 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r p {
 		font-size: 18px;
-		
+
 	}
 	.tarjetas-r-c .card {
     	min-width: 100px;
 		min-height: 60px;
 		padding-top: 5px;
 	}
-	
+
 	.tarjetas-r-c .card h3{
 		font-size: 12px;
 	}
-	
+
 	/* ---- seccion conoce ---- */
-	
+
 	.conoce img{
-		
+
 		margin-top: 1%;
-		
+
 	}
-	
-	
+
+
 	/* pagina generales.----- page convocatorias */
 	.banner-content {
 		padding-top: 90px;
@@ -1857,27 +1861,27 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.banner-content .media img{
 		display: none;
 	}
-	
+
 	.banner-content .media .media-body{
 		text-align: center;
 	}
-	
+
 	/* pagina convocatorias */
 	.s-convocatorias .media .media-body h5 {
     	font-size: 20px;
 	}
-	
-	
+
+
 }
 
 
 @media screen and (max-width: 490px){
-	
+
 	.tarjetas-pri .card img {
 		width: 45px;
 	}
-	
-	
+
+
 	/*---- estilos tarjetas rapidas ------*/
 	.tarjetas-r-c{
 		justify-content: center;
@@ -1893,20 +1897,20 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.tarjetas-r-c .card img{
 		width: 60px;
 	}
-	
+
 	.tarjetas-r-c .card h3{
 		font-size: 12px;
 	}
-	
-	
+
+
 	/* ---- seccion enventos ---*/
 	.eventos .eventos-card{
 		height: 200px;
-		
+
 	}
 	.eventos .eventos-card .infor-eve h4{
 		font-size: 20px;
-		
+
 	}
 	.eventos .eventos-card .infor-eve p{
 		display: none;
@@ -1914,64 +1918,64 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.eventos .eventos-card .infor-eve span{
 		font-size: 12px;
 	}
-	
+
 	.eventos .eventos-card .infor-eve h4, .eventos .eventos-card .infor-eve span{
 		display: inline-block;
-		
+
 	}
-	
+
 	/* seccion conoce */
-	
-	
+
+
 	.conoce img{
 		margin-left: 1%;
 	}
-		
-	
-	
-	
+
+
+
+
 	/* pagina generales ---- pagina convocatoria */
 	.s-convocatorias .media .media-body {
 		padding-left: 10px;
 	}
-	
-	
-	
+
+
+
 }
 
 
 @media screen and (max-width: 440px){
 	/*---- carusel ------*/
-	
+
 	.eventos .carousel-control-prev, .eventos .carousel-control-next{
 		display: none;
 	}
-	
+
 }
 
 @media screen and (max-width: 434px){
 	.tarjetas-r-c .card {
     	min-width: 160px;
-		
+
 	}
 }
 
 @media screen and (max-width: 384px){
-	
+
 	/* cronavirus listion */
 	.s-coronavirus h3 a:link{
 		font-size: 18px;
 	}
-	
+
 	/* ---- seccion enventos ---*/
 	.eventos .eventos-card{
 		height: 180px;
-		
+
 	}
 	.eventos .eventos-card .infor-eve h4{
 		font-size: 16px;
 	}
-	
+
 	/*---- seccion conoce ---*/
 	.conoce h3 {
 		font-size: 24px;
@@ -1982,10 +1986,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.conoce img{
 		width: 40%;
 		margin-top: 10%;
-		
+
 	}
-	
-	
+
+
 	/* --- pagina general ---- page convocatorias */
 	.s-convocatorias .media .media-body span {
 		bottom: 10px;
@@ -1995,9 +1999,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		text-align: center;
 		display: block;
 	}
-	
-	
-	
+
+
+
 }
 
 
@@ -2005,16 +2009,16 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.tarjetas-r-c .card {
     	min-width: 140px;
 	}
-	
+
 	.s-coronavirus a:link h3 {
 		font-size: 18px;
 	}
-	
+
 	.banner-content .media .media-body h5 {
 		font-size: 24px;
 	}
-	
-	
+
+
 }
 
 
@@ -2034,19 +2038,19 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.tarjetas-r-c .card img, .tarjetas-pri .card img{
 		width: 35px;
 	}
-	
+
 	.tarjetas-r-c .card h3{
 		font-size: 12px;
 	}
-	
-	
+
+
 	/*---- informacion destacada ----*/
 	.information-dest img {
 		width: 35px;
 	}
-	
-	
-	
+
+
+
 }
 
 @media screen and (max-width: 329px){
@@ -2054,40 +2058,40 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		font-size: 11px;
 		padding: 10px 5px;
 	}
-	
-	
-	
+
+
+
 }
 
 @media screen and (max-width: 304px){
-	
+
 	.s-coronavirus a:link h3 {
 		font-size: 12px;
 	}
 	.s-coronavirus a:link img{
 		width: 20px;
 	}
-	
+
 	.tarjetas-r-c .card {
 		min-width: 120px;
 	}
-	
-	
+
+
 }
 
 @media screen and (max-width: 260px){
-	
+
 	.banner h1 {
 		font-size: 32px;
 	}
-	
+
 	.tarjetas-r-c .card {
 		min-width: 100px;
 	}
 	.conoce{
 		text-align: center;
 	}
-	
+
 	.conoce img{
 		display: none;
 	}
