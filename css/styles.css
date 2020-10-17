@@ -42,11 +42,14 @@ body{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	font-weight: 900;
 	
 }
 .state-subscribed::before{
     content: "\f7e4";
-	color: #0dcd6f;
+	background: linear-gradient(to bottom, #f40c48, #fffb00);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 	position: absolute;
 	font-family: "Font Awesome 5 Free";
 	text-align: center;
@@ -64,6 +67,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	font-weight: 900;
 	
 }
 .state-unsubscribed::before{
