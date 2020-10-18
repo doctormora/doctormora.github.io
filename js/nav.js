@@ -1,6 +1,6 @@
 	$('#mostrar').on('click',function(){
 			$('#men').toggleClass('menu-movil-m');
-			$('body').toggleClass('ocul'});
+			$('body').toggleClass('ocul');
 	 })
 	
     $('#cerrar-men').on('click',function(){
