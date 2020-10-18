@@ -1228,6 +1228,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		-webkit-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
 		-moz-box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
 		box-shadow: 0px 10px 25px 0px rgba(173,173,173,0.35);
+		-webkit-transition-duration: 0.8s;
+		transition-duration: 0.8s;
 	}
 
 
