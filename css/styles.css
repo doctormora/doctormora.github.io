@@ -23,7 +23,9 @@ body{
 	background: var(--cf1);
 	/*font-family: 'Mitr', sans-serif ;*/
 }
-
+.ocul{
+	overflow: hidden;
+}
 .onesignal-customlink-subscribe.button {
 	box-shadow: none !important;
 	color: transparent !important;
