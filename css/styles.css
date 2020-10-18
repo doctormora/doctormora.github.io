@@ -130,12 +130,19 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	align-content: center;
 	justify-content: center;
 	align-items: center;
-	text-align: center;
 
 }
-.men-cont ul{
+
+
+.men-cont{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	text-align: center;
+	margin: auto;
+	box-sizing: border-box;
 }
+
 .men-cont ul li a{
 	font-size: 18px;
 	color: var(--ct1);
@@ -157,19 +164,23 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .menu-movil .men-cont .cerrar svg{
 	color: var(--ct1);
 	position: absolute;
-	top: 2%;
-	left: 0;
+	top: 0;
 	right: 0;
 	margin: auto;
 	cursor: pointer;
+	margin-right: 5%;
 }
 .menu-movil .men-cont .cerrar svg:hover{
 	color: var(--cpri);
 
 }
+
 .menu-movil-m{
 	bottom: 0;
+	background: #fff;
 }
+
+
 #mostrar{
 	cursor: pointer;
 }
@@ -186,6 +197,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-webkit-box-shadow: 0px -10px 16px -8px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0px -10px 16px -8px rgba(0,0,0,0.1);
 	box-shadow: 0px -10px 16px -8px rgba(0,0,0,0.1);
+	z-index: 5000;
 
 }
 .menu-bottom ul{
@@ -199,9 +211,24 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+.menu-bottom ul li{
+	width: 100%;
+	
+}
 .menu-bottom ul li a{
 	font-size: 24px;
 	color: var(--ct1);
+	display: block;
+	width: 100%;
+	background: pink;
+	}
+.menu-bottom ul li #mostrar{
+	font-size: 24px;
+	display: block;
+	width: 100%;
+	background: pink;
+	margin-top: 4px;
+	
 }
 
 
@@ -414,6 +441,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .tarjetas-r-c .card:hover h3{
 	color: #fff;
 }*/
+
+
 
 .tarjetas-r-c .card h3{
 	color: var(--ct1);
@@ -720,7 +749,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .conoce{
 	min-height: 440px;
-	background: url(../img/gbi.jpg) center center no-repeat;
+	background: url(../img/gbi-min.jpg) center center no-repeat;
 	background-size: cover;
 	text-align: center;
 	display: flex;
@@ -1324,6 +1353,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.tarjetas-r-c .card img{
 		width: 50px;
 	}
+	
+	.tarjetas-r-c .card i{
+		font-size: 2em;
+	}
 	.tarjetas-r-c .card h3{
 		font-size: 14px;
 	}
@@ -1832,7 +1865,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
-
+	
+	.information-dest .c1 h3, .information-dest .c2 h3, .information-dest .c3 h3 {
+		margin-top: 10px;
+	}
+	
+	
 	.information-dest .servicios{
 
 		padding-top: 20px;
@@ -1952,6 +1990,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	}
 	.tarjetas-r-c .card img{
 		width: 60px;
+	}
+	
+	.tarjetas-r-c .card i{
+		font-size: 3em;
 	}
 
 	.tarjetas-r-c .card h3{

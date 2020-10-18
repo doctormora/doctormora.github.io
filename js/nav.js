@@ -6,6 +6,7 @@
     $('#cerrar-men').on('click',function(){
 		$('#men').removeClass('menu-movil-m');
 		$('body').css({overflow: "auto"});
+		
 	})
 
 
