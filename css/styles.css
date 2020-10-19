@@ -44,9 +44,6 @@ body{
   right: 100%;
   width: 100%;
   height: 3px;
-  -webkit-box-shadow: 0px 6px 16px -5px rgba(34,153,221,0.74);
-  -moz-box-shadow: 0px 6px 16px -5px rgba(34,153,221,0.74);
-  box-shadow: 0px 6px 16px -5px rgba(34,153,221,0.74);
 }
 
 .ocul{
@@ -824,8 +821,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	color: var(--cpri);
 	font-size: 18px;
 	font-weight: 400;
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
 }
 
 .conoce img{
@@ -998,9 +993,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-webkit-border-radius:50px;
 	border-radius:50px;
 	color: #fff;
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
-
 }
 .dudas a:visited{
 	color: #fff;
