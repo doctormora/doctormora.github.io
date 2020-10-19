@@ -9,8 +9,8 @@
 		
 	})
 
-
-		window.onload = function(){
-			var contenedor = document.getElementById('carga');
-			contenedor.style.visibility = 'hidden';
-		}
+    	// se cambio el spinner por una barra de progreso se utilizo el plugin parce.min
+		//window.onload = function(){
+		//	var contenedor = document.getElementById('carga');
+		//	contenedor.style.visibility = 'hidden';
+		//}

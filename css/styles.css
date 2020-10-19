@@ -23,6 +23,32 @@ body{
 	background: var(--cf1);
 	/*font-family: 'Mitr', sans-serif ;*/
 }
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #29d;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 3px;
+  -webkit-box-shadow: 0px 6px 16px -5px rgba(34,153,221,0.74);
+  -moz-box-shadow: 0px 6px 16px -5px rgba(34,153,221,0.74);
+  box-shadow: 0px 6px 16px -5px rgba(34,153,221,0.74);
+}
+
 .ocul{
 	overflow: hidden;
 }
@@ -985,8 +1011,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	-webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
 	-moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
 	box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	-webkit-transition-duration: 0.8s;
-	transition-duration: 0.8s;
 }
 
 
@@ -1270,8 +1294,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		-moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
 		box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
 		text-decoration: none;
-		-webkit-transition-duration: 0.8s;
-		transition-duration: 0.8s;
 	}
 
 
