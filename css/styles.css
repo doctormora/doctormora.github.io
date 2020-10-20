@@ -23,6 +23,8 @@ body{
 	background: var(--cf1);
 	/*font-family: 'Mitr', sans-serif ;*/
 }
+
+
 .pace {
   -webkit-pointer-events: none;
   pointer-events: none;
@@ -45,6 +47,10 @@ body{
   width: 100%;
   height: 3px;
 }
+
+
+
+
 
 .ocul{
 	overflow: hidden;
@@ -246,12 +252,20 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	display: block;
 	width: 100%;
 }
+
+.menu-bottom ul li a:active{
+	color: var(--cpri);
+}
 .menu-bottom ul li #mostrar{
 	font-size: 24px;
 	display: block;
 	width: 100%;
 	margin-top: 4px;
 }
+.menu-bottom ul li #mostrar:active{
+	color: var(--cpri);
+}
+
 
 
 /* ------ seccion banner ----------*/
@@ -820,7 +834,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	margin-top: 35px;
 	color: var(--cpri);
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 900;
 }
 
 .conoce img{
@@ -1018,31 +1032,37 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .dyxer{
 	height: auto;
 	width: 100%;
-	padding: 100px 0;
-	background: #fafafa;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	padding-top: 50px;
 	text-align: center;
 }
 .dyxer h6{
 	font-size: 16px;
 	font-weight: 600;
+	margin-bottom: 25px;
 }
 .dyxer h6 span{
 	color: var(--cpri);
 }
+.dyxer .patrocinadores{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.dyxer .patrocinadores img{
+	height: 100%;
+}
 
 /* ----------- footer ------------*/
-.pie{
+.dr-mora{
 	width: 100%;
 	background: var(--cf1);
 	text-align: center;
 	display: flex;
 	align-items: center;
-	padding: 40px 0px 80px 0px;
+	padding: 80px 0px;
 }
-.pie h6{
+.dr-mora h6{
 	color: var(--ct1);
 	font-weight: 900;
 	background: var(--cf4);
@@ -1050,7 +1070,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	padding: 20px 30px;
 	border-radius: 10px;
 }
-.pie .corazon{
+.dr-mora .corazon{
   display: inline-block;
   position: relative;
   margin-bottom: -3px;
@@ -1073,6 +1093,54 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 
 
+
+.pie {
+	width: 100%;
+	padding-top: 50px;
+	background: var(--cf3);
+	display: flex;
+	align-items: center;
+}
+.pie h4{
+	color: var(--csec);
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 15px;
+}
+
+.pie ul li{
+	line-height: 35px;
+}
+.pie ul li a:link{
+	text-decoration: none;
+	color: var(--ct5);
+	font-weight: 400;
+}
+.pie ul li a:hover{
+	color: var(--csec);
+	border-bottom: 2px solid var(--csec);
+	padding-bottom: 5px;
+}
+
+.pie .agi{
+	text-align: left;
+	display: flex;
+	align-items: center;
+
+}
+.pie .agi img{
+	width: 200px;
+}
+.pie .contacto i{
+	color: var(--csec);
+}
+.pie .copy p{
+	color: var(--ct5);
+	margin-top: 10px;
+	font-size: 14px;
+	border-top: 1px solid var(--cf31);
+	padding-top: 15px;
+}
 
 /*  --- page convocatorias ---- */
 
@@ -1490,22 +1558,24 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 	/* --- seccion dyxer ----*/
 
-	.dyxer{
-		padding: 50px 0;
+	.dyxer .patrocinadores img{
+		width: 150px;
 	}
-	.dyxer h6{
-		font-size: 14px;
-		font-weight: 600;
+	/*--- seccion dr mora ---*/
+	.dr-mora{
+	
+		padding-top: 35px;
+		padding-bottom: 80px;
 	}
-	.dyxer img{
-		width: 200px;
-	}
-
-	/*--- seccion pie ---*/
-	.pie h6 {
+	.dr-mora h6 {
 		font-size: 14px;
 	}
-
+	
+	
+	/* -- pie -- */
+	.pie{
+		display: none;
+	}
 
 	/* banner general .... se usara en todas las pagina con contenido */
 
@@ -1731,6 +1801,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		display: none;
 	}
 
+	
+	.dyxer .patrocinadores img {
+		width: 120px;
+	}
+	
+	
 	/* pagina generales.----- page convocatorias */
 
 
@@ -1918,8 +1994,11 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 		font-size: 14px;
 	}
 
-	/* --- seccion pie ----*/
-	.pie h6 {
+	.dyxer .patrocinadores img {
+		width: 100px;
+	}
+		/* --- seccion dr-mora ----*/
+	.dr-mora h6 {
 		font-size: 12px;
 		padding: 15px 15px;
 	}
@@ -2070,7 +2149,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 @media screen and (max-width: 434px){
 	.tarjetas-r-c .card {
     	min-width: 160px;
-
+	}
+	.dyxer .patrocinadores img {
+		width: 80px;
 	}
 }
 
@@ -2131,7 +2212,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.banner-content .media .media-body h5 {
 		font-size: 24px;
 	}
-
+	.dyxer .patrocinadores img {
+		width: 60px;
+	}
 
 }
 
@@ -2168,7 +2251,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 
 @media screen and (max-width: 329px){
-	.pie h6 {
+	.dr-mora h6 {
 		font-size: 11px;
 		padding: 10px 5px;
 	}
@@ -2209,6 +2292,20 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	.conoce img{
 		display: none;
 	}
+	.dyxer .patrocinadores{
+		flex-direction: column;
+		align-content: center;
+		flex-wrap: wrap;
+	}
+	.dyxer .patrocinadores img {
+		width: 80px;
+		margin-bottom: 25px;
+	}
+	.dyxer .patrocinadores img:last-child{
+		margin-bottom: 0;
+	}
+	
+	
 }
 
 @media screen and (max-width: 225px){
