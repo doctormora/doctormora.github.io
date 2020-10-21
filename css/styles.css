@@ -268,10 +268,59 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 
 
+
+/* menu escritorio */
+.menu-escritorio{
+	background: transparent;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+}
+.menu-escritorio .navbar-brand{
+	color: transparent;
+}
+.menu-escritorio .enlaces-m-escritorio a:link{
+	margin-left: 35px;
+	text-decoration: none;
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+}
+.menu-escritorio .enlaces-m-escritorio a:hover{
+	border-bottom: 3px solid var(--csec);
+	color: var(--csec);
+	padding-bottom: 5px;
+}
+.menu-e-top{
+	 background: rgb(247,247,250);
+     background: linear-gradient(0deg, rgba(247,247,250,0.99) 35%, rgba(251,254,255,0.99) 100%); 
+	-webkit-box-shadow: 0px 10px 16px -8px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 10px 16px -8px rgba(0,0,0,0.1);
+	box-shadow: 0px 10px 16px -8px rgba(0,0,0,0.1);
+	padding-top: 10px;
+	-webkit-transition-duration: 0.6s;
+	transition-duration: 0.6s;
+}
+.menu-e-top .enlaces-m-escritorio a:link{
+	color: var(--ct1);
+	font-weight: 400;
+}
+.menu-e-top .navbar-brand{
+	color: var(--ct1);
+	font-weight: 900;
+}
+.menu-e-top .enlaces-m-escritorio a:hover{
+	border-bottom: 3px solid var(--cpri);
+	color: var(--cpri);
+}
+
+
+
 /* ------ seccion banner ----------*/
 .banner{
 	background: var(--cf3);
-	min-height: 500px;
+	min-height: 550px;
 	padding-top: 20px;
 	padding-bottom: 40px;
 }
@@ -359,7 +408,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 /*-- banner gene --*/
 .banner-content{
-	padding-top: 90px;
+	padding-top: 120px;
 	padding-bottom: 90px;
 	background: var(--cf3);
 }
@@ -752,29 +801,28 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .information-dest .servicios{
 	padding-left: 60px;
 }
-
-	.information-dest .servicios ul li a:link{
-		width: 100%;
-		border-radius: 10px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		padding-left: 5%;
-		background: var(--cf4);
-		color: var(--ct1);
-		text-decoration: none;
-		position: relative;
-		display: flex;
-		align-items: center;
-		font-size: 18px;
-		font-weight: 900;
-		-webkit-transition-duration: 0.8s;
-		transition-duration: 0.8s;
-		
-	}
 .information-dest .servicios ul li a:visited{
 	color: var(--ct1);
 	background: var(--cf4);
 }
+.information-dest .servicios ul li a:link{
+	width: 100%;
+	border-radius: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 5%;
+	background: var(--cf4);
+	color: var(--ct1);
+	text-decoration: none;
+	position: relative;
+	display: flex;
+	align-items: center;
+	font-size: 18px;
+	font-weight: 900;
+	-webkit-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+
 .information-dest .servicios ul li a img{
 	margin-right: 20px;
 }
@@ -1112,6 +1160,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .pie ul li{
 	line-height: 35px;
 }
+.pie ul li a:visited{
+	color: var(--ct5);
+}
 .pie ul li a:link{
 	text-decoration: none;
 	color: var(--ct5);
@@ -1122,9 +1173,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	border-bottom: 2px solid var(--csec);
 	padding-bottom: 5px;
 }
-.pie ul li a:visited{
-	color: var(--ct5);
-}
+
 
 .pie .agi{
 	text-align: left;
@@ -1135,7 +1184,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .pie .agi img{
 	width: 200px;
 }
-.pie .contacto i{
+.pie .contacto i, .pie .enlaces i{
 	color: var(--csec);
 }
 .pie .copy p{
@@ -1404,6 +1453,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	}
 	.menu-bottom{
 		display: flex;
+	}
+	
+	.menu-escritorio{
+		display: none;
 	}
 
 

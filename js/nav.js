@@ -14,3 +14,14 @@
 		//	var contenedor = document.getElementById('carga');
 		//	contenedor.style.visibility = 'hidden';
 		//}
+
+
+
+	$(window).scroll(function() {        
+		var scroll = $(window).scrollTop();    
+		if (scroll < 100) {
+		   $(".menu-escritorio").removeClass("menu-e-top");    
+		}else{
+		   $(".menu-escritorio").addClass("menu-e-top");
+		}
+	});
