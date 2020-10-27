@@ -1,114 +1,4 @@
-<!doctype html>
-<html lang="es">
-  <head>
-   <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
-	<title>FAQS</title>
-	<link rel="shortcut icon" href="img/icon.ico" />
-	<script src="js/pace.min.js"></script>
-	  
-	  
-	  
-	<!-- fuentes -->
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet"> 
-	<!-- fuentes iconmoon -->
-	<link rel="stylesheet" href="css/fonts.css">
-	  
-	<!-- font awesome -->  
-	<script src="https://kit.fontawesome.com/871e8e7b15.js" crossorigin="anonymous"></script>
-
-	<!-- estilos carusel -->
-	<link rel="stylesheet" href="owl/owl.carousel.css">
-	<link rel="stylesheet" href="owl/owl.theme.default.css"> 
-	  
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-	
-	<!-- estilos css -->  
-	<link rel="stylesheet" href="css/styles.css">
-
-	
-
-	<!-- PWA-->
-	<meta name="theme-color" content="#f0f0f0"> 
-	<link rel="manifest" href="manifest.json">
-	  
-
-	  <!-- onesignal -->
-	  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-		<script>
-		  window.OneSignal = window.OneSignal || [];
-		  OneSignal.push(function() {
-			OneSignal.init({
-			  appId: "075d924a-c91c-4506-9ddb-e628eb044779",
-			});
-		  });
-		</script>
-	  
-  </head>
-  <body>
-	
-	  
-	
-	<!-- menu fijo movil solo se activa en dispositivos moviles -->
-	<section class="list-top fixed-top">
-		<div class="container d-flex align-items-center">
-			
-			
-			<span>CHARKAS</span>
-		    <!--<div class="spinner-border spinner-border-sm" id="carga" role="status"><span class="sr-only">Loading...</span></div>-->
-		  	<div class="onesignal-customlink-container ml-auto"></div>
-			
-			
-	 	</div>
-	</section> 
-	<!-- fin seccion menu -->   
-	  
-	<!-- menu flotante (solo se activa en dispositivos moviles) -->  
-	<div id="men" class="menu-movil">
-		<div class="men-cont">
-			<ul class="list-unstyled">
-				<li><a href="#">Preguntas Frecuentes</a></li>
-				<li><a href="#">Acerca de Nosotros</a></li>
-				<li><a href="#">Acerca de la Aplicación</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-			<img src="img/robot.svg" class="img-fluid" alt="robot">
-			<span class="cerrar">
-				<svg width="3.5em" height="3.5em" viewBox="0 0 16 16" id="cerrar-men" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-		  			<path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
-				</svg>
-			</span>
-		</div>
-	</div>
-	<!-- menu flotante (solo se activa en dispositivos moviles) -->  
-	  
-	  
-	  
-	<!-- seccion banner -->
-    <section class="banner-content">
-		<div class="container">
-			<div class="row d-flex align-items-center">
-				<div class="col-lg-12 col-md-12">
-					
-					<div class="media">
-					  <img src="img/poster.svg" class="align-self-start mr-3 img-fluid" width="130" alt="...">
-					  <div class="media-body">
-						<h5 class="mt-0">Preguntas Frecuentes</h5>
-						<p>En esta seccion resolvemos todas tus dudas.</p>
-					
-					  </div>
-					</div>
-
-				</div>
-			
-			</div>
-		</div>  
-	</section>
-	  
-	
-	  <section class="pie">
+ <section class="dr-mora">
 	  	<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
@@ -117,6 +7,65 @@
 			</div>
 		</div>
 	  </section>
+
+
+  
+	<!-- menu flotante (solo se activa en dispositivos moviles) -->  
+	<div id="men" class="menu-movil">
+		<div class="men-cont">
+			<ul class="list-unstyled">
+				<li><a href="faqs.php">FAQs</a></li>
+				<li><a href="faqs.php#nosotros">Acerca de Nosotros</a></li>
+				<li><a href="faqs.php#plataforma">Acerca de la Plataforma</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+			<!--
+			<span class="cerrar">
+				<svg width="3.5em" height="3.5em" viewBox="0 0 16 16" id="cerrar-men" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+		  			<path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+				</svg>
+			</span>
+
+-->
+		</div>
+	</div>
+	<!-- menu flotante (solo se activa en dispositivos moviles) -->  
+
+
+
+	  
+	  <footer class="pie">
+	  	<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-4 agi">
+				
+					<img src="img/icon256n.png" class="img-fluid" alt="">
+				
+				</div>
+				<div class="col-lg-4 col-md-4 enlaces" id="enlaces">
+					<h4>Enlaces</h4>
+					<ul class="list-unstyled">
+						<li><a href="faqs.php"><i class="fas fa-question"></i> FAQS</a></li>
+						<li><a href="faqs.php#nosotros"><i class="fas fa-child"></i> Acerca de Nosotros</a></li>
+						<li><a href="faqs.php#plataforma"><i class="fas fa-code"></i> Acerca de la plataforma </a></li>
+						<li><a href="faqs.php#quejas"><i class="far fa-angry"></i> Quejas, Sugerencias, etc...</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-4 col-md-4 contacto" id="contacto">
+					<h4>Contacto</h4>
+					<ul class="list-unstyled">
+						<li><a href="#"><i class="fab fa-whatsapp"></i> 419 138 9032</a></li>
+						<li><a href="#"><i class="far fa-envelope"></i> dyxerteam@gmail.com</a></li>
+						<li><a href="apk.php"><i class="fab fa-android"></i> Descarga el APK</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-12 col-md-12 copy">
+					<p>© Charkas 2020 Todos los derechos reservados. </p>
+				</div>
+			</div>  
+		</div>
+	  </footer>
+	  
 	  
 	  
 	  <!-- menu bottom -->
@@ -124,7 +73,7 @@
 	  	<div class="container">
 			<div class="row">
 				<ul class="list-unstyled list-inline">
-					<li class="list-inline-item"><a href="index.html"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<li class="list-inline-item"><a href="index.php"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
   <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
 </svg></a></li>
@@ -152,20 +101,21 @@
 						
 						</a></li>
 					<li class="list-inline-item">
-					
-					<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-up" id="mostrar" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+						
+						<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-box-arrow-up" id="mostrar" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1h-2z"/>
   <path fill-rule="evenodd" d="M7.646.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 1.707V10.5a.5.5 0 0 1-1 0V1.707L5.354 3.854a.5.5 0 1 1-.708-.708l3-3z"/>
 </svg>
-					
-					</li>
+						
+						</li>
 				</ul>
 			</div>  
 		</div>
 	  </section>
 	  
-
+	  
     <!-- Optional JavaScript -->
+	
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	  
     <script src="js/jquery-3.5.1.slim.min.js"></script>
@@ -174,6 +124,45 @@
 	<script src="owl/owl.carousel.js"></script>
 	<script src="js/app.js"></script>
 	<script src="js/nav.js"></script>
-	 
+	<script>
+		$('.loop').owlCarousel({
+    		center: true,
+    		items:2,
+		  	dots:false,
+		  	nav: true,
+    		loop:true,
+    		autoWidth:true,
+    		margin:30,
+    		responsive:{
+        		600:{
+            		items:4
+        		}
+    		}
+		});
+		
+		$('.nonloop').owlCarousel({
+    		center: true,
+    		items:2,
+			dots:false,
+		  	nav: true,
+	 		autoWidth:true,
+    		loop:false,
+    		margin:25,
+    		responsive:{
+        		600:{
+            		items:4
+        		}
+    		}
+		});
+
+		/*
+		$(function(){
+			var barraaltura = $('.list-top').innerHeight();
+			console.log(barraaltura);
+		});
+		*/
+
+	  </script>
+					
   </body>
 </html>

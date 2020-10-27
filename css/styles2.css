@@ -52,7 +52,7 @@
 	font-size: 36px;
 }
 
-.numeros{
+.numeros-coro{
 	width: 100%;
 	height: auto;
 	background: var(--cf3);
@@ -60,12 +60,12 @@
 	padding-bottom: 80px;
 	
 }
-.numeros .numeros-t{
+.numeros-coro .numeros-t{
 	display: flex;
 	justify-content: space-around;
 }
 
-.numeros .numeros-t .card{
+.numeros-coro .numeros-t .card{
 	width: 20%;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -74,28 +74,28 @@
 	border-radius: 10px;
 	border: none;
 }
-.numeros .numeros-t .card:nth-child(1){
+.numeros-coro .numeros-t .card:nth-child(1){
 	background: var(--cpri);
 }
-.numeros .numeros-t .card:nth-child(2){
+.numeros-coro .numeros-t .card:nth-child(2){
 	background: #20b8a5;
 }
-.numeros .numeros-t .card:nth-child(3){
+.numeros-coro .numeros-t .card:nth-child(3){
 	background: black;
 }
-.numeros .numeros-t .card:nth-child(4){
+.numeros-coro .numeros-t .card:nth-child(4){
 	background: yellow;
 	color: black;
 }
-.numeros .numeros-t .card h5{
+.numeros-coro .numeros-t .card h5{
 	font-size: 42px;
 	font-weight: 900;
 }
-.numeros .numeros-t .card p{
+.numeros-coro .numeros-t .card p{
 	font-size: 16px;
 	font-weight: 900;
 }
-.numeros h4{
+.numeros-coro h4{
 	text-align: center;
 	margin-top: 65px;
 	font-weight: 300;
@@ -159,24 +159,24 @@
 
 
 @media screen and (max-width: 991px){
-	.numeros .numeros-t .card{
+	.numeros-coro .numeros-t .card{
 		width: 22%;
 	}
-	.numeros .numeros-t .card p {
+	.numeros-coro .numeros-t .card p {
 		font-size: 14px;
 	}
 }
 
 @media screen and (max-width: 767px){
-	.numeros .numeros-t{
+	.numeros-coro .numeros-t{
 		display: flex;
 		justify-content: center;
 	}
-	.numeros .numeros-t .card{
+	.numeros-coro .numeros-t .card{
 		width: 40%;
 		margin: 2%;
 	}
-	.numeros h4 {
+	.numeros-coro h4 {
 		font-size: 12px;
 	}
 	.prevencion h3 {
@@ -200,11 +200,11 @@
 		margin-top: -10px;
 	}
 	
-	.numeros{
+	.numeros-coro{
 		padding-top: 40px;
     	padding-bottom: 40px;
 	}
-	.numeros h4{
+	.numeros-coro h4{
 		margin-top: 30px;
 	}
 	.prevencion{
@@ -255,7 +255,7 @@
 	}
 }
 @media screen and (max-width: 344px){
-	.numeros .numeros-t .card{
+	.numeros-coro .numeros-t .card{
 		width: 80%;
 		margin-left: 10%;
 		margin-right: 10%;

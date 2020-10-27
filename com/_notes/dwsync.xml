@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name="OneSignal-Web-SDK-HTTPS-Integration-Files.zip" server="files.000webhost.com/public_html/" local="132454729330823045" remote="132458387400000000" Dst="2" />
+<file name="OneSignal-Web-SDK-HTTPS-Integration-Files.zip" server="files.000webhost.com/public_html/" local="132454729330823045" remote="132483289800000000" Dst="1" />
+<file name="OneSignalSDKUpdaterWorker.js" server="files.000webhost.com/public_html/" local="131672655620000000" remote="132483289800000000" Dst="1" />
+<file name="OneSignalSDKWorker.js" server="files.000webhost.com/public_html/" local="131672655500000000" remote="132483289800000000" Dst="1" />
 </dwsync>

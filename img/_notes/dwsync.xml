@@ -75,11 +75,6 @@
 <file name="favicon.ico" server="files.000webhost.com/public_html/" local="132454639543256489" remote="132458388000000000" Dst="2" />
 <file name="gobierno.png" server="files.000webhost.com/public_html/" local="132454639543336448" remote="132458388000000000" Dst="2" />
 <file name="gobierno2.png" server="files.000webhost.com/public_html/" local="132454639543336448" remote="132458388000000000" Dst="2" />
-<file name="icon1024.png" server="files.000webhost.com/public_html/" local="132454736731084089" remote="132458388000000000" Dst="2" />
-<file name="icon128.png" server="files.000webhost.com/public_html/" local="132454739103802867" remote="132458388000000000" Dst="2" />
-<file name="icon192.png" server="files.000webhost.com/public_html/" local="132454738478348597" remote="132458388000000000" Dst="2" />
-<file name="icon256.png" server="files.000webhost.com/public_html/" local="132454738072589988" remote="132458388000000000" Dst="2" />
-<file name="icon512.png" server="files.000webhost.com/public_html/" local="132454737521551499" remote="132458388000000000" Dst="2" />
 <file name="iglesia2.png" server="files.000webhost.com/public_html/" local="132454639543336448" remote="132458388000000000" Dst="2" />
 <file name="la-carretera.png" server="files.000webhost.com/public_html/" local="132454639543376436" remote="132458388000000000" Dst="2" />
 <file name="image-icon.png" server="files.000webhost.com/public_html/" local="132454639543376436" remote="132458388600000000" Dst="2" />
@@ -116,4 +111,19 @@
 <file name="house.png" server="files.000webhost.com/public_html/" local="132471825554619811" remote="132472239600000000" Dst="2" />
 <file name="house.svg" server="files.000webhost.com/public_html/" local="132471838599735128" remote="132472239600000000" Dst="2" />
 <file name="people.svg" server="files.000webhost.com/public_html/" local="132471840772004188" remote="132472239600000000" Dst="2" />
+<file name="agi.png" server="files.000webhost.com/public_html/" local="132476318750372348" remote="132483285600000000" Dst="1" />
+<file name="agi.svg" server="files.000webhost.com/public_html/" local="132476318410945640" remote="132483285600000000" Dst="1" />
+<file name="bad.png" server="files.000webhost.com/public_html/" local="132475492696509271" remote="132483285600000000" Dst="1" />
+<file name="gbi-min-2.jpg" server="files.000webhost.com/public_html/" local="132474743283005371" remote="132483285600000000" Dst="1" />
+<file name="gbi-min.jpg" server="files.000webhost.com/public_html/" local="132474742113114787" remote="132483286200000000" Dst="1" />
+<file name="icon.ico" server="files.000webhost.com/public_html/" local="132475437738000644" remote="132483286200000000" Dst="1" />
+<file name="icon1024n.png" server="files.000webhost.com/public_html/" local="132475432064938384" remote="132483286200000000" Dst="1" />
+<file name="icon128n.png" server="files.000webhost.com/public_html/" local="132475434886106479" remote="132483286200000000" Dst="1" />
+<file name="icon192n.png" server="files.000webhost.com/public_html/" local="132475434257291298" remote="132483286200000000" Dst="1" />
+<file name="icon256n.png" server="files.000webhost.com/public_html/" local="132475433657534557" remote="132483286200000000" Dst="1" />
+<file name="icon512n.png" server="files.000webhost.com/public_html/" local="132475432965719797" remote="132483286200000000" Dst="1" />
+<file name="people2-min.png" server="files.000webhost.com/public_html/" local="132474745893787365" remote="132483286200000000" Dst="1" />
+<file name="power1.png" server="files.000webhost.com/public_html/" local="132476362411830761" remote="132483286200000000" Dst="1" />
+<file name="power2.png" server="files.000webhost.com/public_html/" local="132476363002916918" remote="132483286200000000" Dst="1" />
+<file name="power3.png" server="files.000webhost.com/public_html/" local="132476363571257091" remote="132483286200000000" Dst="1" />
 </dwsync>
