@@ -5,71 +5,169 @@
 	  
 	  
 	  
-	<!-- seccion banner -->
+	<!-- seccion banner 
+ <section class="eventos">
+		
+			
+		  
+			
+			 
+			 	
+	 
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" >
+		  <ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		  </ol>
+		  <div class="carousel-inner">
+			<div class="carousel-item active eventos-card" >
+			  <div class="infor-eve"  style="background: var(--cf31);">
+					
+				</div>
+			</div>
+			<div class="carousel-item eventos-card" >
+			  <div class="infor-eve"   style="background: var(--cf31);">
+				
+				
+				</div>
+			</div>
+			<div class="carousel-item eventos-card">
+			  <div class="infor-eve"   style="background: var(--cf31);">
+				
+				
+				</div>
+			</div>
+			  <div class="carousel-item eventos-card">
+			  <div class="infor-eve"  style="background: var(--cf31);">
+				
+				
+				</div>
+			</div>
+		  </div>
+
+		<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		  </a>
+
+
+</div>
+	   
+		
+		 
+	  </section>
+-->
+
+
     <section class="banner d-flex align-items-center">
 		<div class="container ">
 			<div class="row d-flex align-items-center">
 				<div class="col-lg-6 col-md-6 col-sm-12 ">
 					<h1>CHARKAS</h1>
 					<p>En esta plataforma puedes encontrar negocios, contratar servicios, además de enterarte sobre todo lo que ocurre en <strong>Doctor Mora y sus Comunidades.</strong></p>
-					<p class="proximamente">Proximamente 🤞</p>
+					<p class="proximamente">Proximamente &#x1F525;</p>
 				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 tarjetas-pri">
-					<!--<img src="img/men.png" class="img-fluid persona" alt="" width="500px">-->
-					<a href="convocatorias.php">
-					<div class="card">
+				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
+					<img src="img/mobile.png" class="img-fluid persona" alt="" width="400px">
+					
+					
+					
+					
+					
+				</div>
+			
+			
+				<div class="col-lg-12 col-md-12 col-sm-12 tarjetas-pri">
+					
+					<a href="convocatorias.php" class="card">
+					
 					  <div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4 text-center">
+							
+						 <img src="img/campana.svg" class="img-fluid" alt="..." width="64px">
+						</div>
+						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
+						  
+							<h5 class="card-title">Avisos</h5>
+						  
+						</div>
+					  </div>
+					
+					</a>
+					
+					
+					<a href="convocatorias.php" class="card">
+					
+					  <div class="row">
+						<div class="col-md-4 col-sm-4 text-center">
 							
 						 <img src="img/poster.svg" class="img-fluid" alt="..." width="64px">
 						</div>
-						<div class="col-md-8">
-						  <div class="card-body">
+						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
+						 
 							<h5 class="card-title">Convocatorias</h5>
-						  </div>
+						
 						</div>
 					  </div>
-					</div>
+					
 					</a>
 					
-					<a href="#">
-					<div class="card">
+					<a href="#" class="card">
+					
 					  <div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4 text-center">
 						
 						  <img src="img/compromiso.svg" class="img-fluid" alt="..." width="64px">
 						</div>
-						<div class="col-md-8">
-						  <div class="card-body">
+						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
+						 
 							<h5 class="card-title">Apoyo Social</h5>
-						  </div>
+					
 						</div>
 					  </div>
-					</div>
+				
 					</a>
-					<a href="#">
-					<div class="card">
+					
+					<a href="#" class="card">
+					
 					  <div class="row">
-						<div class="col-md-4">
+						<div class="col-md-4 col-sm-4 text-center">
 						
-						<img src="img/codigo-de-conducta.svg" class="img-fluid" alt="..." width="64px">
+						  <img src="img/periodico.svg" class="img-fluid" alt="..." width="64px">
 						</div>
-						<div class="col-md-8">
-						  <div class="card-body">
-							<h5 class="card-title">Buena Conducta</h5>
-						  </div>
+						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
+						 
+							<h5 class="card-title">Noticias</h5>
+						  
 						</div>
 					  </div>
-					</div>
+				
 					</a>
-					
-					
+				
+				
 				</div>
+			
+			
 			</div>
 		</div>  
 	</section>
 	 
-	  
+
+<!--
+	<section class="public">
+		<div class="cont-pu">1</div>
+		<div class="cont-pu">2</div>
+		<div class="cont-pu">3</div>
+		<div class="cont-pu">4</div>
+		<div class="cont-pu">5</div>
+	</section> 
+	  -->
 	<section class="s-coronavirus">
 	 	<div class="container">
 	  		<div class="row">
@@ -81,12 +179,13 @@
 			</div>
 		</div>
 	</section>  
-	  
+	 
+
 	<!-- seccion tarjetas rapidas -->  
 	 <section class="tarjetas-r">
 	 	<div class="container">
 			
-				<h2 class="parr">En Doctor Mora tenemos <strong>todo lo que buscas</strong> 🖐️ </h2>
+				<h2 class="parr">En Doctor Mora tenemos <strong>todo lo que buscas</strong> &#x1F929; </h2>
 			
 			<div class="row tarjetas-r-c">
 		
@@ -132,7 +231,7 @@
 	 </section> 
 	  
 	  
-	 
+	 <!--
 	  
 	  <section class="eventos">
 		 <div class="container">
@@ -255,7 +354,7 @@
 			  
 			  <div class="item mas-eve">
 				
-				<h5>Más Eventos</h5>
+				<h5>MÃ¡s Eventos</h5>
 			  	
 			</div>
 			  

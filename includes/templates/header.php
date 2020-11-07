@@ -14,6 +14,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet"> 
 	<!-- fuentes iconmoon -->
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="fonts/coronavirus/style.css">
 	  
 	<!-- font awesome -->  
 	<script src="https://kit.fontawesome.com/871e8e7b15.js" crossorigin="anonymous"></script>
@@ -83,7 +84,7 @@
 					  <a href="index.php">Inicio</a>
 					  <a href="#enlaces">Enlaces</a>
 					  <a href="#contacto">Contacto</a>
-					  <a href="#datos">Datos</a>
+					  <a href="#datos">Datos &#x1F984; </a>
 					</div>
 				  </div>
 		  </div>

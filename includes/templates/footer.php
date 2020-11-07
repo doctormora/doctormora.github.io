@@ -2,7 +2,7 @@
 	  	<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h6>Desarrollado con mucho <img src="img/corazon.png" class="img-fluid corazon" alt="" width="25px"> en Doctor Mora Gto. </h6>
+					<h6>Desarrollado con <img src="img/corazon.png" class="img-fluid corazon" alt="" width="25px"> en Doctor Mora Gto. </h6>
 				</div>
 			</div>
 		</div>
@@ -14,10 +14,9 @@
 	<div id="men" class="menu-movil">
 		<div class="men-cont">
 			<ul class="list-unstyled">
+				<li><a href="#">Datos</a></li>
 				<li><a href="faqs.php">FAQs</a></li>
-				<li><a href="faqs.php#nosotros">Acerca de Nosotros</a></li>
-				<li><a href="faqs.php#plataforma">Acerca de la Plataforma</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li><a href="contacto.php">Contacto</a></li>
 			</ul>
 			<!--
 			<span class="cerrar">

@@ -106,6 +106,33 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   display: none;
 }
 
+/* -----prueba galeria-------*/
+
+.public {
+  width: 100%;
+  height: auto;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  white-space: nowrap;
+}
+.public::-webkit-scrollbar {
+  display: none;
+}
+.public .cont-pu {
+  width: 250px;
+  height: 100px;
+  background: white;
+  border-radius: 10px;
+
+  display: inline-block;
+  margin: 0 10px;
+}
+
 /* --- seccion menu ---- */
 
 .list-top {
@@ -303,7 +330,6 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   color: var(--cpri);
 }
 
-
 /* ------ seccion banner ----------*/
 .banner {
   background: var(--cf3);
@@ -342,53 +368,33 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   color: var(--csec);
   border-bottom: 2px solid var(--csec);
 }
-.tarjetas-pri a:link {
+
+.tarjetas-pri {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   align-content: center;
-  text-decoration: none;
+  padding: 0;
+  margin-top: 25px;
 }
 
-.tarjetas-pri a:link .card {
-  width: 80%;
+.tarjetas-pri .card {
+  width: 24%;
   margin-top: 20px;
   padding: 15px 10px;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
   background: var(--cf31);
   color: var(--ct4);
   text-decoration: none;
 }
-.tarjetas-pri a:visited .card {
-  background: var(--cf31);
-  color: var(--ct4);
-}
-.tarjetas-pri a:active .card {
-  background: var(--cf5);
-  color: var(--ct5);
-}
-/*
-.tarjetas-pri .card:hover{
-	cursor: pointer;
-	background: #fff;
-	color: var(--nf);
 
+.tarjetas-pri .card .tarjetas-pri-text {
+  text-align: left;
+  align-items: center;
+  display: flex;
 }
-*/
-.tarjetas-pri a:link .card img {
-  position: relative;
-  margin-left: 15px;
+.tarjetas-pri .card .tarjetas-pri-text h5 {
   margin-bottom: 0;
-}
-.tarjetas-pri a:link .card .card-body h5 {
-  margin-bottom: 0;
-  position: relative;
-  margin-left: -45px;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 16px;
 }
 
 /*-- banner gene --*/
@@ -531,8 +537,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 /* --------- seccion eventos -----------------*/
 .eventos {
   background: var(--cf1);
-  padding-bottom: 80px;
   position: relative;
+  width: 100%;
+  margin-top: 57px;
 }
 .eventos h2 {
   font-size: 24px;
@@ -785,8 +792,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   align-items: center;
   font-size: 18px;
   font-weight: 900;
+  /*
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
+  */
 }
 
 .information-dest .servicios ul li a img {
@@ -1278,96 +1287,92 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   font-weight: 400;
 }
 
-
-
 /*  ---- seccion faqs ----- */
-.ancla{
-	display: block;
-	height: 1px;
-	width: 20px;
-	position: relative;
-	z-index: -100;
-	top: -50px;
+.ancla {
+  display: block;
+  height: 1px;
+  width: 20px;
+  position: relative;
+  z-index: -100;
+  top: -50px;
 }
-.faqs h5{
-	text-align: center;
-	font-size: 42px;
-	color: var(--csec);
-	font-weight: 900;
+.faqs h5 {
+  text-align: center;
+  font-size: 42px;
+  color: var(--csec);
+  font-weight: 900;
 }
-.faqs p{
-	text-align: center;
-	color: var(--ct5);
-	font-size: 18px;
+.faqs p {
+  text-align: center;
+  color: var(--ct5);
+  font-size: 18px;
 }
-.faqs-body{
-	padding-left: 15%;
-	padding-right: 15%;
-	padding-bottom: 60px;
-	background: var(--cf2);
-}
-
-.faqs-body .subtitles-faqs{
-	font-size: 42px;
-	font-weight: 900;
-	margin-bottom: 25px;
-	margin-top: 40px;
-	display: inline-block;
-	padding: 5px 30px;
-	border-radius: 10px;
-}
-.f-color-1{
-	background: #40FFAF;
-	color: #14917B;
-}
-.f-color-2{
-	background: #AD1BF0;
-	color: #4D1491;
-}
-.f-color-3{
-	background: #F0C51B;
-	color: #886B16;
-}
-.f-color-4{
-	background: #1B82F0;
-	color: #163D88;
+.faqs-body {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-bottom: 60px;
+  background: var(--cf2);
 }
 
-.f-color-5{
-	background: #B5B5B5;
-	color: #757373;
+.faqs-body .subtitles-faqs {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  margin-top: 40px;
+  display: inline-block;
+  padding: 5px 30px;
+  border-radius: 10px;
 }
-.f-color-6{
-	background: #DF0C78;
-	color: #8c0e37;
+.f-color-1 {
+  background: #40ffaf;
+  color: #14917b;
+}
+.f-color-2 {
+  background: #ad1bf0;
+  color: #4d1491;
+}
+.f-color-3 {
+  background: #f0c51b;
+  color: #886b16;
+}
+.f-color-4 {
+  background: #1b82f0;
+  color: #163d88;
 }
 
-.faqs-body .faqs-body-t{
-	margin-bottom: 25px;
+.f-color-5 {
+  background: #b5b5b5;
+  color: #757373;
 }
-.faqs-body .faqs-body-t h4{
-	font-size: 24px;
-	font-weight: 900;
-	color: var(--ct1);
-}
-.faqs-body .faqs-body-t p{
-	font-size: 16px;
-	color: var(--ct3);
-	line-height: 30px;
-}
-.faqs-body .faqs-body-t ul li{
-	line-height: 30px;
+.f-color-6 {
+  background: #df0c78;
+  color: #8c0e37;
 }
 
-
+.faqs-body .faqs-body-t {
+  margin-bottom: 25px;
+}
+.faqs-body .faqs-body-t h4 {
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--ct1);
+}
+.faqs-body .faqs-body-t p {
+  font-size: 16px;
+  color: var(--ct3);
+  line-height: 30px;
+}
+.faqs-body .faqs-body-t ul li {
+  line-height: 30px;
+}
 
 /*---------------------------------------------------- diseño responsivo -----------------------------------------------------------*/
 
 /*---- cuando el dispositivo es mayor a 992 se aplicaran los efecto hover ---*/
 
 @media screen and (min-width: 992px) {
-  .tarjetas-pri a:hover .card {
-    background: #fff;
+  .tarjetas-pri .card:hover {
+    background: var(--cf2);
     color: var(--ct1);
   }
 
@@ -1476,16 +1481,16 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     padding-top: 80px;
   }
 
-  .tarjetas-pri a:link {
-    align-items: flex-end;
+  .tarjetas-pri {
+    flex-wrap: wrap;
+    margin-top: 0;
   }
-  .tarjetas-pri a:link .card {
-    width: 75%;
+  .tarjetas-pri .card {
+    width: 49%;
   }
-
-  .tarjetas-pri a:link .card .card-body h5 {
-    font-size: 14px;
-    margin-left: -30px;
+  .tarjetas-pri .card:active {
+    background: var(--cf5);
+    color: var(--ct5);
   }
 
   /*---- estilos tarjetas rapidas ------*/
@@ -1510,9 +1515,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   }
 
   /*------------- seccion eventos ------------*/
-  .eventos {
+  /*.eventos {
     display: none;
-  }
+  }*/
   .eventos .eventos-card {
     height: 300px;
   }
@@ -1666,18 +1671,15 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .enlaces-convocatorias ul {
     padding-left: 25px;
   }
-	
-	
-	/* ---- page faqs (preguntas) ------*/
-	.faqs-body{
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.faqs-body .subtitles-faqs{
-		font-size: 36px;
-	}
-	
-	
+
+  /* ---- page faqs (preguntas) ------*/
+  .faqs-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .faqs-body .subtitles-faqs {
+    font-size: 36px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1685,31 +1687,15 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .banner {
     text-align: center;
   }
-  .banner img {
-    width: 250px;
-  }
 
-  .tarjetas-pri {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 2%;
-  }
-
-  .tarjetas-pri a:link .card {
-    width: 100%;
-    margin: 0;
-    padding: 10px 10px;
-  }
-
-  .tarjetas-pri a:link .card img {
-    margin-left: 0;
-  }
-  .tarjetas-pri a:link .card .card-body {
-    padding: 0;
-  }
-  .tarjetas-pri a:link .card .card-body h5 {
-    margin-left: 0;
+  .banner .persona {
     display: none;
+  }
+
+  .tarjetas-pri .card .tarjetas-pri-text h5 {
+    font-size: 14px;
+
+    font-weight: 900;
   }
 
   /*---- estilos tarjetas rapidas ------*/
@@ -1858,7 +1844,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
   /* pagina generales.----- page convocatorias */
 
-  .banner-content .media .media-body h5, .faqs h5 {
+  .banner-content .media .media-body h5,
+  .faqs h5 {
     font-size: 32px;
   }
 
@@ -1918,25 +1905,22 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .enlaces-convocatorias ul li a:hover {
     border-bottom: none;
   }
-	
-	
-	/* --------page faqs ---*/
-	
-	.faqs-body .subtitles-faqs{
-		font-size: 24px;
-	}
-	.faqs-body .faqs-body-t h4 {
+
+  /* --------page faqs ---*/
+
+  .faqs-body .subtitles-faqs {
+    font-size: 24px;
+  }
+  .faqs-body .faqs-body-t h4 {
     font-size: 18px;
-	}
-	.faqs-body .faqs-body-t img{
-		width: 50% !important;
-	}
-	.faqs-body .faqs-body-t p, .faqs-body .faqs-body-t ul li {
+  }
+  .faqs-body .faqs-body-t img {
+    width: 50% !important;
+  }
+  .faqs-body .faqs-body-t p,
+  .faqs-body .faqs-body-t ul li {
     font-size: 14px;
-	}
-	
-	
-	
+  }
 }
 
 @media screen and (max-width: 575px) {
@@ -1957,9 +1941,24 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     margin-right: 5%;
   }
 
-  .banner .persona {
-    display: none;
+  .tarjetas-pri {
+    justify-content: center;
   }
+  .tarjetas-pri .card {
+    width: 42%;
+    text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .tarjetas-pri .card .tarjetas-pri-text {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tarjetas-pri .card .tarjetas-pri-text h5 {
+    margin-top: 15px;
+  }
+
   /*---- estilos tarjetas rapidas ------*/
   .tarjetas-r {
     padding-bottom: 50px;
@@ -2057,7 +2056,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
   /* pagina generales.----- page convocatorias */
 
-  .banner-content .media .media-body p, .faqs p {
+  .banner-content .media .media-body p,
+  .faqs p {
     font-size: 16px;
   }
 }
@@ -2181,6 +2181,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 
 @media screen and (max-width: 384px) {
+  .tarjetas-pri .card .tarjetas-pri-text h5 {
+    font-size: 12px;
+  }
+
   /* cronavirus listion */
   .s-coronavirus h3 a:link {
     font-size: 18px;
@@ -2226,7 +2230,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     font-size: 18px;
   }
 
-  .banner-content .media .media-body h5, .faqs h5 {
+  .banner-content .media .media-body h5,
+  .faqs h5 {
     font-size: 24px;
   }
   .dyxer .patrocinadores img {

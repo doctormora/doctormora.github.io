@@ -98,7 +98,7 @@
 <file name="logomini.png" server="files.000webhost.com/public_html/" local="132459746201452307" remote="132459937200000000" Dst="2" />
 <file name="codigo-de-conducta.svg" server="files.000webhost.com/public_html/" local="132468513323960794" remote="132469629000000000" Dst="2" />
 <file name="compras.svg" server="files.000webhost.com/public_html/" local="132468496126869925" remote="132469629000000000" Dst="2" />
-<file name="compromiso.svg" server="files.000webhost.com/public_html/" local="132468497294637794" remote="132469629000000000" Dst="2" />
+<file name="compromiso.svg" server="files.000webhost.com/public_html/" local="132485657892913781" remote="132486605400000000" Dst="1" />
 <file name="coronavirus.svg" server="files.000webhost.com/public_html/" local="132468520248617236" remote="132469629000000000" Dst="2" />
 <file name="gobierno.svg" server="files.000webhost.com/public_html/" local="132468499402713823" remote="132469629000000000" Dst="2" />
 <file name="mascota.png" server="files.000webhost.com/public_html/" local="132448708456668498" remote="132469629600000000" Dst="2" />
@@ -126,4 +126,9 @@
 <file name="power1.png" server="files.000webhost.com/public_html/" local="132476362411830761" remote="132483286200000000" Dst="1" />
 <file name="power2.png" server="files.000webhost.com/public_html/" local="132476363002916918" remote="132483286200000000" Dst="1" />
 <file name="power3.png" server="files.000webhost.com/public_html/" local="132476363571257091" remote="132483286200000000" Dst="1" />
+<file name="campana.svg" server="files.000webhost.com/public_html/" local="132485658087692552" remote="132486605400000000" Dst="1" />
+<file name="men.svg" server="files.000webhost.com/public_html/" local="132485602996564716" remote="132486605400000000" Dst="1" />
+<file name="mobile.png" server="files.000webhost.com/public_html/" local="132485616529076895" remote="132486605400000000" Dst="1" />
+<file name="mobile.svg" server="files.000webhost.com/public_html/" local="132485618228276078" remote="132486605400000000" Dst="1" />
+<file name="periodico.svg" server="files.000webhost.com/public_html/" local="132485664372179535" remote="132486605400000000" Dst="1" />
 </dwsync>
