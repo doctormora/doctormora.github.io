@@ -493,8 +493,8 @@
 							<div class="card h-100" >
 							  <div class="card-body reportar">
 								  <ul class="list-unstyled">
-								  		<li class="linkre"><a href="#">Quiero Reportar</a></li>
-										<li class="linkve"><a href="#">Ver Reportes</a></li>
+								  		<li><a href="#">Quiero Reportar</a></li>
+										<li><a href="#">Ver Reportes</a></li>
 								  	</ul>		
 							  </div>
 							</div>
