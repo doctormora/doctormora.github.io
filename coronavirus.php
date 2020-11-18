@@ -10,7 +10,7 @@
 				<div class="col-lg-12 col-md-12">
 					<h1>CORONAVIRUS</h1>
 					<p class="d-m">Doctor Mora</p>
-					<p class="confirmados"><strong>86</strong> Casos Confirmados</p>
+					<p class="confirmados"><strong>107</strong> Casos Confirmados</p>
 				</div>
 			</div>
 		</div>  
@@ -22,7 +22,7 @@
 					
 					<div class="card">
 					  <div class="card-body">
-						<h5 class="card-title">13</h5>
+						<h5 class="card-title">20</h5>
 						<p class="card-text">Casos Activos</p>
 					  </div>
 					</div>
@@ -30,7 +30,7 @@
 				 
 					<div class="card">
 					  <div class="card-body">
-						<h5 class="card-title">66</h5>
+						<h5 class="card-title">80</h5>
 						<p class="card-text">Recuperados</p>
 					  </div>
 					</div>
@@ -46,14 +46,14 @@
 				
 					<div class="card">
 					  <div class="card-body">
-						<h5 class="card-title">8</h5>
+						<h5 class="card-title">2</h5>
 						<p class="card-text">Investigación</p>
 					  </div>
 					</div>
 					
 
 			</div>
-			<h4>Ultima actualización 31 / Octubre / 2020</h4>
+			<h4>Ultima actualización 11 / Noviembre / 2020</h4>
 		</div>
 	  </section>  
 	  
