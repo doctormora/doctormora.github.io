@@ -1237,7 +1237,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .s-convocatorias {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 80px;
   padding-bottom: 120px;
 }
 .s-convocatorias .media {
@@ -1254,7 +1254,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   background: var(--cf2);
 }
 .s-convocatorias img {
-  width: 98px;
+  width: 60px;
 }
 .s-convocatorias .media .media-body {
   padding-left: 20px;
@@ -1292,69 +1292,47 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   font-weight: 600;
 }
 
-.enlaces-convocatorias .btn-pu {
-  background: var(--csec);
-  color: white;
-  border-radius: 50px;
-  font-weight: 900;
-  font-size: 16px;
-  outline: none;
-  padding: 10px 30px;
-  text-decoration: none;
-  -webkit-box-shadow: 0px 10px 25px 0px rgba(0, 240, 255, 0.35);
-  -moz-box-shadow: 0px 10px 25px 0px rgba(0, 240, 255, 0.35);
-  box-shadow: 0px 10px 25px 0px rgba(0, 240, 255, 0.35);
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  margin-bottom: 40px;
+.s-convocatorias .barra-enlaces .btns-convocatorias{
+	margin-bottom: 40px;
+	padding-left: 40px;
 }
-.enlaces-convocatorias .btn-pu:hover {
-  background: var(--cpri);
-  -webkit-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
-  -moz-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
-  box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+.s-convocatorias .barra-enlaces .btns-convocatorias a{
+	display: block;
+	background: var(--cf2);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 25px;
+	border-left: 5px solid var(--csec);
+	color: var(--ct1);
 }
-.enlaces-convocatorias .btn-pa {
-  background: #2d2d2d;
-  font-size: 16px;
-  font-weight: 900;
-  outline: none;
-  text-decoration: none;
-  padding: 10px 27px;
-  color: #a9a9a9;
-  border-radius: 50px;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  margin-bottom: 40px;
-}
-.enlaces-convocatorias .btn-pa:hover {
-  color: white;
-  -webkit-box-shadow: 0px 10px 25px 0px rgba(45, 45, 45, 0.35);
-  -moz-box-shadow: 0px 10px 25px 0px rgba(45, 45, 45, 0.35);
-  box-shadow: 0px 10px 25px 0px rgba(45, 45, 45, 0.35);
-  outline: none;
-  text-decoration: none;
+.s-convocatorias .barra-enlaces .btns-convocatorias a h4{
+	font-size: 16px;
+	margin-bottom: 0;
 }
 
-.enlaces-convocatorias ul {
-  padding-left: 65px;
+
+.barra-enlaces ul {
+  padding-left: 40px;
 }
-.enlaces-convocatorias ul h5 {
+.barra-enlaces ul h5 {
   font-size: 30px;
   color: var(--ct1);
   font-weight: 900;
 }
-.enlaces-convocatorias ul li a:visited {
+.barra-enlaces ul li a:visited {
   color: var(--ct2);
   text-decoration: none;
 }
-.enlaces-convocatorias ul li a:link {
+.barra-enlaces ul li a:link {
   line-height: 32px;
   color: var(--ct2);
   font-size: 16px;
   text-decoration: none;
 }
-.enlaces-convocatorias ul li a:hover {
+.barra-enlaces ul li a:hover {
   color: var(--cpri);
   border-bottom: 3px solid var(--cpri);
   font-weight: 400;
@@ -1367,14 +1345,15 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   padding-bottom: 120px;
 }
 .page-fechas .content-fech{
-	margin-bottom: 5px;
+	margin-bottom: 20px;
 	padding-top: 10px;
 	padding-right: 10px;
 	padding-bottom: 10px;
-	padding-left: 20px;
+	padding-left: 25px;
 	text-decoration: none;
 	color: var(--ct1);
 	display: block;
+	border-left: 5px solid var(--teal);
 }
 .page-fechas .content-fech:hover{
 	background: var(--cf2);
@@ -1400,7 +1379,26 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	color: var(--ct5);
 	font-weight: 400;
 }
-
+.s-fechas .barra-enlaces .btns-eventos{
+	margin-bottom: 40px;
+	padding-left: 40px;
+}
+.s-fechas .barra-enlaces .btns-eventos a{
+	display: block;
+	background: var(--cf2);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 25px;
+	border-left: 5px solid var(--cpri);
+	color: var(--ct1);
+}
+.s-fechas .barra-enlaces .btns-eventos a h4{
+	font-size: 16px;
+	margin-bottom: 0;
+}
 
 
 /*  ---- seccion faqs ----- */
@@ -1846,14 +1844,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     display: none;
   }
 
-  .enlaces-convocatorias .btn-pu {
-    padding: 10px 20px;
-  }
-  .enlaces-convocatorias .btn-pa {
-    padding: 10px 17px;
-  }
+  .s-convocatorias .barra-enlaces .btns-convocatorias,
+  .s-fechas .barra-enlaces .btns-eventos{
+    padding-left: 25px;
+}
 
-  .enlaces-convocatorias ul {
+  .barra-enlaces ul {
     padding-left: 25px;
   }
 
@@ -2036,14 +2032,17 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     font-size: 32px;
   }
 
+	.s-convocatorias {
+		padding-top: 40px;
+	}
   .s-convocatorias .media {
     padding-right: 10px;
   }
 
-  .enlaces-convocatorias ul {
+  .barra-enlaces ul {
     padding-left: 0;
   }
-  .enlaces-convocatorias ul li {
+  .barra-enlaces ul li {
     display: inline-block !important;
     background: var(--cf31);
     border-radius: 50px;
@@ -2053,43 +2052,43 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     margin-right: 10px;
   }
 
-  .enlaces-convocatorias ul li a:link {
+  .barra-enlaces ul li a:link {
     font-size: 14px;
     color: var(--ct5);
   }
-  .enlaces-convocatorias ul li a:visited {
+  .barra-enlaces ul li a:visited {
     font-size: 12px;
     color: var(--ct5);
   }
 
-  .enlaces-convocatorias ul li:nth-child(2n) {
+  .barra-enlaces ul li:nth-child(2n) {
     background: var(--ct5);
   }
-  .enlaces-convocatorias ul li:nth-child(2n) a:link {
+  .barra-enlaces ul li:nth-child(2n) a:link {
     color: var(--ct3);
   }
-  .enlaces-convocatorias ul li:nth-child(2n) a:visited {
+  .barra-enlaces ul li:nth-child(2n) a:visited {
     color: var(--ct3);
   }
 
-  .enlaces-convocatorias ul li:nth-child(4n) {
+  .barra-enlaces ul li:nth-child(4n) {
     border: 1px solid var(--cf3);
     background: none;
   }
-  .enlaces-convocatorias ul li:nth-child(4n) a:link {
+  .barra-enlaces ul li:nth-child(4n) a:link {
     color: var(--cf3);
   }
-  .enlaces-convocatorias ul li:nth-child(4n) a:visited {
+  .barra-enlaces ul li:nth-child(4n) a:visited {
     color: var(--cf3);
   }
 
-  .enlaces-convocatorias ul li:active {
+  .barra-enlaces ul li:active {
     background: var(--cpri) !important;
   }
-  .enlaces-convocatorias ul li a:active {
+  .barra-enlaces ul li a:active {
     color: white !important;
   }
-  .enlaces-convocatorias ul li a:hover {
+  .barra-enlaces ul li a:hover {
     border-bottom: none;
   }
 
@@ -2115,6 +2114,11 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	}
 	.page-fechas{
 		padding-bottom: 80px;
+	}
+	.page-fechas .content-fech{
+		margin-bottom: 5px;
+		border-left: none;
+		padding-left: 10px;
 	}
 	.page-fechas .content-fech h5 {
     font-size: 18px;

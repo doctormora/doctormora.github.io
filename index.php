@@ -85,7 +85,7 @@
 			
 				<div class="col-lg-12 col-md-12 col-sm-12 tarjetas-pri">
 					
-					<a href="convocatorias.php" class="card">
+					<a href="#" class="card">
 					
 					  <div class="row">
 						<div class="col-md-4 col-sm-4 text-center">

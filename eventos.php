@@ -11,7 +11,7 @@
 					<div class="media">
 					  <img src="img/calendario.svg" class="align-self-start mr-3 img-fluid" width="130" alt="...">
 					  <div class="media-body">
-						<h5 class="mt-0">Eventos</h5>
+						<h5 class="mt-0">EVENTOS</h5>
 						<p>Eventos de cabecera y sus comunidades.</p>
 					
 					  </div>
@@ -71,27 +71,13 @@
 			
 			
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 align-content-center text-center enlaces-convocatorias">
-				<button class="btn btn-pu">Publicar Convocatoria</button>
-				<button class="btn btn-pa">Convocatorias Pasadas</button>
+			<div class="col-lg-4 col-md-4 col-sm-12 align-content-center text-center barra-enlaces">
+				<div class="btns-eventos">
+					<a href="#"><h4>Eventos Pasados</h4></a>
+					<a href="#"><h4>Quiero divulgar un evento</h4></a>
+				</div>
 				
-				<ul class="list-unstyled text-left">
-					<h5>Enlaces</h5>
-					<li><a href="#">Restaurantes</a></li>
-					<li><a href="#">Negocios</a></li>
-					<li><a href="#">Servicios</a></li>
-					<li><a href="#">Bolsa de Empleo</a></li>
-					<li><a href="#">Eventos</a></li>
-					<li><a href="#">Programas Municipales</a></li>
-					<li><a href="#">Numeros de Emergencia</a></li>
-					<li><a href="#">Internet / TV / Celular</a></li>
-					<li><a href="#">Servicios de Salud</a></li>
-					<li><a href="#">Servicios Financieros</a></li>
-					<li><a href="#">Servicios Automotrices</a></li>
-					<li><a href="#">Servicios Eclesiasticos</a></li>
-					<li><a href="#">Conoce Doctor Mora</a></li>
-					<li><a href="#">Reportes Doctor Mora</a></li>
-				</ul>
+				<?php include_once 'includes/templates/barra.php'; ?>
 				
 			</div>
 		  </div>
