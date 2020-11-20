@@ -11,7 +11,8 @@
 	<script src="js/pace.min.js"></script> 
 	  
 	<!-- fuentes -->
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
+	 
 	<!-- fuentes iconmoon -->
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="fonts/coronavirus/style.css">
@@ -63,7 +64,8 @@
 			
 			<span>CHARKAS</span>
 		    <!-- <div class="spinner-border spinner-border-sm" id="carga" role="status"><span class="sr-only">Loading...</span></div> -->
-		  	<div class="onesignal-customlink-container ml-auto"></div>
+		  	<div class="onesignal-customlink-container"></div>
+			<a href="coronavirus.php"><img src="img/bacterias.svg" class="img-fluid ml-auto" width="30px;"></a>
 			
 	 	</div>
 	</section> 
@@ -84,7 +86,8 @@
 					  <a href="index.php">Inicio</a>
 					  <a href="#enlaces">Enlaces</a>
 					  <a href="#contacto">Contacto</a>
-					  <a href="#datos">Datos &#x1F984; </a>
+					  <a href="coronavirus.php">COVID-19</a>
+					  <a href="#datos">Bugs &#x1F41E; </a>
 					</div>
 				  </div>
 		  </div>

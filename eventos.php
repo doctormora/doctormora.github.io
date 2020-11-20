@@ -9,10 +9,10 @@
 				<div class="col-lg-12 col-md-12">
 					
 					<div class="media">
-					  <img src="img/poster.svg" class="align-self-start mr-3 img-fluid" width="130" alt="...">
+					  <img src="img/calendario.svg" class="align-self-start mr-3 img-fluid" width="130" alt="...">
 					  <div class="media-body">
-						<h5 class="mt-0">CONVOCATORIAS</h5>
-						<p>Estas son las convocatorias que hay en este momento.</p>
+						<h5 class="mt-0">Eventos</h5>
+						<p>Eventos de cabecera y sus comunidades.</p>
 					
 					  </div>
 					</div>
@@ -22,7 +22,7 @@
 			</div>
 		</div>  
 	</section>
-	 
+	  
 <!--
 	<section class="s-coronavirus">
 	 	<div class="container">
@@ -35,43 +35,36 @@
 			</div>
 		</div>
 	</section>  
-	-->  
-	<section class="s-convocatorias">
+	 --> 
+	<section class="s-fechas">
 	  <div class="container">
 	  	<div class="row">
-		  	<div class="col-lg-8 col-md-8 col-sm-12">
+		  	<div class="col-lg-8 col-md-8 col-sm-12 page-fechas">
 				
-				
-				<div class="media">
-				  <img src="img/tik-tok.png" class="align-self-center mr-3 img-fluid" alt="...">
-				  <div class="media-body">
-					<h5 class="mt-0">TikTokeando desde Casa</h5>
-					<p>Participa y llévate un premio sorpresa.</p>
-					<a href="#">Más Información</a>
-					<span>Termina el 21 de Septiembre</span>
-					  
-				  </div>
-				</div>
-				
-				<div class="media">
-				  <img src="img/mascota.png" class="align-self-center mr-3 img-fluid" alt="...">
-				  <div class="media-body">
-					<h5 class="mt-0">Vacunación Antirrabica</h5>
-					<p>En marcha la Campaña de Vacunacion Antirrabica Canina 2020.</p>
-					<a href="#">Más Información</a> 
-					  <span>Termina el 27 de Septiembre</span>
-				  </div>
-				</div>
-				
-				<div class="media">
-				  <img src="img/matricula.png" class="align-self-center mr-3 img-fluid" alt="...">
-				  <div class="media-body">
-					<h5 class="mt-0">Canje de Placas 2020</h5>
-					<p>Proyecto de Gobierno del Estado de Guanajuato, que contempla el intercambio de placas metálicas ...</p>
-					<a href="#">Más Información</a>
-					  <span>Termina el 31 de Diciembre</span>
-				  </div>
-				</div>
+				<a href="#" class="content-fech">
+						<h5><img src="img/event/arbol-de-navidad.png">Fiesta de navidad</h5>
+						<p>24/diciembre/2020</p>
+					</a>
+					
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/papel-picado.png">Fiesta de Fin de Año</h5>
+						<p>31/diciembre/2020</p>
+					</a>
+					
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/los-tres-reyes-magos.png">Reyes Magos</h5>
+						<p>6/enero/2021</p>
+					</a>
+					
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/amor.png">Dia del Amor y la Amistad</h5>
+						<p>14/Febrero/2021</p>
+					</a>
+					
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/estudiante.png">Dia del Niño</h5>
+						<p>30/Abril/2021</p>
+					</a>
 				
 				
 			

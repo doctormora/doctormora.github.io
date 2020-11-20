@@ -17,7 +17,8 @@
 }
 
 body {
-  font-family: "Lato", sans-serif !important;
+  font-family: "Lato", sans-serif !important; 
+
   background: var(--cf1);
   /*font-family: 'Mitr', sans-serif ;*/
 }
@@ -105,6 +106,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 {
   display: none;
 }
+
+
 
 /* -----prueba galeria-------*/
 
@@ -539,7 +542,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   background: var(--cf1);
   position: relative;
   width: 100%;
-  margin-top: 57px;
+  margin-bottom: 120px;
 }
 .eventos h2 {
   font-size: 24px;
@@ -547,6 +550,72 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   color: var(--ct1);
   margin-bottom: 32px;
 }
+
+.eventos .fechas .content-fech{
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: var(--ct1);
+	display: block;
+}
+.eventos .fechas .content-fech:hover{
+	background: var(--cf2);
+    -webkit-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+    box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+	border-radius: 5px;
+}
+.eventos .fechas .content-fech:hover h5{
+	color: var(--cpri);
+}
+.eventos .fechas .content-fech h5{
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+.eventos .fechas .content-fech h5 img{
+	margin-right: 10px;
+}
+.eventos .fechas .content-fech p{
+	margin-bottom: 0;
+	font-size: 14px;
+	color: var(--ct5);
+	font-weight: 400;
+}
+
+
+.eventos .links-fech ul li a{
+	display: block;
+	text-decoration: none;
+	margin-bottom: 30px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 25px;
+	font-size: 16px;
+	color: var(--ct1);
+	border-left: 5px solid var(--cpri);
+	background: var(--cf2);
+    -webkit-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+    box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+	border-radius: 5px;
+}
+
+.eventos .links-fech ul li a:hover{
+	background: var(--cpri);
+	color: #fff;
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+    box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+}
+
+
+
+
 
 .eventos .eventos-card {
   height: 400px;
@@ -584,7 +653,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   margin-top: 15px;
 }
 .eventos .eventos-card .infor-eve span {
-  background: #bde700;
+  background: #bde900;
   color: var(--nf);
   padding: 2px 15px;
   font-size: 18px;
@@ -1291,6 +1360,49 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   font-weight: 400;
 }
 
+/*  --- page eventos --- */
+.s-fechas {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+.page-fechas .content-fech{
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	text-decoration: none;
+	color: var(--ct1);
+	display: block;
+}
+.page-fechas .content-fech:hover{
+	background: var(--cf2);
+    -webkit-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+    box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+	border-radius: 5px;
+}
+.page-fechas .content-fech:hover h5{
+	color: var(--cpri);
+}
+.page-fechas .content-fech h5{
+	font-size: 24px;
+	font-weight: 900;
+	margin-bottom: 0;
+}
+.page-fechas .content-fech h5 img{
+	margin-right: 10px;
+}
+.page-fechas .content-fech p{
+	margin-bottom: 0;
+	font-size: 14px;
+	color: var(--ct5);
+	font-weight: 400;
+}
+
+
+
 /*  ---- seccion faqs ----- */
 .ancla {
   display: block;
@@ -1522,9 +1634,78 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   /*.eventos {
     display: none;
   }*/
-  .eventos .eventos-card {
-    height: 300px;
+	.eventos .fechas{
+		width: 100%;
+		height: auto;
+		overflow-x: scroll;
+		scroll-snap-type: x mandatory;
+		white-space: nowrap;
+		padding-bottom: 10px;
+		display: flex;
   }
+	.eventos .fechas::-webkit-scrollbar{
+		color: transparent;
+	}
+	
+	.eventos .fechas .content-fech{
+		display: block;
+		background: white;
+		padding-top: 25px;
+		padding-right: 10px;
+		padding-bottom: 25px;
+		border-radius: 5px;
+		margin-right: 15px;
+		-webkit-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.15);
+		-moz-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.15);
+		box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.15);
+		min-width: 250px;
+		white-space: initial;
+	}
+	.eventos .fechas .content-fech:hover{
+		webkit-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.15);
+		-moz-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.15);
+		box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.15);
+	}
+	.eventos .fechas .content-fech:active{
+		background: var(--cf5);
+	}
+	.eventos .fechas .content-fech:active h5{
+		color: var(--ct5);
+	}
+	.eventos .fechas .content-fech h5{
+		font-size: 14px;
+	}
+	.eventos .links-fech ul li:nth-child(2){
+		display: none;
+	}
+	
+	.eventos .links-fech ul li a{
+		display: inline-block;
+		background: transparent;
+		box-shadow: none;
+		border-left: none;
+		border-bottom: 2px solid var(--ct5);
+		color: var(--ct5);
+		border-radius: 0;
+		padding-top: 0;
+		padding-right: 10px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		font-size: 14px;
+	}
+	.eventos .links-fech ul li a:hover{
+		background: transparent;
+		color: var(--cpri);
+		border-bottom: 2px solid var(--cpri);
+		box-shadow: none;
+	}
+	
+	.eventos .links-fech ul li a:active{
+		background: transparent;
+		color: var(--cpri);
+		border-bottom: 2px solid var(--cpri);
+		box-shadow: none;
+	}
 
   /*-------- seccion informacion destacada -------*/
   .information-dest .gobierno {
@@ -1740,9 +1921,11 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   /*---------------- seccion eventos ------------------*/
 
   .eventos {
-    padding-bottom: 40px;
+    margin-bottom: 0;
   }
-
+	.eventos h2{
+		margin-bottom: 30px;
+	}
   .eventos .eventos-card .infor-eve h4 {
     font-size: 24px;
     font-weight: 600;
@@ -1925,6 +2108,36 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .faqs-body .faqs-body-t ul li {
     font-size: 14px;
   }
+	
+/* page eventos */
+	.s-fechas{
+		padding-top: 40px;
+	}
+	.page-fechas{
+		padding-bottom: 80px;
+	}
+	.page-fechas .content-fech h5 {
+    font-size: 18px;
+	}
+	
+	
+	.page-fechas .content-fech:hover{
+	background: transparent;
+    box-shadow: none;
+	border-radius: 0;
+	}
+	.page-fechas .content-fech:hover h5{
+		color: var(--ct1);
+	}
+	
+	.page-fechas .content-fech:active {
+	  background: var(--cf5);
+	}
+	.page-fechas .content-fech:active h5 {
+	  color: var(--ct5);
+	}
+	
+	
 }
 
 @media screen and (max-width: 575px) {
@@ -2182,6 +2395,9 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .dyxer .patrocinadores img {
     width: 80px;
   }
+	.page-fechas .content-fech h5 {
+    font-size: 16px;
+}
 }
 
 @media screen and (max-width: 384px) {
@@ -2190,8 +2406,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   }
 
   /* cronavirus listion */
-  .s-coronavirus h3 a:link {
-    font-size: 18px;
+  .s-coronavirus  a:link h3{
+    font-size: 24px;
   }
 
   /* ---- seccion enventos ---*/

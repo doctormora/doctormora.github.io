@@ -167,13 +167,15 @@
 		<div class="cont-pu">4</div>
 		<div class="cont-pu">5</div>
 	</section> 
-	  -->
+	
+-->
+
 	<section class="s-coronavirus">
 	 	<div class="container">
 	  		<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					
-						<a href="coronavirus.php"><h3>Coronavirus Estatus</h3><img src="img/coronavirus.svg" class="img-fluid" alt=""></a>
+						<a href="coronavirus.php"><h3>Coronavirus Estatus</h3><img src="img/bacterias.svg" class="img-fluid" alt="coronavirus doctor mora"></a>
 					
 				</div>
 			</div>
@@ -230,9 +232,75 @@
 		</div> 
 	 </section> 
 	  
+
+
+ 
+	  <section class="eventos">
+		 <div class="container">
+			 <h2><img src="img/calendario.svg" class="img-fluid" width="64px" alt="">Eventos</h2>
+		  	<div class="row">
+			 	<div class="col-lg-7 co-md-7 col-sm-12">
+					<div class="fechas">
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/arbol-de-navidad.png">Fiesta de navidad</h5>
+						<p>24/diciembre/2020</p>
+					</a>
+					
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/papel-picado.png">Fiesta de Fin de Año</h5>
+						<p>31/diciembre/2020</p>
+					</a>
+					
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/los-tres-reyes-magos.png">Reyes Magos</h5>
+						<p>6/enero/2021</p>
+					</a>
+					
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/amor.png">Dia del Amor y la Amistad</h5>
+						<p>14/Febrero/2021</p>
+					</a>
+					
+					<a href="#" class="content-fech">
+						<h5><img src="img/event/estudiante.png">Dia del Niño</h5>
+						<p>30/Abril/2021</p>
+					</a>
+					
+					</div>
+			 	</div>
+				<div class="col-lg-5 co-md-7 col-sm-12 links-fech">
+					<ul class="list-unstyled">
+						<li><a href="eventos.php">Ver todos los eventos</a></li>
+						<li><a href="#">Tengo un evento que quiero divulgar</a></li>
+					</ul>
+				</div>
+				
+				
+			 
+			 </div>
+		  
+		  
+		  </div>
+	  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	  
-	 <!--
-	  
+	
+	   <!--
 	  <section class="eventos">
 		 <div class="container">
 			 <h2><img src="img/calendario.png" class="img-fluid" width="64px" alt="">Eventos</h2>
