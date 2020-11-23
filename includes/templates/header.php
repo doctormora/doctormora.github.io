@@ -64,9 +64,9 @@
 			
 			<span>CHARKAS</span>
 		    <!-- <div class="spinner-border spinner-border-sm" id="carga" role="status"><span class="sr-only">Loading...</span></div> -->
-		  	<div class="ml-auto">
+		  	<div class="ml-auto d-flex">
 		  	<div class="onesignal-customlink-container"></div>
-			<a href="coronavirus.php"><img src="img/bacterias.svg" class="img-fluid" width="30px;"></a>
+			<a href="coronavirus.php"><img src="img/bacterias.svg" class="img-fluid" width="30px;" style="margin-left: 20px;"></a>
 			</div>
 	 	</div>
 	</section> 
