@@ -2402,13 +2402,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	
 	
 	/* ----- page social --- */
-	.social{
-		background: linear-gradient(0deg, rgba(0,0,0,0.5) 100%, rgb(0, 0, 0) 100%), url(../img/soci.jpg) center center no-repeat;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+	
 	.social p{
 		margin-right: 0;
 		margin-left: 0;
