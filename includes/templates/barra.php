@@ -2,7 +2,7 @@
 	<h5>Enlaces</h5>
 	<li><a href="#">Avisos</a></li>
 	<li><a href="convocatorias.php">Convocatorias</a></li>
-	<li><a href="#">Apoyo Social</a></li>
+	<li><a href="social.php">Apoyo Social</a></li>
 	<li><a href="#">Noticias</a></li>
 	<li><a href="eventos.php">Eventos</a></li>
 	<li>&nbsp; </li>

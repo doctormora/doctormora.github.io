@@ -10,9 +10,12 @@
 	<link rel="shortcut icon" href="img/icon.ico" />
 	<script src="js/pace.min.js"></script> 
 	  
-	<!-- fuentes -->
+	  
+	
+	  
+	<!-- fuentes  -->
 	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
-	 
+	
 	<!-- fuentes iconmoon -->
 	<link rel="stylesheet" href="css/fonts.css">
 	<link rel="stylesheet" href="fonts/coronavirus/style.css">

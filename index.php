@@ -118,12 +118,12 @@
 					
 					</a>
 					
-					<a href="#" class="card">
+					<a href="social.php" class="card">
 					
 					  <div class="row">
 						<div class="col-md-4 col-sm-4 text-center">
 						
-						  <img src="img/compromiso.svg" class="img-fluid" alt="..." width="64px">
+						  <img src="img/amor.svg" class="img-fluid" alt="..." width="64px">
 						</div>
 						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
 						 

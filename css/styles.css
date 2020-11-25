@@ -1401,7 +1401,10 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 
 
-/*  ---- seccion faqs ----- */
+/* -----------------           ------------------- */
+/* ----------------- page faqs ------------------- */
+/* -----------------           ------------------- */
+
 .ancla {
   display: block;
   height: 1px;
@@ -1480,7 +1483,214 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   line-height: 30px;
 }
 
-/*---------------------------------------------------- diseño responsivo -----------------------------------------------------------*/
+/* -----------------             ------------------- */
+/* ----------------- page social ------------------- */
+/* -----------------              ------------------- */
+
+
+.social{
+	min-height: 500px;
+	background: linear-gradient(0deg, rgba(0,0,0,0.4) 100%, rgba(0,0,0,1) 100%),
+		        url(../img/social.jpg) center center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+.social h1{
+	font-size: 48px;
+	font-weight: 900;
+	color: #fff;
+}
+.social p {
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 25px;
+	margin-right: 15%;
+	margin-left: 15%;
+	
+	color: #fff;
+}
+
+/*  --- primer informacion ----*/
+.social-inf{
+	background: #fff;
+	min-height: 500px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.social-inf p{
+	font-size: 24px;
+	color: var(--ct1);
+	font-weight: 400;
+	text-align: center;
+}
+.social-inf p strong{
+	font-size: 30px;
+	font-weight: 900;
+	color: var(--cpri);
+}
+
+/* ---- informacion personas ----- */
+.social-person{
+	width: 100%;
+	height: auto;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.social-person p{
+	font-size: 18px;
+	text-align: center;
+	font-weight: 400;
+	color: var(--ct1);
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 0;
+}
+.social-person p span{
+	color: var(--cpri);
+}
+.social-person p strong{
+	font-size: 30px;
+	color: var(--ct1);
+	text-align: center;
+}
+
+.social-person .card-person{
+	background: var(--cf2);
+	margin-top: 50px;
+	margin-right: 90px;
+	margin-left: 90px;
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+	-moz-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+	box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+	max-height: 450px;
+	overflow-y: scroll;
+	padding-top: 35px;
+	padding-right: 120px;
+	padding-bottom: 10px;
+	padding-left: 120px;
+	border-radius: 10px;
+}
+.social-person .card-person::-webkit-scrollbar{
+	width: 10px;
+}
+.social-person .card-person::-webkit-scrollbar-track{
+	background: var(--cf2);
+	border-radius: 10px;
+}
+.social-person .card-person::-webkit-scrollbar-thumb{
+	background: var(--ct4);
+	border-radius: 10px;
+}
+
+
+.social-person .card-person .media{
+	margin-bottom: 25px;
+}
+.social-person .card-person .media h5{
+	font-size: 18px;
+	font-weight: 900;
+	color: var(--ct1);
+	margin-bottom: 0;
+}
+.social-person .card-person .media .media-body p{
+	text-align: left;
+	font-size: 14px;
+	color: var(--ct5);
+	margin-left: 0;
+}
+.social-person .card-person .media .link-ayuda{
+	text-decoration: none;
+	background: var(--csec);
+	padding: 8px 30px;
+	border-radius: 50px;
+	display: block;
+	color: #049fb1;
+	font-size: 16px;
+	font-weight: 400;
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(0, 240, 255, 0.35);
+    -moz-box-shadow: 0px 10px 25px 0px rgba(0, 240, 255, 0.35);
+    box-shadow: 0px 10px 25px 0px rgba(0, 240, 255, 0.35);
+}
+.social-person .card-person .media .link-ayuda:hover{
+	 background: var(--cpri);
+	  color: #fff;
+	  -webkit-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+	  -moz-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+	  box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+}
+
+.social-person .card-person .link-ayuda i{
+		display: none;
+	}
+
+
+/*   estilos seccion info 2 */
+.social-inf-2{
+	width: 100%;
+	min-height: 500px;
+	background: var(--cf2);
+	display: flex;
+	align-items: center;
+}
+.social-inf-2 .texts p{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 30px;
+	color: var(--ct1);
+}
+.social-inf-2 .texts p span{
+	font-style: italic;
+}
+.social-inf-2 .texts .enviar-datos{
+	text-decoration: none;
+	color: #fff;
+	background: var(--cpri);
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+	  -moz-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+	  box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
+	font-size: 18px;
+	padding: 8px 90px;
+	margin-top: 30px;
+	display: inline-block;
+	border-radius: 50px;
+}
+
+
+/* --- informacion 3 ----- */
+.social-inf-3{
+	width: 100%;
+	min-height: 400px;
+	background: linear-gradient(0deg, rgba(0,0,0,0.4) 100%, rgba(0,0,0,1) 100%),
+		        url(../img/union.jpg) center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+}
+.social-inf-3 p{
+	font-size: 24px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 30px;
+}
+.social-inf-3 p strong{
+	font-weight: 900;
+}
+
+
+
+
+
+/*--------------------------------------------------  diseño responsivo ------------------------------------------------ */
+
 
 /*---- cuando el dispositivo es mayor a 992 se aplicaran los efecto hover ---*/
 
@@ -1570,6 +1780,23 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .information-dest .c1 h3 {
     margin-bottom: 16px;
   }
+	
+	/* ---- page social ---- */
+	
+	.social-inf, .social-inf-2 {
+    min-height: 400px;	
+	}
+	
+	.social-person .card-person {
+    margin-right: 40px;
+    margin-left: 40px;
+		
+	}
+	.social-inf-3{
+		min-height: 300px;
+	}
+	
+	
 }
 
 @media screen and (max-width: 991px) {
@@ -1861,6 +2088,38 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .faqs-body .subtitles-faqs {
     font-size: 36px;
   }
+	
+	/* ---- page social --- */
+	
+	.social{
+		min-height: 400px;
+		padding-top: 60px;
+	}
+	.social p{
+		margin-top: 0;
+	}
+	
+	
+	.social-person p{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.social-person p strong {
+    font-size: 24px;
+	}
+	
+	.social-person .card-person {
+		margin-right: 20px;
+		margin-left: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	
+	.social-inf-2 img{
+		width: 90%;
+	}
+	
+	
 }
 
 @media screen and (max-width: 767px) {
@@ -2142,6 +2401,80 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	}
 	
 	
+	/* ----- page social --- */
+	.social{
+		background: linear-gradient(0deg, rgba(0,0,0,0.5) 100%, rgb(0, 0, 0) 100%), url(../img/soci.jpg) center center no-repeat;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.social p{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.social-inf, .social-inf-2 {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	
+	.social-inf p {
+    font-size: 18px;
+	}
+	.social-inf p strong{
+		font-size: 24px;
+	}
+	
+	.social-inf img{
+		width: 80%;
+	}
+	
+	.social-person p {
+    font-size: 16px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.social-person p strong {
+		font-size: 20px;
+	}
+	
+	.social-person .card-person {
+		margin-right: 0px;
+		margin-left: 0px;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	
+	.social-person .card-person .media h5 {
+    font-size: 16px;
+	}
+	.social-person .card-person .media img{
+		width: 60px;
+	}
+	.social-person .card-person .media .link-ayuda {
+		font-size: 14px;
+		
+	}
+	
+	.social-inf-2 img {
+		width: 60%;
+	}
+	.social-inf-2 .texts{
+		text-align: center;
+	}
+	.social-inf-2 .texts p {
+		font-size: 16px;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	.social-inf-2 .texts .enviar-datos {
+		margin-top: 15px;
+	}
+
+	
+	
+	
 }
 
 @media screen and (max-width: 575px) {
@@ -2281,6 +2614,68 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .faqs p {
     font-size: 16px;
   }
+	
+	
+	/*----- page social ----- */
+	.social h1{
+		font-size: 36px;
+	}
+	.social p {
+		margin-right: 5%;
+		margin-left: 5%;
+		font-size: 16px;
+	
+	}
+	
+	
+	.social-inf {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	
+	.social-inf p{
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+	
+	.social-inf img{
+		width: 60%;
+	}
+	
+	
+	.social-person .card-person {
+		margin-right: 25px;
+		margin-left: 25px;
+		padding-right: 10px;
+	}
+	
+	.social-person .card-person::-webkit-scrollbar{
+		width: 5px;
+	}
+	.social-person .card-person .media img {
+		display: none;
+	}
+	
+	.social-person .card-person .media .link-ayuda {
+    padding: 8px 20px;
+	}
+	
+	.social-person .card-person .link-ayuda span{
+		display: none;
+	}
+	.social-person .card-person .link-ayuda i{
+		display: block;
+	}
+	
+	.social-inf-3 {
+		min-height: 200px;
+	}
+	.social-inf-3 p{
+		margin-right: 5%;
+		margin-left: 5%;
+		font-size: 20px;
+	}
 }
 
 @media screen and (max-width: 540px) {
@@ -2381,6 +2776,13 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .s-convocatorias .media .media-body {
     padding-left: 10px;
   }
+	
+	/* -- page social --- */
+	
+	.social-inf {
+		min-height: 300px;
+	}
+	
 }
 
 @media screen and (max-width: 440px) {
@@ -2390,6 +2792,14 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .eventos .carousel-control-next {
     display: none;
   }
+	
+	/*------- page social  ---- */
+	
+	.social {
+    min-height: 350px;
+	}
+	
+	
 }
 
 @media screen and (max-width: 434px) {
@@ -2401,7 +2811,20 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   }
 	.page-fechas .content-fech h5 {
     font-size: 16px;
-}
+	}
+	
+	
+	.social-inf p {
+		font-size: 16px;
+	}
+	.social-inf p strong{
+		font-size: 18px;
+	}
+	.social-inf img{
+		width: 70%;
+	}
+	
+	
 }
 
 @media screen and (max-width: 384px) {
@@ -2443,6 +2866,19 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     text-align: center;
     display: block;
   }
+	
+	/* --- page social --- */
+	
+	.social-person .card-person{
+		max-height: 350px;
+	}
+	
+	.social-inf-2 .texts .enviar-datos {
+		font-size: 16px;
+		padding: 8px 45px;
+	}
+	
+	
 }
 
 @media screen and (max-width: 348px) {
@@ -2495,6 +2931,8 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     font-size: 11px;
     padding: 10px 5px;
   }
+
+	
 }
 
 @media screen and (max-width: 304px) {
@@ -2508,6 +2946,14 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   .tarjetas-r-c .card {
     min-width: 120px;
   }
+	/* --- page social --- */
+	.social h1 {
+		font-size: 24px;
+	}
+	.social h1 img{
+		width: 30px;
+	}
+	
 }
 
 @media screen and (max-width: 260px) {
