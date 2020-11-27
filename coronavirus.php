@@ -73,7 +73,7 @@
 				  </ul>
 			  </div>
 			  <div class="col-lg-5 text-center align-content-center">
-				  <img src="img/mascara.png" class="img-fluid mascarilla" alt="mascarilla">
+				  <img src="img/mascara1.png" class="img-fluid mascarilla" alt="mascarilla">
 			  </div>
 			</div>
 		  </div>

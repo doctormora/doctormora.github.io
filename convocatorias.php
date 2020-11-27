@@ -43,7 +43,7 @@
 				
 				
 				<div class="media">
-				  <img src="img/tik-tok.png" class="align-self-center mr-3 img-fluid" alt="...">
+				  <img src="img/tik-tok1.png" class="align-self-center mr-3 img-fluid" alt="...">
 				  <div class="media-body">
 					<h5 class="mt-0">TikTokeando desde Casa</h5>
 					<p>Participa y llévate un premio sorpresa.</p>
@@ -54,7 +54,7 @@
 				</div>
 				
 				<div class="media">
-				  <img src="img/mascota.png" class="align-self-center mr-3 img-fluid" alt="...">
+				  <img src="img/mascota1.png" class="align-self-center mr-3 img-fluid" alt="...">
 				  <div class="media-body">
 					<h5 class="mt-0">Vacunación Antirrabica</h5>
 					<p>En marcha la Campaña de Vacunacion Antirrabica Canina 2020.</p>
@@ -64,7 +64,7 @@
 				</div>
 				
 				<div class="media">
-				  <img src="img/matricula.png" class="align-self-center mr-3 img-fluid" alt="...">
+				  <img src="img/matricula1.png" class="align-self-center mr-3 img-fluid" alt="...">
 				  <div class="media-body">
 					<h5 class="mt-0">Canje de Placas 2020</h5>
 					<p>Proyecto de Gobierno del Estado de Guanajuato, que contempla el intercambio de placas metálicas ...</p>

@@ -16,10 +16,13 @@
 <file name="manifest.json" server="files.000webhost.com/public_html/" local="132475438748771178" remote="132483290400000000" Dst="1" />
 <file name="OneSignalSDKUpdaterWorker.js" server="files.000webhost.com/public_html/" local="131672655620000000" remote="132483290400000000" Dst="1" />
 <file name="OneSignalSDKWorker.js" server="files.000webhost.com/public_html/" local="131672655500000000" remote="132483290400000000" Dst="1" />
-<file name="README.md" server="files.000webhost.com/public_html/" local="132483173763562113" remote="132486605400000000" Dst="1" />
+<file name="README.md" server="files.000webhost.com/public_html/" local="132498022237156719" remote="132507786600000000" Dst="1" />
 <file name="sw.js" server="files.000webhost.com/public_html/" local="132454639543776303" remote="132483290400000000" Dst="1" />
-<file name="convocatorias.php" server="files.000webhost.com/public_html/" local="132477841025756347" remote="132483289800000000" Dst="1" />
-<file name="coronavirus.php" server="files.000webhost.com/public_html/" local="132486386500014422" remote="132486605400000000" Dst="1" />
+<file name="convocatorias.php" server="files.000webhost.com/public_html/" local="132503232994682159" remote="132507786600000000" Dst="1" />
+<file name="coronavirus.php" server="files.000webhost.com/public_html/" local="132503106086951724" remote="132507786600000000" Dst="1" />
 <file name="faqs.php" server="files.000webhost.com/public_html/" local="132483018931918253" remote="132483289800000000" Dst="1" />
-<file name="index.php" server="files.000webhost.com/public_html/" local="132485687194825268" remote="132486605400000000" Dst="1" />
+<file name="index.php" server="files.000webhost.com/public_html/" local="132506571860767703" remote="132507786600000000" Dst="1" />
+<file name=".gitignore" server="files.000webhost.com/public_html/" local="132507554853066251" remote="132507786600000000" Dst="1" />
+<file name="eventos.php" server="files.000webhost.com/public_html/" local="132503249432427301" remote="132507786600000000" Dst="1" />
+<file name="social.php" server="files.000webhost.com/public_html/" local="132507558713105821" remote="132507786600000000" Dst="1" />
 </dwsync>

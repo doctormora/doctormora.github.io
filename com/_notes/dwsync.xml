@@ -3,4 +3,5 @@
 <file name="OneSignal-Web-SDK-HTTPS-Integration-Files.zip" server="files.000webhost.com/public_html/" local="132454729330823045" remote="132483289800000000" Dst="1" />
 <file name="OneSignalSDKUpdaterWorker.js" server="files.000webhost.com/public_html/" local="131672655620000000" remote="132483289800000000" Dst="1" />
 <file name="OneSignalSDKWorker.js" server="files.000webhost.com/public_html/" local="131672655500000000" remote="132483289800000000" Dst="1" />
+<file name=".htaccess" server="files.000webhost.com/public_html/" local="132498019499291563" remote="132507786000000000" Dst="1" />
 </dwsync>
