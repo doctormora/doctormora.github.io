@@ -57,17 +57,25 @@
   </head>
   <body>
 	
-	 
+	  <div class="sombra">
+
+		</div>
+	
 	  
 	<!-- menu fijo movil solo se activa en dispositivos moviles -->
 	<section class="list-top fixed-top">
 		<div class="container d-flex align-items-center">
-			
-			
-			
+			 
+				<svg width="1.8em" height="1.8em" viewBox="0 0 16 16" id="mostrar" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="z-index: 3;">
+	  <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
+	</svg>
+
 			<span>CHARKAS</span>
+			
+			
+			
 		    <!-- <div class="spinner-border spinner-border-sm" id="carga" role="status"><span class="sr-only">Loading...</span></div> -->
-		  	<div class="ml-auto d-flex">
+		  	<div class="ml-auto d-flex" style="z-index: 3;">
 		  	<div class="onesignal-customlink-container"></div>
 			<a href="coronavirus.php"><img src="img/bacterias.svg" class="img-fluid" width="30px;" style="margin-left: 20px;"></a>
 			</div>

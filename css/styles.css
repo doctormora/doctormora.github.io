@@ -140,7 +140,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .list-top {
   display: none;
-  padding: 10px 0;
+  padding: 13px 0;
   background: var(--cf2);
   border-bottom: 1px solid #f0f0f0;
   -webkit-box-shadow: 0px 10px 16px -8px rgba(0, 0, 0, 0.1);
@@ -151,6 +151,12 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   font-size: 24px;
   font-weight: 900;
   color: var(--ct1);
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+ text-align: center;
+
 }
 
 .list-top .spinner-border-sm {
@@ -167,50 +173,61 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
   color: var(--cpri);
 }
 
+.sombra{
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0.45);
+	z-index: 5450;
+	height: 100%;
+	width: 100%;
+	display: none;
+	transition: all 0.5s;
+}
+
+
 .menu-movil {
   display: none;
   position: fixed;
-  width: 100%;
+  width: 80%;
   height: 100%;
-  bottom: -100%;
-  background: var(--cf1);
-  z-index: 2000;
+  left: -100%;
+  top: 0;
+  transition: all 0.5s;
+  z-index: 5500;
   box-sizing: border-box;
-  transition: all 0.3s;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
+ background: var(--cf2);
+ 
 }
 
 .men-cont {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  margin: auto;
-  box-sizing: border-box;
+  
+height: 100%;
+width: 80%;
+padding-top: 80px;
+padding-left: 50px;
+
+
+	
 }
 
 .men-cont ul li a {
   font-size: 18px;
-  color: var(--ct1);
+  color:#000;
   font-weight: 900;
   line-height: 48px;
   text-decoration: none;
 }
 .men-cont ul li a:visited {
-  color: var(--ct1);
+  color: #000;
 }
 .men-cont ul li a:hover {
-  color: var(--cpri);
-  border-bottom: 2px solid var(--cpri);
+  color: var(--csec);
 }
 .men-cont img {
   width: 40%;
 }
 
 .menu-movil .men-cont .cerrar svg {
-  color: var(--ct1);
+  color: var(--cpri);
   position: absolute;
   top: 0;
   right: 0;
@@ -223,8 +240,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 
 .menu-movil-m {
-  bottom: 0;
-  background: #fff;
+  left: 0;
 }
 
 #mostrar {
@@ -1685,6 +1701,11 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 	font-weight: 900;
 }
 
+
+/* -------------- ventana modal -------------------------*/
+.opciones .modal-dialog .modal-content{
+	margin-bottom: 60px;
+}
 
 
 

@@ -1,11 +1,21 @@
 	$('#mostrar').on('click',function(){
 			$('#men').toggleClass('menu-movil-m');
-			$('body').toggleClass('ocul');
+			$('body').addClass('ocul');
+			$('.sombra').css({display : "block"});
 	 })
 	
     $('#cerrar-men').on('click',function(){
 		$('#men').removeClass('menu-movil-m');
-		$('body').css({overflow: "auto"});
+		$('body').removeClass('ocul');
+		$('.sombra').css({display : "none"});
+		
+	})
+
+
+ 	$('.sombra').on('click',function(){
+		$('#men').removeClass('menu-movil-m');
+		$('body').removeClass('ocul');
+		$('.sombra').css({display : "none"});
 		
 	})
 
