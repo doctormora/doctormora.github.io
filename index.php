@@ -242,12 +242,12 @@
 			 	<div class="col-lg-7 co-md-7 col-sm-12">
 					<div class="fechas">
 					<a href="#" class="content-fech">
-						<h5><img src="img/event/arbol-de-navidad.png">Fiesta de navidad</h5>
+						<h5><img src="img/event/navidad.png">Fiesta de navidad</h5>
 						<p>24/diciembre/2020</p>
 					</a>
 					
 					<a href="#" class="content-fech">
-						<h5><img src="img/event/papel-picado.png">Fiesta de Fin de Año</h5>
+						<h5><img src="img/event/ano-nuevo.png">Fiesta de Fin de Año</h5>
 						<p>31/diciembre/2020</p>
 					</a>
 					
@@ -257,12 +257,12 @@
 					</a>
 					
 					<a href="#" class="content-fech">
-						<h5><img src="img/event/amor.png">Dia del Amor y la Amistad</h5>
+						<h5><img src="img/event/san-valentin.png">Dia del Amor y la Amistad</h5>
 						<p>14/Febrero/2021</p>
 					</a>
 					
 					<a href="#" class="content-fech">
-						<h5><img src="img/event/estudiante.png">Dia del Niño</h5>
+						<h5><img src="img/event/juguetes.png">Dia del Niño</h5>
 						<p>30/Abril/2021</p>
 					</a>
 					
@@ -623,7 +623,7 @@
 
 	
 
-
+	<div class="margin-2"></div>
 	 
 	 
 

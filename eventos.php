@@ -36,11 +36,11 @@
 		</div>
 	</section>  
 	 --> 
-	<section class="s-fechas">
+	<section class="s-fechas-2">
 	  <div class="container">
 	  	<div class="row">
-		  	<div class="col-lg-8 col-md-8 col-sm-12 page-fechas">
-				
+		  	<div class="col-lg-8 col-md-12 col-sm-12 page-fechas-2">
+				<!--
 				<a href="#" class="content-fech">
 						<h5><img src="img/event/arbol-de-navidad.png">Fiesta de navidad</h5>
 						<p>24/diciembre/2020</p>
@@ -65,13 +65,65 @@
 						<h5><img src="img/event/estudiante.png">Dia del Niño</h5>
 						<p>30/Abril/2021</p>
 					</a>
+				-->
+				
+				<a href="#" class="content-p">
+				  <img src="img/event/navidad.png" class="img-fluid" alt="...">
+				  <div class="content-body">
+					<h5>Fiesta de Navidad</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
+					<span>24/Diciembre/2020</span>
+					
+				  </div>
+				</a>
+				
+				<a href="#" class="content-p">
+				  <img src="img/event/ano-nuevo.png" class="img-fluid" alt="...">
+				  <div class="content-body">
+					<h5>Fiesta de Fin de Año</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
+					<span>31/Diciembre/2020</span>
+					
+				  </div>
+				</a>
+				
+				<a href="#" class="content-p">
+				  <img src="img/event/los-tres-reyes-magos.png" class="img-fluid" alt="...">
+				  <div class="content-body">
+					<h5>Reyes Magos</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
+					<span>6/enero/2021</span>
+					
+				  </div>
+				</a>
+				
+				<a href="#" class="content-p">
+				  <img src="img/event/san-valentin.png" class="img-fluid" alt="...">
+				  <div class="content-body">
+					<h5>Día del Amor y la Amistad</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
+					<span>14/Febrero/2021</span>
+					
+				  </div>
+				</a>
+				
+				<a href="#" class="content-p">
+				  <img src="img/event/juguetes.png" class="img-fluid" alt="...">
+				  <div class="content-body">
+					<h5>Día del Niño</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
+					<span>30/Abril/2021</span>
+					
+				  </div>
+				</a>
+				
 				
 				
 			
 			
 			
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 align-content-center text-center barra-enlaces">
+			<div class="col-lg-4 col-md-12 col-sm-12 align-content-center text-center barra-enlaces">
 				<div class="btns-eventos">
 					<a href="#"><h4>Eventos Pasados</h4></a>
 					<a href="#"><h4>Quiero divulgar un evento</h4></a>
@@ -101,5 +153,11 @@
 		  </div>
 	  </section>
 	  -->
+
+ <section class="emerge">
+			<h3>Estas en <strong>Eventos</strong> <img src="img/calendario.svg" class="img-fluid" width="20px"></h3>
+		</section>
+
+
 
 <?php include_once 'includes/templates/footer.php'; ?>

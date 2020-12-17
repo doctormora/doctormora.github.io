@@ -1,4 +1,4 @@
-<ul class="list-unstyled text-left">
+<ul class="list-unstyled text-left barra-lateral">
 	<h5>Enlaces</h5>
 	<li><a href="#">Avisos</a></li>
 	<li><a href="convocatorias.php">Convocatorias</a></li>

@@ -18,17 +18,30 @@
 	<!-- menu flotante (solo se activa en dispositivos moviles) -->  
 	<div id="men" class="menu-movil">
 		<div class="men-cont">
-			<ul class="list-unstyled">
-				<li><a href="#">Datos</a></li>
-				<li><a href="faqs.php">FAQs</a></li>
-				<li><a href="contacto.php">Contacto</a></li>
-			</ul>
-			
 			<span class="cerrar">
 				<svg width="3.5em" height="3.5em" viewBox="0 0 16 16" id="cerrar-men" class="bi bi-x" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 		  			<path fill-rule="evenodd" d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
 				</svg>
 			</span>
+			<div class="men-cont-c">
+				<ul class="list-unstyled men-cont-links">
+					<li><a href="faqs.php"><i class="fas fa-question"></i> FAQs</a></li>
+					<li><a href="contacto.php"><i class="fas fa-child"></i> Acerca de Nosotros</a></li>
+					<li><a href="contacto.php"><i class="fas fa-code"></i> Acerca de la plataforma</a></li>
+					<li><a href="contacto.php"><i class="far fa-angry"></i> Quejas, sugerencias, etc...</a></li>
+				</ul>
+			</div>
+			<div class="men-cont-c">
+				<a href="#" class="bug"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bug-fill" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M4.978.855a.5.5 0 1 0-.956.29l.41 1.352A4.985 4.985 0 0 0 3 6h10a4.985 4.985 0 0 0-1.432-3.503l.41-1.352a.5.5 0 1 0-.956-.29l-.291.956A4.978 4.978 0 0 0 8 1a4.979 4.979 0 0 0-2.731.811l-.29-.956zM13 6v1H8.5v8.975A5 5 0 0 0 13 11h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 1 0 1 0v-.5a1.5 1.5 0 0 0-1.5-1.5H13V9h1.5a.5.5 0 0 0 0-1H13V7h.5A1.5 1.5 0 0 0 15 5.5V5a.5.5 0 0 0-1 0v.5a.5.5 0 0 1-.5.5H13zm-5.5 9.975V7H3V6h-.5a.5.5 0 0 1-.5-.5V5a.5.5 0 0 0-1 0v.5A1.5 1.5 0 0 0 2.5 7H3v1H1.5a.5.5 0 0 0 0 1H3v1h-.5A1.5 1.5 0 0 0 1 11.5v.5a.5.5 0 1 0 1 0v-.5a.5.5 0 0 1 .5-.5H3a5 5 0 0 0 4.5 4.975z"/>
+</svg> Reportar Bug </a>
+				<div class="dr-mora-movil">
+					<h6>Desarrollado con <img src="img/corazon.png" class="img-fluid corazon" alt="" width="20px"> en <strong>Doctor Mora Gto.</strong></h6>
+				</div>
+				
+			</div>
+			
+			
 
 
 		</div>
@@ -38,47 +51,10 @@
 
 
 <!-- modal -->
+	<?php include_once 'includes/templates/modal.php'; ?>
+	
 
-	<div class="modal opciones fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	  <div class="modal-dialog modal-dialog-scrollable">
-		<div class="modal-content ">
-		  <div class="modal-header">
-			<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			  <span aria-hidden="true">&times;</span>
-			</button>
-		  </div>
-		  <div class="modal-body">
-			Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-
-Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-
-Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-
-Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
-		  </div>
-		  <div class="modal-footer">
-			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-			<button type="button" class="btn btn-primary">Save changes</button>
-		  </div>
-		</div>
-	  </div>
-	</div>
-
-
-
+<!-- fin modal -->
 
 
 
@@ -96,7 +72,7 @@ Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac fa
 				
 				</div>
 				<div class="col-lg-4 col-md-4 enlaces" id="enlaces">
-					<h4>Enlaces</h4>
+					<h4>Links útiles</h4>
 					<ul class="list-unstyled">
 						<li><a href="faqs.php"><i class="fas fa-question"></i> FAQS</a></li>
 						<li><a href="faqs.php#nosotros"><i class="fas fa-child"></i> Acerca de Nosotros</a></li>
@@ -120,6 +96,8 @@ Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac fa
 	  </footer>
 	  
 	  
+		
+
 	  
 	  <!-- menu bottom -->
 	  <section class="menu-bottom fixed-bottom">
@@ -217,6 +195,25 @@ Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac fa
 		*/
 
 	  </script>
+
+<script>
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+          if (scroll < 100) {
+            $(".ch").css({ display: "block" });
+            $(".ev").css({ "display": "none" });
+			 
+            
+          } else {
+            $(".ch").css({ display: "none" });
+            $(".ev").css({ display: "block" });
+			 
+            
+          }
+        });
+      });
+    </script>
 					
   </body>
 </html>

@@ -95,6 +95,8 @@
 		</div>
 	</section>
 	
+	<div class="margin-1"></div>
+
 	  <!--
 	  <section class="dyxer">
 		  <div class="container">
@@ -109,7 +111,9 @@
 	  -->
 
 
-
+<section class="emerge">
+			<h3>Estas en <strong>COVID-19</strong> <img src="img/bacterias.svg" class="img-fluid" width="20px"></h3>
+		</section>
 
 <?php include_once 'includes/templates/footer.php'; ?>
 

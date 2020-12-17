@@ -39,7 +39,7 @@
 	<section class="s-convocatorias">
 	  <div class="container">
 	  	<div class="row">
-		  	<div class="col-lg-8 col-md-8 col-sm-12">
+		  	<div class="col-lg-8 col-md-12 col-sm-12">
 				
 				
 				<div class="media">
@@ -78,7 +78,7 @@
 			
 			
 			</div>
-			<div class="col-lg-4 col-md-4 col-sm-12 align-content-center text-center barra-enlaces">
+			<div class="col-lg-4 col-md-12 col-sm-12 align-content-center text-center barra-enlaces">
 				<div class="btns-convocatorias">
 					<a href="#"><h4>Publicar Convocatoria</h4></a>
 					<a href="#"><h4>Convocatorias Pasadas</h4></a>
@@ -110,5 +110,10 @@
 		  </div>
 	  </section>
 	  -->
+
+
+		<section class="emerge">
+			<h3>Estas en <strong>Convocatorias</strong> <img src="img/poster.svg" class="img-fluid" width="20px"></h3>
+		</section>
 
 <?php include_once 'includes/templates/footer.php'; ?>
