@@ -9,7 +9,7 @@
 				<div class="col-lg-12 col-md-12">
 					
 					<div class="media">
-					  <img src="img/calendario.svg" class="align-self-start mr-3 img-fluid" width="130" alt="...">
+					  <img loading="lazy" src="img/calendario.svg" class="align-self-start mr-3 img-fluid" width="130" alt="...">
 					  <div class="media-body">
 						<h5 class="mt-0">EVENTOS</h5>
 						<p>Eventos de cabecera y sus comunidades.</p>
@@ -68,7 +68,7 @@
 				-->
 				
 				<a href="#" class="content-p">
-				  <img src="img/event/navidad.png" class="img-fluid" alt="...">
+				  <img loading="lazy" src="img/event/navidad.png" class="img-fluid" alt="...">
 				  <div class="content-body">
 					<h5>Fiesta de Navidad</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
@@ -78,7 +78,7 @@
 				</a>
 				
 				<a href="#" class="content-p">
-				  <img src="img/event/ano-nuevo.png" class="img-fluid" alt="...">
+				  <img loading="lazy" src="img/event/ano-nuevo.png" class="img-fluid" alt="...">
 				  <div class="content-body">
 					<h5>Fiesta de Fin de Año</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
@@ -88,7 +88,7 @@
 				</a>
 				
 				<a href="#" class="content-p">
-				  <img src="img/event/los-tres-reyes-magos.png" class="img-fluid" alt="...">
+				  <img loading="lazy" src="img/event/los-tres-reyes-magos.png" class="img-fluid" alt="...">
 				  <div class="content-body">
 					<h5>Reyes Magos</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
@@ -98,7 +98,7 @@
 				</a>
 				
 				<a href="#" class="content-p">
-				  <img src="img/event/san-valentin.png" class="img-fluid" alt="...">
+				  <img loading="lazy" src="img/event/san-valentin.png" class="img-fluid" alt="...">
 				  <div class="content-body">
 					<h5>Día del Amor y la Amistad</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
@@ -108,7 +108,7 @@
 				</a>
 				
 				<a href="#" class="content-p">
-				  <img src="img/event/juguetes.png" class="img-fluid" alt="...">
+				  <img loading="lazy" src="img/event/juguetes.png" class="img-fluid" alt="...">
 				  <div class="content-body">
 					<h5>Día del Niño</h5>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit eiusmod tempor...</p>
@@ -155,7 +155,7 @@
 	  -->
 
  <section class="emerge">
-			<h3>Estas en <strong>Eventos</strong> <img src="img/calendario.svg" class="img-fluid" width="20px"></h3>
+			<h3>Estas en <strong>Eventos</strong> <img loading="lazy" src="img/calendario.svg" class="img-fluid" width="20px"></h3>
 		</section>
 
 

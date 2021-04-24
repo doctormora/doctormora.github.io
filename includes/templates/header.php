@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
-	<title>Charkas</title>
+	<title>Doctor Mora</title>
 	<link rel="shortcut icon" href="img/icon.ico" />
 	<script src="js/pace.min.js"></script> 
 	  
@@ -68,7 +68,7 @@
 	  <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
 	</svg>
 
-			<span>CHARKAS</span>
+			<span>Doctor Mora</span>
 			
 			
 			
@@ -86,7 +86,7 @@
 	  <nav class="navbar navbar-expand-lg menu-escritorio fixed-top">
 		  <div class="container">
 		  
-			   <a class="navbar-brand" href="index.php">CHARKAS</a>
+			   <a class="navbar-brand" href="index.php">Doctor Mora</a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				  </button>

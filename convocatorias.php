@@ -9,7 +9,7 @@
 				<div class="col-lg-12 col-md-12">
 					
 					<div class="media">
-					  <img src="img/poster.svg" class="align-self-start mr-3 img-fluid" width="130" alt="...">
+					  <img loading="lazy" src="img/poster.svg" class="align-self-start mr-3 img-fluid" width="130" alt="...">
 					  <div class="media-body">
 						<h5 class="mt-0">CONVOCATORIAS</h5>
 						<p>Estas son las convocatorias que hay en este momento.</p>
@@ -43,7 +43,7 @@
 				
 				
 				<div class="media">
-				  <img src="img/tik-tok1.png" class="align-self-center mr-3 img-fluid" alt="...">
+				  <img loading="lazy" src="img/tik-tok1.png" class="align-self-center mr-3 img-fluid" alt="...">
 				  <div class="media-body">
 					<h5 class="mt-0">TikTokeando desde Casa</h5>
 					<p>Participa y llévate un premio sorpresa.</p>
@@ -54,7 +54,7 @@
 				</div>
 				
 				<div class="media">
-				  <img src="img/mascota1.png" class="align-self-center mr-3 img-fluid" alt="...">
+				  <img loading="lazy" src="img/mascota1.png" class="align-self-center mr-3 img-fluid" alt="...">
 				  <div class="media-body">
 					<h5 class="mt-0">Vacunación Antirrabica</h5>
 					<p>En marcha la Campaña de Vacunacion Antirrabica Canina 2020.</p>
@@ -64,7 +64,7 @@
 				</div>
 				
 				<div class="media">
-				  <img src="img/matricula1.png" class="align-self-center mr-3 img-fluid" alt="...">
+				  <img loading="lazy" src="img/matricula1.png" class="align-self-center mr-3 img-fluid" alt="...">
 				  <div class="media-body">
 					<h5 class="mt-0">Canje de Placas 2020</h5>
 					<p>Proyecto de Gobierno del Estado de Guanajuato, que contempla el intercambio de placas metálicas ...</p>
@@ -113,7 +113,7 @@
 
 
 		<section class="emerge">
-			<h3>Estas en <strong>Convocatorias</strong> <img src="img/poster.svg" class="img-fluid" width="20px"></h3>
+			<h3>Estas en <strong>Convocatorias</strong> <img loading="lazy" src="img/poster.svg" class="img-fluid" width="20px"></h3>
 		</section>
 
 <?php include_once 'includes/templates/footer.php'; ?>

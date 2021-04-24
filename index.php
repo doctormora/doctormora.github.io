@@ -74,7 +74,7 @@
 					<p class="proximamente">Proximamente &#x1F525;</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
-					<img src="img/mobile1.png" class="img-fluid persona" alt="" width="400px">
+					<img loading="lazy" src="img/mobile1.png" class="img-fluid persona" alt="" width="400px">
 					
 					
 					
@@ -90,7 +90,7 @@
 					  <div class="row">
 						<div class="col-md-4 col-sm-4 text-center">
 							
-						 <img src="img/campana.svg" class="img-fluid" alt="..." width="64px">
+						 <img loading="lazy" src="img/campana.svg" class="img-fluid" alt="..." width="64px">
 						</div>
 						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
 						  
@@ -107,7 +107,7 @@
 					  <div class="row">
 						<div class="col-md-4 col-sm-4 text-center">
 							
-						 <img src="img/poster.svg" class="img-fluid" alt="..." width="64px">
+						 <img loading="lazy" src="img/poster.svg" class="img-fluid" alt="..." width="64px">
 						</div>
 						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
 						 
@@ -123,7 +123,7 @@
 					  <div class="row">
 						<div class="col-md-4 col-sm-4 text-center">
 						
-						  <img src="img/amor.svg" class="img-fluid" alt="..." width="64px">
+						  <img loading="lazy" src="img/amor.svg" class="img-fluid" alt="..." width="64px">
 						</div>
 						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
 						 
@@ -139,7 +139,7 @@
 					  <div class="row">
 						<div class="col-md-4 col-sm-4 text-center">
 						
-						  <img src="img/periodico.svg" class="img-fluid" alt="..." width="64px">
+						  <img loading="lazy" src="img/periodico.svg" class="img-fluid" alt="..." width="64px">
 						</div>
 						<div class="col-md-8 col-sm-8 tarjetas-pri-text">
 						 
@@ -175,7 +175,7 @@
 	  		<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12">
 					
-						<a href="coronavirus.php"><h3>Coronavirus Estatus</h3><img src="img/bacterias.svg" class="img-fluid" alt="coronavirus doctor mora"></a>
+						<a href="coronavirus.php"><h3>Coronavirus Estatus</h3><img loading="lazy" src="img/bacterias.svg" class="img-fluid" alt="coronavirus doctor mora"></a>
 					
 				</div>
 			</div>
@@ -193,7 +193,7 @@
 		
 				<div class="card">
 				  <div class="card-body">
-					  <img src="img/pizza1.png" class="img-fluid" width="64px" alt="restaurante">
+					  <img loading="lazy" src="img/pizza1.png" class="img-fluid" width="64px" alt="restaurante">
 					  <h3>Restaurantes</h3>
 					  <span class="icon-arrow-right2"></span>
 				  </div>
@@ -202,7 +202,7 @@
 				<div class="card">
 				  <div class="card-body">
 					  
-					 <img src="img/tienda21.png" class="img-fluid" width="64px" alt="negocios">
+					 <img loading="lazy" src="img/tienda21.png" class="img-fluid" width="64px" alt="negocios">
 					<h3>Negocios</h3>
 					  <span class="icon-arrow-right2"></span>
 				  </div>
@@ -211,7 +211,7 @@
 				<div class="card">
 				  <div class="card-body">
 					  
-					 <img src="img/equipo1.png" class="img-fluid" width="64px" alt="servicios">
+					 <img loading="lazy" src="img/equipo1.png" class="img-fluid" width="64px" alt="servicios">
 					<h3>Servicios</h3>
 					  <span class="icon-arrow-right2"></span>
 				  </div>
@@ -220,7 +220,7 @@
 				<div class="card">
 				  <div class="card-body">
 					
-					<img src="img/trabajo1.png" class="img-fluid" width="64px" alt="portafolio">
+					<img loading="lazy" src="img/trabajo1.png" class="img-fluid" width="64px" alt="portafolio">
 					<h3 class="etiqueta-empleos-1">Bolsa de Empleo</h3>
 					<h3 class="etiqueta-empleos-2">Empleos</h3>
 					  <span class="icon-arrow-right2"></span>
@@ -237,27 +237,27 @@
  
 	  <section class="eventos">
 		 <div class="container">
-			 <h2><img src="img/calendario.svg" class="img-fluid" width="64px" alt="">Eventos</h2>
+			 <h2><img loading="lazy" src="img/calendario.svg" class="img-fluid" width="64px" alt="">Eventos</h2>
 		  	<div class="row">
 			 	<div class="col-lg-7 co-md-7 col-sm-12">
 					<div class="fechas">
 					<a href="#" class="content-fech">
-						<h5><img src="img/event/navidad.png">Fiesta de navidad</h5>
+						<h5><img loading="lazy" src="img/event/navidad.png">Fiesta de navidad</h5>
 						<p>24/diciembre/2020</p>
 					</a>
 					
 					<a href="#" class="content-fech">
-						<h5><img src="img/event/ano-nuevo.png">Fiesta de Fin de Año</h5>
+						<h5><img loading="lazy" src="img/event/ano-nuevo.png">Fiesta de Fin de Año</h5>
 						<p>31/diciembre/2020</p>
 					</a>
 					
 					<a href="#" class="content-fech">
-						<h5><img src="img/event/los-tres-reyes-magos.png">Reyes Magos</h5>
+						<h5><img loading="lazy" src="img/event/los-tres-reyes-magos.png">Reyes Magos</h5>
 						<p>6/enero/2021</p>
 					</a>
 					
 					<a href="#" class="content-fech">
-						<h5><img src="img/event/san-valentin.png">Dia del Amor y la Amistad</h5>
+						<h5><img loading="lazy" src="img/event/san-valentin.png">Dia del Amor y la Amistad</h5>
 						<p>14/Febrero/2021</p>
 					</a>
 					
@@ -441,7 +441,7 @@
 	  <!-- informacion destacada -->
 	  <section class="information-dest">
 	  	<div class="container">
-			<h2><img src="img/enviar1.png" class="img-fluid" alt="" width="64px">Informacion Destacada</h2>
+			<h2><img loading="lazy" src="img/enviar1.png" class="img-fluid" alt="" width="64px">Informacion Destacada</h2>
 			<div class="row">
 				
 				<div class="col-lg-4 col-md-7 col-sm-7 col-12">
@@ -449,7 +449,7 @@
 					  <div class="card-body" >
 						  
 						  
-						  <img src="img/gobierno21.png" class="img-fluid" alt="" width="217px">
+						  <img loading="lazy" src="img/gobierno21.png" class="img-fluid" alt="" width="217px">
 						<h3>H. Ayuntamiento</h3>
 					  </div>
 					</div>
@@ -459,14 +459,14 @@
 					<div class="card c2 item">
 					  <div class="card-body" >
 						  
-						  <img src="img/telefono1.png" class="img-fluid" alt="" width="64px">
+						  <img loading="lazy" src="img/telefono1.png" class="img-fluid" alt="" width="64px">
 						<h3>Numeros de <strong>Emergencias</strong></h3>
 					  </div>
 					</div>
 					<div class="card c3 item">
 					  <div class="card-body">
 						  
-						  <img src="img/senal-wifi1.png" class="img-fluid" alt="" width="64px"> 
+						  <img loading="lazy" src="img/senal-wifi1.png" class="img-fluid" alt="" width="64px"> 
 						<h3>Internet / TV / Celular</h3>
 					  </div>
 					</div>
@@ -474,10 +474,10 @@
 				
 				<div class="col-lg-5 col-md-12 servicios col-sm-12">
 					<ul class="list-unstyled">
-						<li><a href="#"><img src="img/enfermero1.png" class="img-fluid" alt="Servicios de Salud" width="60px">Servicios de Salud</a></li>
-						<li class="esp"><a href="#"><img src="img/dinero1.png" class="img-fluid" alt="Servicios Financieros" width="60px">Servicios Financieros</a></li>
-						<li class="esp"><a href="#"><img src="img/motor1.png" class="img-fluid" alt="Servicios Automotrices" width="60px">Servicios Automotrices</a></li>
-						<li class="esp"><a href="#"><img src="img/iglesia21.png" class="img-fluid" alt="Servicios Eclesiasticos" width="60px">Servicios Eclesiasticos</a></li>
+						<li><a href="#"><img loading="lazy" src="img/enfermero1.png" class="img-fluid" alt="Servicios de Salud" width="60px">Servicios de Salud</a></li>
+						<li class="esp"><a href="#"><img loading="lazy" src="img/dinero1.png" class="img-fluid" alt="Servicios Financieros" width="60px">Servicios Financieros</a></li>
+						<li class="esp"><a href="#"><img loading="lazy" src="img/motor1.png" class="img-fluid" alt="Servicios Automotrices" width="60px">Servicios Automotrices</a></li>
+						<li class="esp"><a href="#"><img loading="lazy" src="img/iglesia21.png" class="img-fluid" alt="Servicios Eclesiasticos" width="60px">Servicios Eclesiasticos</a></li>
 					</ul>
 				</div>
 				
@@ -493,7 +493,7 @@
 				<div class="col-lg-12">
 					<h3>Conoce <strong>Doctor Mora</strong></h3>
 					<a href="#">Quiero Conocerlo</a>
-					<img src="img/people.svg" class="img-fluid" alt="">
+					<img loading="lazy" src="img/people.svg" class="img-fluid" alt="">
 				</div>
 			</div>  
 		</div>
@@ -507,9 +507,9 @@
 			
 			<div class="row">
 				<div class="col-lg-5 col-md-12">
-				<h2><img src="img/megafono1.png" class="img-fluid" alt="" width="64px">Reportes Doctor Mora</h2>
+				<h2><img loading="lazy" src="img/megafono1.png" class="img-fluid" alt="" width="64px">Reportes Doctor Mora</h2>
 				<p>En esta seccion puedes reportar lamparas fundidas, baches, caminos en mal estado, etc...</p>
-					<img src="img/report.png" class="img-fluid image" alt="">
+					<img loading="lazy" src="img/report.png" class="img-fluid image" alt="">
 				</div>
 				<div class="col-lg-7 col-md-12 information-r">
 				
@@ -518,7 +518,7 @@
 						<div class="card">
 						 
 						  <div class="card-body">
-							<h5 class="card-title"><img src="img/poste-de-luz1.png" class="img-fluid" alt="" width="40px">Lamparas</h5>
+							<h5 class="card-title"><img loading="lazy" src="img/poste-de-luz1.png" class="img-fluid" alt="" width="40px">Lamparas</h5>
 							<ul class="list-unstyled">
 								<li><span class="red"></span><strong>105</strong> Reportadas</li>
 								<li><span class="green"></span><strong>90</strong> Reparadas</li>
@@ -532,7 +532,7 @@
 					  <div class="col mb-4">
 						<div class="card"> 
 						  <div class="card-body">
-							<h5 class="card-title"><img src="img/bache1.png" class="img-fluid" alt="" width="40px">Baches</h5>
+							<h5 class="card-title"><img loading="lazy" src="img/bache1.png" class="img-fluid" alt="" width="40px">Baches</h5>
 							<ul class="list-unstyled">
 								<li><span class="red"></span><strong>200</strong> Reportados</li>
 								<li><span class="green"></span><strong>80</strong> Arreglados</li>
@@ -546,7 +546,7 @@
 						<div class="col mb-4">
 							<div class="card">
 							  <div class="card-body">
-								<h5 class="card-title"><img src="img/la-carretera1.png" class="img-fluid" alt="" width="40px">Caminos</h5>
+								<h5 class="card-title"><img loading="lazy" src="img/la-carretera1.png" class="img-fluid" alt="" width="40px">Caminos</h5>
 								<ul class="list-unstyled">
 									<li><span class="red"></span><strong>80</strong> Reportados</li>
 									<li><span class="green"></span><strong>20</strong> Arreglados</li>
@@ -583,7 +583,7 @@
 			<div class="row">
 				<div class="col-lg-7 col-md-12">
 					<h5>¿ Tienes Dudas o Preguntas ?</h5>
-					<p>Puedes Mandarnos un correo electronico <img src="img/mail.png" class="img-fluid" alt="" width="27px"> a dyxerteam@gmail.com y nosotros te resolveremos todas tus dudas.</p>
+					<p>Puedes Mandarnos un correo electronico <img loading="lazy" src="img/mail.png" class="img-fluid" alt="" width="27px"> a dyxerteam@gmail.com y nosotros te resolveremos todas tus dudas.</p>
 					<h5>¿ Como me registro en la plataforma ?</h5>
 					<p>Para registrarte en la plataforma tienes que llenar un pequeño formulario.</p>
 					<a href="#">Formulario</a>
@@ -593,7 +593,7 @@
 					
 				</div>
 				<div class="col-lg-5 col-md-12 people">
-					<img src="img/people2-min.png" class="img-fluid" alt="">
+					<img loading="lazy" src="img/people2-min.png" class="img-fluid" alt="">
 				</div>
 			</div>
 		</div>
@@ -610,9 +610,9 @@
 				<div class="col-lg-12">
 					<h6><span>CHARKAS</span> es un proyecto de</h6>
 					<div class="patrocinadores">
-						<img src="img/power11.png" class="img-fluid" alt="">
-						<img src="img/power21.png" class="img-fluid" alt="">
-						<img src="img/power31.png" class="img-fluid" alt="">
+						<img loading="lazy" src="img/power11.png" class="img-fluid" alt="">
+						<img loading="lazy" src="img/power21.png" class="img-fluid" alt="">
+						<img loading="lazy" src="img/power31.png" class="img-fluid" alt="">
 					</div>
 					
 				</div>  

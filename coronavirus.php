@@ -73,7 +73,7 @@
 				  </ul>
 			  </div>
 			  <div class="col-lg-5 text-center align-content-center">
-				  <img src="img/mascara1.png" class="img-fluid mascarilla" alt="mascarilla">
+				  <img loading="lazy" src="img/mascara1.png" class="img-fluid mascarilla" alt="mascarilla">
 			  </div>
 			</div>
 		  </div>
@@ -112,7 +112,7 @@
 
 
 <section class="emerge">
-			<h3>Estas en <strong>COVID-19</strong> <img src="img/bacterias.svg" class="img-fluid" width="20px"></h3>
+			<h3>Estas en <strong>COVID-19</strong> <img loading="lazy" src="img/bacterias.svg" class="img-fluid" width="20px"></h3>
 		</section>
 
 <?php include_once 'includes/templates/footer.php'; ?>

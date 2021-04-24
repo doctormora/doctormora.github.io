@@ -85,7 +85,7 @@
 						<h4>Tienen aplicacion para Android o iOS</h4>
 					<p>Por el momento no contamos con aplicacion nativa para Android o iOS, pero esta plataforma tiene la tecnologia PWA, lo que hace esta tecnologia es convertir una pagina web en una aplicacion nativa.
 					</p>
-						<img src="img/cap/cap1.png" class="img-fluid img-faqs" alt="" width="400px">	
+						<img loading="lazy" src="img/cap/cap1.png" class="img-fluid img-faqs" alt="" width="400px">	
 						
 					</div>
 					
@@ -114,19 +114,19 @@
 					<div class="faqs-body-t">
 					<h4>Pasos para instalar la app.</h4>
 					<p>1. Primero debes de Ingresar a doctormora.github.io desde tu dispositivo movil.</p>
-					<img src="img/cap/cap2.png" class="img-fluid shadow" width="300px">
+					<img loading="lazy" src="img/cap/cap2.png" class="img-fluid shadow" width="300px">
 					<p></p>
 					<p>2. Cuando la pagina haya cargado todo el contenido te aparecera en la parte inferior un banner para agregar Charkas a la pantalla principal. <span>Lo presionas.</span> <span>En caso de que no te aparezca el banner borra la cache, cookies e ingresa Nuevamente.</span></p>
-					<img src="img/cap/cap3.png" class="img-fluid shadow img-faqs" width="300px">
+					<img loading="lazy" src="img/cap/cap3.png" class="img-fluid shadow img-faqs" width="300px">
 					<p></p>
 					<p>3. Nuevamente presionas agregar</p>
-					<img src="img/cap/cap4.png" class="img-fluid shadow img-faqs" width="300px">
+					<img loading="lazy" src="img/cap/cap4.png" class="img-fluid shadow img-faqs" width="300px">
 					<p></p>
 					<p>4. Esperamos a que se instale la aplicacion</p>
-					<img src="img/cap/cap5.png" class="img-fluid shadow img-faqs" width="300px">
+					<img loading="lazy" src="img/cap/cap5.png" class="img-fluid shadow img-faqs" width="300px">
 					<p></p>
 					<p>5. Listo ya tienes la app.</p>
-					<img src="img/cap/cap6.png" class="img-fluid shadow img-faqs" width="300px">
+					<img loading="lazy" src="img/cap/cap6.png" class="img-fluid shadow img-faqs" width="300px">
 					<p></p>
 					<p>Si ya realizaste todos los pasos y no puedes instalar la aplicacion puedes bajar el archivo <a href="apk.php">.apk</a>, este archivo no esta en la playstore por lo que no la vas encontrar en la tienda.</p>	
 					</div>

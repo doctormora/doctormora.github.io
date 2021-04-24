@@ -8,7 +8,7 @@
 		<div class="container">
 			<div class="row d-flex align-items-center">
 				<div class="col-lg-12 col-md-12">
-					<h1>Apoyo Social <img src="img/corazon2.png" class="img-fluid" width="40px"></h1>
+					<h1>Apoyo Social <img loading="lazy" src="img/corazon2.png" class="img-fluid" width="40px"></h1>
 					<p>A medida que crezcas, descubriras que tienes dos manos; una para ayudarte a ti mismo y otra para ayudar a los demás.</p>
 					
 				</div>
@@ -24,7 +24,7 @@
 					<p>Siempre que puedas <strong>AYUDA</strong> a otra persona, puede ser que tu seas el unico que lo hará.</p>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
-					<img src="img/soci1.jpg" class="img-fluid"  alt="">
+					<img loading="lazy" src="img/soci1.jpg" class="img-fluid"  alt="">
 				</div>
 			</div>
 		</div>
@@ -43,7 +43,7 @@
 					<div class="card-person">
 						
 						<div class="media align-items-center">
-						  <img src="img/social/2.png" class="mr-3 img-fluid color" width="102px" alt="...">
+						  <img loading="lazy" src="img/social/2.png" class="mr-3 img-fluid color" width="102px" alt="...">
 						  <div class="media-body">
 							<h5>Aitana Puerta</h5>
 							<p>Síndrome urémico hemolítico (SUH)</p>
@@ -52,7 +52,7 @@
 						</div>
 						
 						<div class="media align-items-center">
-						  <img src="img/social/10.png" class="mr-3 img-fluid" width="102px" alt="...">
+						  <img loading="lazy" src="img/social/10.png" class="mr-3 img-fluid" width="102px" alt="...">
 						  <div class="media-body">
 							<h5>Ana Cristina Mariscal</h5>
 							<p>Esclerosis Lateral Amiotrófica</p>
@@ -61,7 +61,7 @@
 						</div>
 						
 						<div class="media align-items-center">
-						  <img src="img/social/1.png" class="mr-3 img-fluid" width="102px" alt="...">
+						  <img loading="lazy" src="img/social/1.png" class="mr-3 img-fluid" width="102px" alt="...">
 						  <div class="media-body">
 							<h5>Victor Vila</h5>
 							<p>Sindrome X-frágil</p>
@@ -71,7 +71,7 @@
 						
 						
 						<div class="media align-items-center">
-						  <img src="img/social/4.png" class="mr-3 img-fluid" width="102px" alt="...">
+						  <img loading="lazy" src="img/social/4.png" class="mr-3 img-fluid" width="102px" alt="...">
 						  <div class="media-body">
 							<h5>Andrea Centeno</h5>
 							<p>Bronquiolitis obliterante</p>
@@ -80,7 +80,7 @@
 						</div>
 						
 						<div class="media align-items-center">
-						  <img src="img/social/ocu.png" class="mr-3 img-fluid" width="102px" alt="...">
+						  <img loading="lazy" src="img/social/ocu.png" class="mr-3 img-fluid" width="102px" alt="...">
 						  <div class="media-body">
 							<h5>Amelia Zapata</h5>
 							<p>Derrame ocular</p>
@@ -89,7 +89,7 @@
 						</div>
 						
 						<div class="media align-items-center">
-						  <img src="img/social/6.png" class="mr-3 img-fluid" width="102px" alt="...">
+						  <img loading="lazy" src="img/social/6.png" class="mr-3 img-fluid" width="102px" alt="...">
 						  <div class="media-body">
 							<h5>Nicolae Cabanillas</h5>
 							<p>Neurofibromatosis</p>
@@ -110,7 +110,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
-					<img src="img/soci2.jpg" class="img-fluid" alt="" width="383px">
+					<img loading="lazy" src="img/soci2.jpg" class="img-fluid" alt="" width="383px">
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center">
 					<div class="texts">
