@@ -1,4 +1,4 @@
-<?php require 'admin_header.php' ?>
+<?php require 'admin_header.html' ?>
 	  
 	  <section class="admin-s negocios">
 	  	<div class="container">
@@ -20,8 +20,8 @@
 						<h5 class="card-title">Categorias</h5>
 						<h6 class="card-subtitle mb-2 text-muted">24 Categorias Agregadas</h6>
 
-						<a href="categorias.php" class="card-link">Ver Categorias</a>
-						<a href="categorias_add.php" class="card-link">Agregar Una Categoria</a>
+						<a href="categorias.html" class="card-link">Ver Categorias</a>
+						<a href="categorias_add.html" class="card-link">Agregar Una Categoria</a>
 					  </div>
 					</div>
 			  </div>

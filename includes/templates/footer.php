@@ -25,10 +25,10 @@
 			</span>
 			<div class="men-cont-c">
 				<ul class="list-unstyled men-cont-links">
-					<li><a href="faqs.php"><i class="fas fa-question"></i> FAQs</a></li>
-					<li><a href="contacto.php"><i class="fas fa-child"></i> Acerca de Nosotros</a></li>
-					<li><a href="contacto.php"><i class="fas fa-code"></i> Acerca de la plataforma</a></li>
-					<li><a href="contacto.php"><i class="far fa-angry"></i> Quejas, sugerencias, etc...</a></li>
+					<li><a href="faqs.html"><i class="fas fa-question"></i> FAQs</a></li>
+					<li><a href="contacto.html"><i class="fas fa-child"></i> Acerca de Nosotros</a></li>
+					<li><a href="contacto.html"><i class="fas fa-code"></i> Acerca de la plataforma</a></li>
+					<li><a href="contacto.html"><i class="far fa-angry"></i> Quejas, sugerencias, etc...</a></li>
 				</ul>
 			</div>
 			<div class="men-cont-c">
@@ -51,7 +51,7 @@
 
 
 <!-- modal -->
-	<?php include_once 'includes/templates/modal.php'; ?>
+	<?php include_once 'includes/templates/modal.html'; ?>
 	
 
 <!-- fin modal -->
@@ -74,10 +74,10 @@
 				<div class="col-lg-4 col-md-4 enlaces" id="enlaces">
 					<h4>Links útiles</h4>
 					<ul class="list-unstyled">
-						<li><a href="faqs.php"><i class="fas fa-question"></i> FAQS</a></li>
-						<li><a href="faqs.php#nosotros"><i class="fas fa-child"></i> Acerca de Nosotros</a></li>
-						<li><a href="faqs.php#plataforma"><i class="fas fa-code"></i> Acerca de la plataforma </a></li>
-						<li><a href="faqs.php#quejas"><i class="far fa-angry"></i> Quejas, Sugerencias, etc...</a></li>
+						<li><a href="faqs.html"><i class="fas fa-question"></i> FAQS</a></li>
+						<li><a href="faqs.html#nosotros"><i class="fas fa-child"></i> Acerca de Nosotros</a></li>
+						<li><a href="faqs.html#plataforma"><i class="fas fa-code"></i> Acerca de la plataforma </a></li>
+						<li><a href="faqs.html#quejas"><i class="far fa-angry"></i> Quejas, Sugerencias, etc...</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-4 col-md-4 contacto" id="contacto">
@@ -85,7 +85,7 @@
 					<ul class="list-unstyled">
 						<li><a href="#"><i class="fab fa-whatsapp"></i> 419 138 9032</a></li>
 						<li><a href="#"><i class="far fa-envelope"></i> dyxerteam@gmail.com</a></li>
-						<li><a href="apk.php"><i class="fab fa-android"></i> Descarga el APK</a></li>
+						<li><a href="apk.html"><i class="fab fa-android"></i> Descarga el APK</a></li>
 					</ul>
 				</div>
 				<div class="col-lg-12 col-md-12 copy">
@@ -104,11 +104,11 @@
 	  	<div class="container">
 			<div class="row">
 				<ul class="list-unstyled list-inline">
-					<li class="list-inline-item"><a href="index.php"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+					<li class="list-inline-item"><a href="index.html"><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-house-door-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path d="M6.5 10.995V14.5a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5v-7a.5.5 0 0 1 .146-.354l6-6a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 .146.354v7a.5.5 0 0 1-.5.5h-4a.5.5 0 0 1-.5-.5V11c0-.25-.25-.5-.5-.5H7c-.25 0-.5.25-.5.495z"/>
   <path fill-rule="evenodd" d="M13 2.5V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
 </svg></a></li>
-					<li class="list-inline-item"><a href="eventos.php">
+					<li class="list-inline-item"><a href="eventos.html">
 						<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-calendar-event" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
   <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>

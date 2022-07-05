@@ -1,8 +1,8 @@
 <?php 
-	include_once 'funciones/funciones.php';
-  	include_once 'templates/header.php'; 
-  	include_once 'templates/barra.php';
-  	include_once 'templates/navegacion.php'; 
+	include_once 'funciones/funciones.html';
+  	include_once 'templates/header.html'; 
+  	include_once 'templates/barra.html';
+  	include_once 'templates/navegacion.html'; 
 
 ?>
 
@@ -29,7 +29,7 @@
     <section class="content">
   		<div class="row">
 			<div class="col-md-6 card">
-				 <form role="form" name="crear_admin" id="crear_admin" method="post" action="insertar_admin.php">
+				 <form role="form" name="crear_admin" id="crear_admin" method="post" action="insertar_admin.html">
 					  <div class="card-body">
 						<div class="form-group">
 						<label for="usuario">Usuario</label>
@@ -63,4 +63,4 @@
   <!-- /.content-wrapper -->
 
 
-  <?php include_once 'templates/footer.php'; ?>
+  <?php include_once 'templates/footer.html'; ?>
