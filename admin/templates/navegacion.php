@@ -18,7 +18,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item has-treeview">
-            <a href="index.php" class="nav-link">
+            <a href="index.html" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>Dashboard</p>
             </a>
@@ -66,7 +66,7 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="crear_admin.php" class="nav-link">
+                <a href="crear_admin.html" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Agregar</p>
                 </a>

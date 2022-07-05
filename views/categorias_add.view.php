@@ -1,4 +1,4 @@
-<?php require 'admin_header.php' ?>
+<?php require 'admin_header.html' ?>
 
 <section class="categorias-add">
 <div class="container">
@@ -16,11 +16,11 @@
 	</div>
 </div>
 	<div class="link">
-	<a href="categorias.php">Regresar a Categorias</a>
+	<a href="categorias.html">Regresar a Categorias</a>
 	</div>
 </section>
 
 
 
 
-<?php require 'admin_footer.php' ?>
+<?php require 'admin_footer.html' ?>

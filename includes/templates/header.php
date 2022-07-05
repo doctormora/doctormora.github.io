@@ -75,7 +75,7 @@
 		    <!-- <div class="spinner-border spinner-border-sm" id="carga" role="status"><span class="sr-only">Loading...</span></div> -->
 		  	<div class="ml-auto d-flex" style="z-index: 3;">
 		  	<div class="onesignal-customlink-container"></div>
-			<a href="coronavirus.php"><img src="img/bacterias.svg" class="img-fluid" width="30px;" style="margin-left: 20px;"></a>
+			<a href="coronavirus.html"><img src="img/bacterias.svg" class="img-fluid" width="30px;" style="margin-left: 20px;"></a>
 			</div>
 	 	</div>
 	</section> 
@@ -86,17 +86,17 @@
 	  <nav class="navbar navbar-expand-lg menu-escritorio fixed-top">
 		  <div class="container">
 		  
-			   <a class="navbar-brand" href="index.php">Doctor Mora</a>
+			   <a class="navbar-brand" href="index.html">Doctor Mora</a>
 				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				  </button>
 			  
 				  <div class="enlaces-m-escritorio" id="navbarNavAltMarkup">
 					<div class="ml-auto">
-					  <a href="index.php">Inicio</a>
+					  <a href="index.html">Inicio</a>
 					  <a href="#enlaces">Links útiles</a>
 					  <a href="#contacto">Contacto</a>
-					  <a href="coronavirus.php">COVID-19</a>
+					  <a href="coronavirus.html">COVID-19</a>
 					  <a href="#datos">Bugs <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bug-fill" viewBox="0 0 16 16">
   <path fill-rule="evenodd" d="M4.978.855a.5.5 0 1 0-.956.29l.41 1.352A4.985 4.985 0 0 0 3 6h10a4.985 4.985 0 0 0-1.432-3.503l.41-1.352a.5.5 0 1 0-.956-.29l-.291.956A4.978 4.978 0 0 0 8 1a4.979 4.979 0 0 0-2.731.811l-.29-.956zM13 6v1H8.5v8.975A5 5 0 0 0 13 11h.5a.5.5 0 0 1 .5.5v.5a.5.5 0 1 0 1 0v-.5a1.5 1.5 0 0 0-1.5-1.5H13V9h1.5a.5.5 0 0 0 0-1H13V7h.5A1.5 1.5 0 0 0 15 5.5V5a.5.5 0 0 0-1 0v.5a.5.5 0 0 1-.5.5H13zm-5.5 9.975V7H3V6h-.5a.5.5 0 0 1-.5-.5V5a.5.5 0 0 0-1 0v.5A1.5 1.5 0 0 0 2.5 7H3v1H1.5a.5.5 0 0 0 0 1H3v1h-.5A1.5 1.5 0 0 0 1 11.5v.5a.5.5 0 1 0 1 0v-.5a.5.5 0 0 1 .5-.5H3a5 5 0 0 0 4.5 4.975z"/>
 </svg> </a>
