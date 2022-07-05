@@ -10,10 +10,10 @@
 		  <div class="modal-body">
 			<ul class="list-unstyled modal-lista">		
 				<li><a href="#" class="c-avisos"><img src="img/campana.svg" class="img-fluid" width="35px"> Avisos</a></li>
-				<li><a href="convocatorias.php" class="c-convocatorias"><img src="img/poster.svg" class="img-fluid" width="35px">Convocatorias</a></li>
-				<li><a href="social.php" class="c-apoyosocial"><img src="img/amor.svg" class="img-fluid" width="35px"> Apoyo Social</a></li>
+				<li><a href="convocatorias.html" class="c-convocatorias"><img src="img/poster.svg" class="img-fluid" width="35px">Convocatorias</a></li>
+				<li><a href="social.html" class="c-apoyosocial"><img src="img/amor.svg" class="img-fluid" width="35px"> Apoyo Social</a></li>
 				<li><a href="#" class="c-noticias"><img src="img/periodico.svg" class="img-fluid" width="35px"> Noticias</a></li>
-				<li><a href="eventos.php" class="c-eventos"><img src="img/calendario.svg" class="img-fluid" width="35px"> Eventos</a></li>
+				<li><a href="eventos.html" class="c-eventos"><img src="img/calendario.svg" class="img-fluid" width="35px"> Eventos</a></li>
 				<li>&nbsp; </li>
 				<li><a href="#">Restaurantes</a></li>
 				<li><a href="#">Negocios</a></li>

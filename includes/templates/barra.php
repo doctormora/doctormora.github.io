@@ -1,10 +1,10 @@
 <ul class="list-unstyled text-left barra-lateral">
 	<h5>Enlaces</h5>
 	<li><a href="#">Avisos</a></li>
-	<li><a href="convocatorias.php">Convocatorias</a></li>
-	<li><a href="social.php">Apoyo Social</a></li>
+	<li><a href="convocatorias.html">Convocatorias</a></li>
+	<li><a href="social.html">Apoyo Social</a></li>
 	<li><a href="#">Noticias</a></li>
-	<li><a href="eventos.php">Eventos</a></li>
+	<li><a href="eventos.html">Eventos</a></li>
 	<li>&nbsp; </li>
 	<li><a href="#">Restaurantes</a></li>
 	<li><a href="#">Negocios</a></li>

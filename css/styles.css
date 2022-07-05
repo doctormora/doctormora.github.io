@@ -1,3 +1,23 @@
+@font-face{
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Regular.woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face{
+  font-family: 'Lato';
+  src: url("../fonts/Lato-Bold.woff2");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+
+
+
+
+
 :root {
   --cpri: #f40c48;
   --csec: #00f0ff;
@@ -17,10 +37,22 @@
 }
 
 body {
-  font-family: "Lato", sans-serif !important;
+  font-family: 'Lato', sans-serif;
 
   background: var(--cf1);
-  /*font-family: 'Mitr', sans-serif ;*/
+ 
+}
+/* --- estilos para las cards --*/
+.card--w{
+  background: var(--cf2);
+  -webkit-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+  -moz-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+  box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
+  border: none;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+
 }
 .emerge {
   display: none;
@@ -115,12 +147,12 @@ body {
   text-align: center;
   font-size: 1.5em !important;
 }
-
+/*
 img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]
 {
   display: none;
 }
-
+*/
 .c-avisos {
   border-left: 5px solid #ff0251;
 }
@@ -458,8 +490,14 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 
 .banner h1 {
   color: var(--csec);
-  font-size: 72px;
+  font-size: 64px;
   font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.banner h1 span{
+  font-size: 28px;
+  color: var(--cf1);
 }
 
 .banner p {
@@ -571,86 +609,48 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 }
 
 /* ------ seccion tarjetas rapidas ----------*/
-.tarjetas-r {
+.fastCards{
   padding-top: 20px;
   padding-bottom: 100px;
   background: var(--cf1);
 }
-.tarjetas-r h2 {
+.fastCards .subtitle {
   color: var(--ct3);
   font-size: 24px;
   font-weight: 300;
+  margin-bottom: 30px;
 }
-.tarjetas-r h2 strong {
-  color: var(--ct1);
-  font-weight: 900;
-}
-.tarjetas-r-c {
-  justify-content: space-around;
-  display: flex;
-  margin-top: 30px;
-}
-.tarjetas-r-c .card {
-  background: var(--cf2);
-  -webkit-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
-  -moz-box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
-  box-shadow: 0px 10px 25px 0px rgba(173, 173, 173, 0.35);
 
+.fastCards__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+
+.fastCard__card{
   text-align: center;
-  min-width: 255px;
   min-height: 200px;
-  padding-top: 25px;
-  border: none;
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-
-  position: relative;
+  padding: 15px;
   -webkit-transition-duration: 0.8s;
   transition-duration: 0.8s;
-  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
-/*
-.tarjetas-r-c .card:hover{
-	cursor: pointer;
-	background: var(--cpri);
-	color: #fff;
-	-webkit-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	-moz-box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-	box-shadow: 0px 10px 25px 0px rgba(244,12,72,0.35);
-}
-.tarjetas-r-c .card:hover span{
-	bottom: 15px;
-	-webkit-transition-duration: 0.4s;
-	transition-duration: 0.4s;
+.fastCard__item{
 
 }
 
-.tarjetas-r-c .card:hover h3{
-	color: #fff;
-}*/
 
-.tarjetas-r-c .card h3 {
+.fastCard__item--title {
   color: var(--ct1);
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 900;
   margin-top: 10px;
 }
-.tarjetas-r-c .card .etiqueta-empleos-2 {
-  display: none;
-}
-.tarjetas-r-c .card span {
-  color: #fff;
-  font-size: 24px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-top: 10px;
-  bottom: -50px;
-}
+
 
 /* --------- seccion eventos -----------------*/
 .eventos {
@@ -881,7 +881,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .information-dest .c1 h3 {
   color: var(--ct1);
   font-size: 18px;
-  font-weight: 900;
+  font-weight: 700;
   margin-top: 25px;
 }
 
@@ -930,7 +930,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .information-dest .c2 h3,
 .information-dest .c3 h3 {
   margin-top: 15px;
-  font-weight: 900;
+  font-weight: 700;
   color: var(--ct1);
 }
 /* esto si lo podemos descomentar
@@ -986,6 +986,43 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 .information-dest .servicios .esp {
   margin-top: 25px;
 }
+
+
+
+
+.informationDes{
+  display: grid;
+  width: 100%;
+  grid-template-areas: "ayuntamiento telefonia"
+                        "ayuntamiento wifi";
+  gap: 30px;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 1fr 1fr;
+
+} 
+.informationDes__item{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}                      
+.informationDes__item.ayuntamiento{
+  grid-area: ayuntamiento;
+}
+.informationDes__item.telefonia{
+  grid-area: telefonia;
+}
+.informationDes__item.wifi{
+  grid-area: wifi;
+
+}
+
+
+
+
+
+
 
 /* -----------seccion conoce doctor mora ------------ */
 
@@ -1883,7 +1920,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 /*---- cuando el dispositivo es mayor a 992 se aplicaran los efecto hover ---*/
 
 @media screen and (min-width: 992px) {
-  .tarjetas-pri .card:hover {
+  .fastCard__card:hover {
     background: var(--cf2);
     color: var(--ct1);
   }
@@ -1895,7 +1932,7 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     color: white;
   }
 
-  .tarjetas-r-c .card:hover {
+  .fastCard__card:hover {
     cursor: pointer;
     background: var(--cpri);
     color: #fff;
@@ -1903,13 +1940,13 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
     -moz-box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
     box-shadow: 0px 10px 25px 0px rgba(244, 12, 72, 0.35);
   }
-  .tarjetas-r-c .card:hover span {
+  .fastCard__card:hover span {
     bottom: 15px;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
   }
 
-  .tarjetas-r-c .card:hover h3 {
+  .fastCard__card:hover h3 {
     color: #fff;
   }
 
@@ -1962,15 +1999,14 @@ img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhos
 /*-----------------------------*/
 
 @media screen and (max-width: 1199px) {
-  .tarjetas-r-c .card {
-    min-width: 200px;
+  .fastCard__card {
     min-height: 170px;
   }
-  .tarjetas-r-c .card img,
+  .fastCard__card img,
   .tarjetas-pri .card img {
     width: 50px;
   }
-  .tarjetas-r-c .card h3 {
+  .fastCard__card h3 {
     font-size: 16px;
   }
 

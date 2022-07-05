@@ -15,7 +15,7 @@
 		$password_hashed = password_hash($password, PASSWORD_BCRYPT, $opciones);
 
 		try{
-			include_once('funciones/funciones.php');
+			include_once('funciones/funciones.html');
 			$stmt = $conn->prepare("INSERT INTO admins (usuario, nombre, password) VALUES (?, ?, ?)");
 			$stmt->bind_param("sss", $usuario, $nombre, $password_hashed);
 			$stmt->execute();
