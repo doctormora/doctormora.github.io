@@ -1,37 +1,43 @@
-<body class="hold-transition sidebar-mini">
-<!-- Site wrapper -->
-<div class="wrapper">
-  <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
-    <!-- Left navbar links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-      </li>
-    </ul>
-
- 
-
-    <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
-    
-   
- 
-      <li class="nav-item dropdown user-menu">
-        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">
-   
-          <span class="d-none d-md-inline">Alexander Pierce</span>
-        </a>
-        <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-    
-          <!-- Menu Footer-->
-          <li class="user-footer">
-            <a href="#" class="btn btn-success btn-flat">Profile</a>
-            <a href="#" class="btn btn-danger btn-flat float-right">Sign out</a>
-          </li>
-        </ul>
-      </li>
-  
-    </ul>
-  </nav>
-  <!-- /.navbar -->
+<ul class="list-unstyled text-left barra-lateral">
+	<h5>Enlaces</h5>
+	<li><a href="#">Avisos</a></li>
+	<li><a href="convocatorias.html">Convocatorias</a></li>
+	<li><a href="social.html">Apoyo Social</a></li>
+	<li><a href="#">Noticias</a></li>
+	<li><a href="eventos.html">Eventos</a></li>
+	<li>&nbsp; </li>
+	<li><a href="#">Restaurantes</a></li>
+	<li><a href="#">Negocios</a></li>
+	<li><a href="#">Servicios</a></li>
+	<li><a href="#">Bolsa de Empleo</a></li>
+	<li><a href="#">Programas Municipales</a></li>
+	<li><a href="#">Numeros de Emergencia</a></li>
+	<li><a href="#">Internet / TV / Celular</a></li>
+	<li><a href="#">Servicios de Salud</a></li>
+	<li><a href="#">Servicios Financieros</a></li>
+	<li><a href="#">Servicios Automotrices</a></li>
+	<li><a href="#">Servicios Eclesiasticos</a></li>
+	<li><a href="#">Conoce Doctor Mora</a></li>
+	<li><a href="#">Reportes Doctor Mora</a></li>
+</ul><ul class="list-unstyled text-left barra-lateral">
+	<h5>Enlaces</h5>
+	<li><a href="#">Avisos</a></li>
+	<li><a href="convocatorias.html">Convocatorias</a></li>
+	<li><a href="social.html">Apoyo Social</a></li>
+	<li><a href="#">Noticias</a></li>
+	<li><a href="eventos.html">Eventos</a></li>
+	<li>&nbsp; </li>
+	<li><a href="#">Restaurantes</a></li>
+	<li><a href="#">Negocios</a></li>
+	<li><a href="#">Servicios</a></li>
+	<li><a href="#">Bolsa de Empleo</a></li>
+	<li><a href="#">Programas Municipales</a></li>
+	<li><a href="#">Numeros de Emergencia</a></li>
+	<li><a href="#">Internet / TV / Celular</a></li>
+	<li><a href="#">Servicios de Salud</a></li>
+	<li><a href="#">Servicios Financieros</a></li>
+	<li><a href="#">Servicios Automotrices</a></li>
+	<li><a href="#">Servicios Eclesiasticos</a></li>
+	<li><a href="#">Conoce Doctor Mora</a></li>
+	<li><a href="#">Reportes Doctor Mora</a></li>
+</ul>
