@@ -1,54 +1,26 @@
 <!doctype html>
 <html lang="es">
   <head>
-    <!-- Required meta tags -->
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=0">
-	<title>Doctor Mora</title>
-	<link rel="shortcut icon" href="img/icon.ico" />
-	<script src="js/pace.min.js"></script> 
-	  
-	  
-	
-	  
-	<!-- fuentes  -->
-	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap" rel="stylesheet">
-	
-	<!-- fuentes iconmoon -->
-	<link rel="stylesheet" href="css/fonts.css">
-	<link rel="stylesheet" href="fonts/coronavirus/style.css">
-	  
-	<!-- font awesome -->  
-	<script src="https://kit.fontawesome.com/871e8e7b15.js" crossorigin="anonymous"></script>
-	  
+	<title>Coronavirus - Doctor Mora Guanajuato</title>
+	<meta name="title" content="Coronavirus - Doctor Mora Guanajuato">
+	<meta name="description" content="Pagina donde se muestra el estatus de la pandemia en Doctor Mora">
 
-	<!-- estilos carusel -->
-	<link rel="stylesheet" href="owl/owl.carousel.css">
-	<link rel="stylesheet" href="owl/owl.theme.default.css"> 
-	  
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-	
-	<!-- estilos css -->  
+
+	<link rel="shortcut icon" href="img/icon.ico" />
+
+	<!-- estilos css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/styles2.css"> <!-- page coronavirus -->
-	
-
-	<!-- PWA-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+		
+	<!-- progresive app -->
 	<meta name="theme-color" content="#f0f0f0"> 
 	<link rel="manifest" href="manifest.json">
 	  
-
-	  <!-- onesignal -->
-	  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-		<script>
-		  window.OneSignal = window.OneSignal || [];
-		  OneSignal.push(function() {
-			OneSignal.init({
-			  appId: "075d924a-c91c-4506-9ddb-e628eb044779",
-			});
-		  });
-		</script>
 
 	  
 	
@@ -59,23 +31,20 @@
 
 		</div>
 	
-	  
-	<!-- menu fijo movil solo se activa en dispositivos moviles -->
-	<section class="list-top fixed-top">
-		<div class="container d-flex align-items-center">
-			 
-				<svg width="1.8em" height="1.8em" viewBox="0 0 16 16" id="mostrar" class="bi bi-justify" fill="currentColor" xmlns="http://www.w3.org/2000/svg" style="z-index: 3;">
-	  <path fill-rule="evenodd" d="M2 12.5a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5zm0-3a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11a.5.5 0 0 1-.5-.5z" />
-	</svg>
-
+	 <!-- menu fijo movil solo se activa en dispositivos moviles -->
+	<section class="list-top">
+		<div class="container mmovil">
+			 <div id="mostrar">
+				<i class="bi bi-justify"></i>
+			</div>
 			<span>Doctor Mora</span>
 			
 			
 			
-		    <!-- <div class="spinner-border spinner-border-sm" id="carga" role="status"><span class="sr-only">Loading...</span></div> -->
+		   
 		  	<div class="ml-auto d-flex" style="z-index: 3;">
 		  	<div class="onesignal-customlink-container"></div>
-			<a href="coronavirus.html"><img src="img/bacterias.svg" class="img-fluid" width="30px;" style="margin-left: 20px;"></a>
+				<a href="coronavirus.html"><img src="img/bacterias.svg" class="img-fluid" width="30px;" style="margin-left: 20px;" alt=""></a>
 			</div>
 	 	</div>
 	</section> 
@@ -275,8 +244,49 @@
 
 
 <!-- modal -->
-	<?php include_once 'includes/templates/modal.html'; ?>
-	
+<div class="modal opciones fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-scrollable">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="exampleModalLabel">Enlaces</h5>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body">
+		  <ul class="list-unstyled modal-lista">		
+			  <li><a href="#" class="c-avisos"><img src="img/campana.svg" class="img-fluid" width="35px" alt=""> Avisos</a></li>
+			  <li><a href="convocatorias.html" class="c-convocatorias"><img src="img/poster.svg" class="img-fluid" width="35px" alt="">Convocatorias</a></li>
+			  <li><a href="social.html" class="c-apoyosocial"><img src="img/amor.svg" class="img-fluid" width="35px" alt=""> Apoyo Social</a></li>
+			  <li><a href="#" class="c-noticias"><img src="img/periodico.svg" class="img-fluid" width="35px" alt=""> Noticias</a></li>
+			  <li><a href="eventos.html" class="c-eventos"><img src="img/calendario.svg" class="img-fluid" width="35px" alt=""> Eventos</a></li>
+			  <li>&nbsp; </li>
+			  <li><a href="#">Restaurantes</a></li>
+			  <li><a href="#">Negocios</a></li>
+			  <li><a href="#">Servicios</a></li>
+			  <li><a href="#">Bolsa de Empleo</a></li>
+			  <li><a href="#">Programas Municipales</a></li>
+			  <li><a href="#">Numeros de Emergencia</a></li>
+			  <li><a href="#">Internet / TV / Celular</a></li>
+			  <li><a href="#">Servicios de Salud</a></li>
+			  <li><a href="#">Servicios Financieros</a></li>
+			  <li><a href="#">Servicios Automotrices</a></li>
+			  <li><a href="#">Servicios Eclesiasticos</a></li>
+			  <li><a href="#">Conoce Doctor Mora</a></li>
+			  <li><a href="#">Reportes Doctor Mora</a></li>
+			</ul>
+
+			
+		</div>
+		  <!--
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-lg btn-block btn-danger" data-dismiss="modal">Close</button>
+		  </div>
+		  -->
+	  </div>
+	</div>
+  </div>
+  
 
 <!-- fin modal -->
 
@@ -374,70 +384,31 @@
 	
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	  
-    <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<script src="owl/owl.carousel.js"></script>
-	<script src="js/app.js"></script>
-	<script src="js/nav.js"></script>
+    <!-- scripts -->
+	<script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script defer src="https://doctormora.xyz/js/popper.min.js"></script>
+    <script defer src="https://doctormora.xyz/js/bootstrap.min.js"></script>
+	<script defer src="https://doctormora.xyz/js/app.js"></script>
+	<script src="https://doctormora.xyz/js/nav.js"></script>
+
 	<script>
-		$('.loop').owlCarousel({
-    		center: true,
-    		items:2,
-		  	dots:false,
-		  	nav: true,
-    		loop:true,
-    		autoWidth:true,
-    		margin:30,
-    		responsive:{
-        		600:{
-            		items:4
-        		}
-    		}
+		$(document).ready(function () {
+		  $(window).scroll(function () {
+			var scroll = $(window).scrollTop();
+			if (scroll < 100) {
+			  $(".ch").css({ display: "block" });
+			  $(".ev").css({ "display": "none" });
+			   
+			  
+			} else {
+			  $(".ch").css({ display: "none" });
+			  $(".ev").css({ display: "block" });
+			   
+			  
+			}
+		  });
 		});
-		
-		$('.nonloop').owlCarousel({
-    		center: true,
-    		items:2,
-			dots:false,
-		  	nav: true,
-	 		autoWidth:true,
-    		loop:false,
-    		margin:25,
-    		responsive:{
-        		600:{
-            		items:4
-        		}
-    		}
-		});
-
-		/*
-		$(function(){
-			var barraaltura = $('.list-top').innerHeight();
-			console.log(barraaltura);
-		});
-		*/
-
 	  </script>
-
-<script>
-      $(document).ready(function () {
-        $(window).scroll(function () {
-          var scroll = $(window).scrollTop();
-          if (scroll < 100) {
-            $(".ch").css({ display: "block" });
-            $(".ev").css({ "display": "none" });
-			 
-            
-          } else {
-            $(".ch").css({ display: "none" });
-            $(".ev").css({ display: "block" });
-			 
-            
-          }
-        });
-      });
-    </script>
 					
   </body>
 </html>
